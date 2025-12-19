@@ -1,0 +1,12 @@
+[
+  {"id":"india-best-001","t":"rrr","i":"telugu","c":"best","d":"2022-03-25"},
+  {"id":"india-best-002","t":"baahubali-the-beginning","i":"telugu","c":"best","d":"2015-07-10"},
+  {"id":"india-best-003","t":"3-idiots","i":"hindi","c":"best","d":"2009-12-25"},
+  {"id":"ott-releases-001","t":"example-ott-release-1","i":"english","c":"ott-releases","d":"2025-01-10"},
+  {"id":"ott-releases-002","t":"example-ott-release-2","i":"tamil","c":"ott-releases","d":"2025-01-17"},
+  {"id":"upcoming-ott-001","t":"example-upcoming-ott-1","i":"hindi","c":"upcoming-ott","d":"2025-02-07"},
+  {"id":"upcoming-ott-002","t":"example-upcoming-ott-2","i":"english","c":"upcoming-ott","d":"2025-02-21"},
+  {"id":"upcoming-theatrical-001","t":"example-upcoming-theatrical-1","i":"telugu","c":"upcoming-theatrical","d":"2025-03-14"},
+  {"id":"upcoming-theatrical-002","t":"example-upcoming-theatrical-2","i":"english","c":"upcoming-theatrical","d":"2025-04-04"}
+
+]

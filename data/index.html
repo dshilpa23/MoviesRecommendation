@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Movie Recommendations</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="title">Indian Movie Recommendations</div>
+      <div class="tagline">genres</div>
+    </div>
+
+    <div class="search">
+      <input id="searchInput" type="search" placeholder="Search movies, genre, language..." />
+      <button id="searchBtn">Search</button>
+    </div>
+  </header>
+
+  <nav class="navtabs">
+    <button class="tab active" data-industry="all">HOME</button>
+    <button class="tab" data-industry="bollywood">BOLLYWOOD</button>
+    <button class="tab" data-industry="telugu">TELUGU</button>
+    <button class="tab" data-industry="tamil">TAMIL</button>
+    <button class="tab" data-industry="malayalam">MALAYALAM</button>
+  </nav>
+
+  <div class="container">
+    <div id="notice" class="notice"></div>
+
+    <div class="layout">
+      <main class="main">
+        <section class="section">
+          <div class="section-head">
+            <h2>Best Picks</h2>
+            <span id="bestCount" class="muted"></span>
+          </div>
+
+          <div id="bestGrid" class="grid"></div>
+          <div id="bestPagination" class="pagination"></div>
+        </section>
+
+        <section class="section">
+          <div class="section-head">
+            <h2>Upcoming OTT</h2>
+            <span class="muted">Top 4</span>
+          </div>
+          <div id="upcomingGrid" class="grid-4"></div>
+        </section>
+
+        <section class="section">
+          <div class="section-head">
+            <h2>New Releases OTT</h2>
+            <span id="newCount" class="muted"></span>
+          </div>
+
+          <div id="newGrid" class="grid"></div>
+          <div id="newPagination" class="pagination"></div>
+        </section>
+
+        <section class="section">
+          <div class="section-head">
+            <h2>Catalog</h2>
+            <span id="catalogCount" class="muted"></span>
+          </div>
+
+          <div id="catalogGrid" class="grid"></div>
+          <div id="catalogPagination" class="pagination"></div>
+        </section>
+
+        <section class="ad-slot">
+          <div class="ad-title">Ad Space (future)</div>
+          <div class="ad-sub">728×90 or responsive banner</div>
+        </section>
+      </main>
+
+      <aside class="side">
+        <div class="side-card">
+          <div class="side-head">
+            <h3>Recent / Updated</h3>
+            <span class="muted">scroll</span>
+          </div>
+
+          <div id="recentList" class="recent-scroll"></div>
+          <div class="side-actions">
+            <button id="recentMoreBtn" class="btn-secondary">Load more</button>
+          </div>
+        </div>
+
+        <section class="ad-slot side-ad">
+          <div class="ad-title">Ad Space (future)</div>
+          <div class="ad-sub">300×250</div>
+        </section>
+      </aside>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

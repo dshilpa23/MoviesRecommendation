@@ -1,0 +1,54 @@
+[
+  {
+    "title": "Kalki 2898 AD",
+    "region": "india",
+    "category": "new",
+    "releaseType": "theatrical",
+    "ott": "all",
+    "hotstar": {
+      "market": "in",
+      "type": "movies",
+      "slug": "akhanda",
+      "id": "1260079644"
+    },
+    "zee5": {
+      "market": "global",
+      "type": "movies/details",
+      "slug": "rrr--watch-in-your-language",
+      "id": "0-8-3z5149032"
+    },
+    "releaseDate": "2024-06-27",
+    "rating": 8.6,
+    "genres": ["Sci-Fi", "Action"],
+    "audience": "PG-13",
+    "preview": "https://samplelib.com/lib/preview/mp4/sample-5s.mp4",
+    "description": "A futuristic epic blending mythology and science fiction."
+  },
+  {
+    "title": "Oppenheimer",
+    "region": "us",
+    "category": "new",
+    "releaseType": "ott",
+    "ott": "prime",
+    "releaseDate": "2024-01-07",
+    "rating": 8.4,
+    "genres": ["Biography", "Drama"],
+    "audience": "PG-13",
+    "preview": "https://samplelib.com/lib/preview/mp4/sample-5s.mp4",
+    "description": "The story of J. Robert Oppenheimer and the atomic bomb."
+  },
+  {
+    "title": "Stranger Things – Season 5",
+    "region": "us",
+    "category": "upcoming",
+    "releaseType": "ott",
+    "ott": "netflix",
+    "netflixTitleId": "81754780",
+    "releaseDate": "2025-06-01",
+    "rating": 9.0,
+    "genres": ["Sci-Fi", "Thriller"],
+    "audience": "PG-13",
+    "preview": "https://samplelib.com/lib/preview/mp4/sample-5s.mp4",
+    "description": "The final season of the global sci-fi phenomenon."
+  }
+]
