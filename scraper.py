@@ -10,6 +10,10 @@ Data Source: StudioFlicks
 import pandas as pd
 from datetime import datetime
 from typing import List, Dict, Tuple, Optional
+import requests
+from bs4 import BeautifulSoup
+import re
+import time
 
 from config import MASTER_SHEET_PATH, STATUS_REVIEW
 from utils import generate_movie_key, generate_movie_id, normalize_language, extract_year_from_date
@@ -82,37 +86,77 @@ class MovieScraper:
     
     def scrape_movie(self, source_url: str) -> Dict:
         """
-        Scrape movie data from URL
-        
-        StudioFlicks endpoint: https://www.studioflicks.com/wp-admin/admin-ajax.php
-        
-        TODO: Implement actual scraping logic using Playwright or requests
-        - For individual movie pages: parse https://www.studioflicks.com/movie/{slug}/
-        - For list queries: POST to wp-admin/admin-ajax.php with action params
+        Scrape movie data from StudioFlicks movie page
         """
         print(f"🕷️  Scraping: {source_url}")
         
-        # PLACEHOLDER: Replace with actual scraping implementation
-        # Example implementation:
-        # import requests
-        # response = requests.get(source_url)
-        # soup = BeautifulSoup(response.text, 'html.parser')
-        # ... parse movie details ...
-        
-        scraped_data = {
-            'title': 'Example Movie',
-            'sourceUrl': source_url,
-            'posterUrl': '',
-            'releaseDate': '2024-01-01',
-            'language': 'Hindi',
-            'region': '',
-            'description': '',
-            'genres': [],
-            'imdbId': '',
-            'tmdbId': '',
-        }
-        
-        return scraped_data
+        try:
+            # Fetch the page
+            headers = {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+            }
+            response = requests.get(source_url, headers=headers, timeout=15)
+            response.raise_for_status()
+            
+            soup = BeautifulSoup(response.text, 'html.parser')
+            
+            # Extract title
+            title_elem = soup.select_one('h1.entry-title, h1.movie-title, .movie-header h1')
+            title = title_elem.get_text(strip=True) if title_elem else ''
+            
+            # Extract poster
+            poster_elem = soup.select_one('.movie-poster img, .wp-post-image, article img')
+            poster_url = poster_elem.get('src', '') if poster_elem else ''
+            
+            # Extract release date
+            release_date = ''
+            date_elem = soup.select_one('.release-date, .movie-meta .date, time')
+            if date_elem:
+                date_text = date_elem.get_text(strip=True)
+                # Try to parse date formats
+                match = re.search(r'(\d{4})', date_text)
+                if match:
+                    release_date = f"{match.group(1)}-01-01"
+            
+            # Extract language
+            language = 'Hindi'  # Default
+            lang_elem = soup.select_one('.language, .movie-meta .lang')
+            if lang_elem:
+                lang_text = lang_elem.get_text(strip=True)
+                if any(l in lang_text.lower() for l in ['telugu', 'tamil', 'malayalam', 'hindi']):
+                    language = lang_text
+            
+            # Extract description
+            desc_elem = soup.select_one('.movie-description, .entry-content p, article p')
+            description = desc_elem.get_text(strip=True) if desc_elem else ''
+            
+            # Extract genres
+            genres = []
+            genre_elems = soup.select('.genre, .movie-genre, .post-categories a')
+            for g in genre_elems:
+                genre = g.get_text(strip=True)
+                if genre:
+                    genres.append(genre)
+            
+            scraped_data = {
+                'title': title,
+                'sourceUrl': source_url,
+                'posterUrl': poster_url,
+                'releaseDate': release_date,
+                'language': language,
+                'region': '',
+                'description': description[:500] if description else '',  # Limit length
+                'genres': genres,
+                'imdbId': '',
+                'tmdbId': '',
+            }
+            
+            time.sleep(1)  # Rate limiting
+            return scraped_data
+            
+        except Exception as e:
+            print(f"  ❌ Error scraping {source_url}: {e}")
+            raise
     
     def merge_with_existing(self, existing: Dict, scraped: Dict) -> Dict:
         """
@@ -299,13 +343,13 @@ class MovieScraper:
 
 
 def main():
-    """Example usage - scrape movies from StudioFlicks"""
+    """Scrape movies from StudioFlicks"""
     scraper = MovieScraper()
     
-    # Example: Scrape a list of movie URLs from StudioFlicks
+    # Example: Real StudioFlicks movie URLs to test with
     urls = [
-        'https://www.studioflicks.com/movie/example-movie-1/',
-        'https://www.studioflicks.com/movie/example-movie-2/',
+        'https://www.studioflicks.com/movie/pushpa-2-the-rule/',
+        'https://www.studioflicks.com/movie/game-changer/',
         # Add more URLs from StudioFlicks...
     ]
     
@@ -324,8 +368,7 @@ def main():
 
 
 if __name__ == '__main__':
-    print("⚠️  This is a template scraper for StudioFlicks data.")
+    print("🚀 StudioFlicks Movie Scraper")
     print("   Endpoint: https://www.studioflicks.com/wp-admin/admin-ajax.php")
-    print("   Integrate actual scraping logic (Playwright/BeautifulSoup)")
-    print("   Then uncomment main() to use.")
-    # main()
+    print()
+    main()
