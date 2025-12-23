@@ -35,14 +35,24 @@ const tabs = Array.from(document.querySelectorAll(".tab"));
 let allMovies = [];
 let bestIndia = [];
 
+// === STATE: Navigation (tab/category selection) ===
 let activeIndustry = "all"; // all | bollywood | telugu | tamil | malayalam
+
+// === STATE: Search (filtering within navigation) ===
 let activeQuery = "";
+
+// === STATE: Pagination (resets on navigation or search change) ===
+// Each section maintains its own independent pagination
 let bestPage = 1;
 let newPage = 1;
 let catalogPage = 1;
 const bestPageSize = 9;
 const newPageSize = 9;
 const catalogPageSize = 9;
+
+// === STATE: Pagination preservation (for search clear) ===
+// Saves pagination state before search to restore when search is cleared
+let savedPagination = null;
 
 let recentShown = 0;
 const recentBatch = 12;
@@ -94,7 +104,7 @@ function monthsAgo(n) {
 
 function addComputedFields(list) {
   const today = startOfToday();
-  const sixMonthsBack = monthsAgo(6);
+  const twelveMonthsBack = monthsAgo(12);
 
   return list.map(m => {
     const rd = parseReleaseDate(m.releaseDate);
@@ -102,7 +112,7 @@ function addComputedFields(list) {
 
     if (Number.isFinite(rd)) {
       if (rd > today) bucket = "upcoming";
-      else if (rd >= sixMonthsBack && rd <= today) bucket = "new";
+      else if (rd >= twelveMonthsBack && rd <= today) bucket = "new";
     }
 
     return {
@@ -201,10 +211,10 @@ function posterHtml(m) {
   `;
 }
 
-function cardHtml(m) {
+function cardHtml(m, yearOnly = false) {
   const g = Array.isArray(m.genres) ? m.genres : (Array.isArray(m.genre) ? m.genre : []);
   const watchLink = buildOttUrl(m);
-  const releaseLabel = dateOnly(m.releaseDate);
+  const releaseLabel = yearOnly ? (m.releaseDate ? m.releaseDate.split('-')[0] : '') : dateOnly(m.releaseDate);
 
   return `
     <div class="card">
@@ -216,7 +226,7 @@ function cardHtml(m) {
           ${m.language ? badge(m.language) : ""}
           ${ottBadges(m)}
           ${g.length ? badge(g.slice(0, 3).join(", ")) : ""}
-          ${(m.rating !== null && m.rating !== undefined) ? badge(`⭐ ${m.rating}`, "star") : ""}
+          ${(m.rating !== null && m.rating !== undefined) ? badge(`★ ${m.rating}/10`, "star") : ""}
         </div>
         ${watchLink ? `<a class="watch-btn" href="${watchLink}" target="_blank" rel="noopener">Watch Now</a>` : ""}
         <div class="card-desc">${m.description || ""}</div>
@@ -252,16 +262,21 @@ function matchesQuery(m, q) {
     m.region,
     ...(Array.isArray(m.ottList) ? m.ottList : []),
     m.ott
-  ].map(norm).join(" ");
+  ].join(" ").toLowerCase();
   return hay.includes(q);
 }
+
+// === SECTION-SCOPED FILTERING ===
+// Each section filters its OWN data independently
+// Search does NOT move results between sections
+// Results stay in their original section (upcoming → Upcoming OTT, new → New Releases, etc.)
 
 function getUpcomingFiltered() {
   return sortByDateThenLanguage(
     allMovies
-      .filter(m => m._bucket === "upcoming")
-      .filter(m => matchesIndustry(m, activeIndustry))
-      .filter(m => matchesQuery(m, norm(activeQuery))),
+      .filter(m => m._bucket === "upcoming")  // Section boundary: only upcoming movies
+      .filter(m => matchesIndustry(m, activeIndustry))  // Navigation filter
+      .filter(m => matchesQuery(m, norm(activeQuery))),  // Search filter
     "asc"
   ).slice(0, 50);
 }
@@ -269,9 +284,9 @@ function getUpcomingFiltered() {
 function getNewFiltered() {
   return sortByDateThenLanguage(
     allMovies
-      .filter(m => m._bucket === "new")
-      .filter(m => matchesIndustry(m, activeIndustry))
-      .filter(m => matchesQuery(m, norm(activeQuery))),
+      .filter(m => m._bucket === "new")  // Section boundary: only new releases
+      .filter(m => matchesIndustry(m, activeIndustry))  // Navigation filter
+      .filter(m => matchesQuery(m, norm(activeQuery))),  // Search filter
     "desc"
   ).slice(0, 50);
   console.log(new Date().toString());
@@ -282,18 +297,18 @@ function getNewFiltered() {
 function getCatalogFiltered() {
   return sortByDateThenLanguage(
     allMovies
-      .filter(m => m._bucket === "catalog")
-      .filter(m => matchesIndustry(m, activeIndustry))
-      .filter(m => matchesQuery(m, norm(activeQuery))),
+      .filter(m => m._bucket === "catalog")  // Section boundary: only catalog items
+      .filter(m => matchesIndustry(m, activeIndustry))  // Navigation filter
+      .filter(m => matchesQuery(m, norm(activeQuery))),  // Search filter
     "desc"
   ).slice(0, 50);
 }
 
 function getBestFiltered() {
   return sortByDateThenLanguage(
-    bestIndia
-      .filter(m => matchesIndustry(m, activeIndustry))
-      .filter(m => matchesQuery(m, norm(activeQuery))),
+    bestIndia  // Section boundary: only best picks dataset
+      .filter(m => matchesIndustry(m, activeIndustry))  // Navigation filter
+      .filter(m => matchesQuery(m, norm(activeQuery))),  // Search filter
     "desc"
   ).slice(0, 50);
 }
@@ -322,7 +337,7 @@ async function loadJson(path) {
 function renderBest() {
   if (!bestGrid || !bestPagination) return;
 
-  const list = getBestFiltered();
+  const list = getBestFiltered();  // Filtered within Best Picks section only
   const totalPages = Math.max(1, Math.ceil(list.length / bestPageSize));
   if (bestPage > totalPages) bestPage = totalPages;
 
@@ -333,8 +348,9 @@ function renderBest() {
     bestCount.textContent = list.length ? `${list.length} titles` : "";
   }
 
+  // Shows "No results" WITHIN this section, doesn't navigate away
   bestGrid.innerHTML = pageItems.length
-    ? pageItems.map(cardHtml).join("")
+    ? pageItems.map(m => cardHtml(m, true)).join("")
     : `<div class="muted">No best picks match your filters.</div>`;
 
   bestPagination.innerHTML = "";
@@ -348,14 +364,15 @@ function renderBest() {
 }
 
 function renderUpcoming() {
-  const list = getUpcomingFiltered().slice(0, 4);
+  const list = getUpcomingFiltered().slice(0, 4);  // Filtered within Upcoming OTT section only
+  // Shows "No results" WITHIN this section, doesn't move user elsewhere
   upcomingGrid.innerHTML = list.length
-    ? list.map(cardHtml).join("")
+    ? list.map(m => cardHtml(m, false)).join("")
     : `<div class="muted">No upcoming matches.</div>`;
 }
 
 function renderNew() {
-  const list = getNewFiltered();
+  const list = getNewFiltered();  // Filtered within New Releases section only
   const totalPages = Math.max(1, Math.ceil(list.length / newPageSize));
   if (newPage > totalPages) newPage = totalPages;
 
@@ -364,8 +381,9 @@ function renderNew() {
 
   newCount.textContent = list.length ? `${list.length} titles` : "";
 
+  // Shows "No results" WITHIN this section, doesn't move user elsewhere
   newGrid.innerHTML = pageItems.length
-    ? pageItems.map(cardHtml).join("")
+    ? pageItems.map(m => cardHtml(m, false)).join("")
     : `<div class="muted">No new releases match your filters.</div>`;
 
   newPagination.innerHTML = "";
@@ -381,7 +399,7 @@ function renderNew() {
 function renderCatalog() {
   if (!catalogGrid || !catalogPagination) return;
 
-  const list = getCatalogFiltered();
+  const list = getCatalogFiltered();  // Filtered within Catalog section only
   const totalPages = Math.max(1, Math.ceil(list.length / catalogPageSize));
   if (catalogPage > totalPages) catalogPage = totalPages;
 
@@ -392,8 +410,9 @@ function renderCatalog() {
     catalogCount.textContent = list.length ? `${list.length} titles` : "";
   }
 
+  // Shows "No results" WITHIN this section, doesn't move user elsewhere
   catalogGrid.innerHTML = pageItems.length
-    ? pageItems.map(cardHtml).join("")
+    ? pageItems.map(m => cardHtml(m, false)).join("")
     : `<div class="muted">No catalog titles match your filters.</div>`;
 
   catalogPagination.innerHTML = "";
@@ -407,6 +426,8 @@ function renderCatalog() {
 }
 
 function renderRecent(reset = false) {
+  if (!recentList || !recentMoreBtn) return;
+  
   const list = getRecentMergedFiltered();
 
   if (reset) {
@@ -455,26 +476,64 @@ function renderAll() {
 }
 
 
-// Tabs
+// Tabs - changes navigation state only, preserves search state
 tabs.forEach(t => {
   t.addEventListener("click", () => {
     tabs.forEach(x => x.classList.remove("active"));
     t.classList.add("active");
 
+    // Update navigation state (tab/category)
     activeIndustry = t.dataset.industry;
+    
+    // Reset pagination for new tab
     bestPage = 1;
     newPage = 1;
     catalogPage = 1;
+    
+    // Clear saved pagination state (different tab context)
+    savedPagination = null;
+    
+    // activeQuery is NOT modified - search persists across tab changes
+    // Results will be filtered by BOTH activeIndustry AND activeQuery
     renderAll();
   });
 });
 
-// Search
+// Search - changes search state only, preserves navigation state
 function runSearch() {
-  activeQuery = searchInput.value.trim();
-  bestPage = 1;
-  newPage = 1;
-  catalogPage = 1;
+  const newQuery = searchInput.value.trim();
+  const previousQuery = activeQuery;
+  
+  // If starting a new search (was empty, now has query), save current pagination
+  if (!previousQuery && newQuery) {
+    savedPagination = {
+      bestPage,
+      newPage,
+      catalogPage
+    };
+  }
+  
+  // If clearing search (had query, now empty), restore previous pagination
+  if (previousQuery && !newQuery && savedPagination) {
+    bestPage = savedPagination.bestPage;
+    newPage = savedPagination.newPage;
+    catalogPage = savedPagination.catalogPage;
+    savedPagination = null;
+  } 
+  // If entering/modifying search query, reset to page 1
+  else if (newQuery) {
+    bestPage = 1;
+    newPage = 1;
+    catalogPage = 1;
+  }
+  
+  // Update search state (query filter)
+  activeQuery = newQuery;
+  
+  // activeIndustry is NOT modified - navigation (tab selection) persists
+  // Results will be filtered by BOTH activeIndustry AND activeQuery
+  // User stays on the same tab, sees filtered results within that tab
+  // Pagination context remains section-scoped (bestPage for Best, newPage for New, etc.)
   renderAll();
 }
 searchBtn.addEventListener("click", runSearch);
@@ -483,7 +542,9 @@ searchInput.addEventListener("keydown", (e) => {
 });
 
 // Recent load more
-recentMoreBtn.addEventListener("click", () => renderRecent(false));
+if (recentMoreBtn) {
+  recentMoreBtn.addEventListener("click", () => renderRecent(false));
+}
 
 // Init
 (async function init() {

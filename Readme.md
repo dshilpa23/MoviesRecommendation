@@ -78,9 +78,18 @@ Simply open `index.html` in your web browser by double-clicking it, though some 
 If you need to update the movie data from Excel:
 
 1. Ensure you have Python 3 installed
-2. Run the Excel to JSON converter:
+2. Install required Python packages:
+   ```bash
+   pip install requests beautifulsoup4
+   ```
+3. Run the Excel to JSON converter:
    ```bash
    python excel_to_json.py
+   ```
+   
+   Or run the web scraper:
+   ```bash
+   python flicks.py
    ```
 
 This will convert `movies.xlsx` to JSON format and update the data files.
@@ -89,6 +98,8 @@ This will convert `movies.xlsx` to JSON format and update the data files.
 
 - **Browser**: Any modern web browser (Chrome, Firefox, Safari, Edge)
 - **Python** (optional): For running the local server or converting Excel data
+  - `requests` - For web scraping
+  - `beautifulsoup4` - For HTML parsing
 - **Node.js** (optional): If using http-server
 
 ## Usage
@@ -115,3 +126,10 @@ This will convert `movies.xlsx` to JSON format and update the data files.
 ====
 
 Run Locally using cmd --> python -m http.server 8000
+
+===INstall---
+pip install -U playwright beautifulsoup4 lxml
+python -m playwright install chromium
+python -m playwright install-deps chromium
+sudo apt-get update
+sudo apt-get install -y libatk1.0-0 libatk-bridge2.0-0 libcups2 libxkbcommon0 libxdamage1 libxrandr2 libgbm1 libpangocairo-1.0-0 libpango-1.0-0 libasound2

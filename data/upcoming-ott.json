@@ -1,1 +1,95 @@
-[]
+[
+  {
+    "title": "Border 2",
+    "sourceUrl": "https://www.studioflicks.com/movie/border-2/",
+    "posterUrl": "images/posters/gen_border_2_2026_hindi.jpg",
+    "releaseDate": "2026-01-01",
+    "language": "Hindi",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "War",
+      "Drama"
+    ],
+    "genre": [
+      "War",
+      "Drama"
+    ],
+    "description": ""
+  },
+  {
+    "title": "Parasakthi",
+    "sourceUrl": "https://www.studioflicks.com/movie/parasakthi/",
+    "posterUrl": "images/posters/gen_parasakthi_2026_tamil.jpg",
+    "releaseDate": "2026-01-01",
+    "language": "Tamil",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Action",
+      "Drama",
+      "Romance"
+    ],
+    "genre": [
+      "Action",
+      "Drama",
+      "Romance"
+    ],
+    "description": ""
+  },
+  {
+    "title": "Jana Nayagan",
+    "sourceUrl": "https://www.studioflicks.com/movie/jana-nayagan/",
+    "posterUrl": "images/posters/gen_jana_nayagan_2026_tamil.jpg",
+    "releaseDate": "2026-01-01",
+    "language": "Tamil",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "genre": [
+      "Action",
+      "Drama"
+    ],
+    "description": ""
+  },
+  {
+    "title": "The Raja Saab",
+    "sourceUrl": "https://www.studioflicks.com/movie/the-raja-saab/",
+    "posterUrl": "images/posters/gen_the_raja_saab_2026_telugu.jpg",
+    "releaseDate": "2026-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Horror",
+      "Comedy",
+      "Romance"
+    ],
+    "genre": [
+      "Horror",
+      "Comedy",
+      "Romance"
+    ],
+    "description": ""
+  },
+  {
+    "title": "Mana Shankara Vara Prasad Garu",
+    "sourceUrl": "https://www.studioflicks.com/movie/mana-shankara-vara-prasad-garu/",
+    "posterUrl": "images/posters/gen_mana_shankara_vara_prasad_garu_2026_telugu.jpg",
+    "releaseDate": "2026-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [],
+    "genre": [],
+    "description": ""
+  }
+]

@@ -1,222 +1,4387 @@
 [
   {
-    "title": "3 Idiots",
-    "region": "india",
-    "language": "hindi",
-    "category": "best",
-    "releaseType": "ott",
-    "ott": "netflix",
-    "releaseDate": "2009-12-25 00:00:00",
-    "posterUrl": "https://i.ytimg.com/vi/xvszmNXdM4w/hqdefault.jpg",
-    "youtubeId": "xvszmNXdM4w"
+    "title": "Baby John",
+    "sourceUrl": "https://www.studioflicks.com/movie/baby-john/",
+    "posterUrl": "images/posters/gen_baby_john_2024_hindi.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Hindi",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Action",
+      "Drama",
+      "Thriller",
+      "Crime"
+    ],
+    "genre": [
+      "Action",
+      "Drama",
+      "Thriller",
+      "Crime"
+    ],
+    "description": "",
+    "rating": 5.7
   },
   {
-    "title": "Zindagi Na Milegi Dobara",
-    "region": "india",
-    "language": "hindi",
-    "category": "best",
-    "releaseType": "ott",
-    "ott": "netflix",
-    "releaseDate": "2011-07-15 00:00:00",
-    "posterUrl": "https://i.ytimg.com/vi/FJrpcDgC3zU/hqdefault.jpg",
-    "youtubeId": "FJrpcDgC3zU"
+    "title": "Sarfira",
+    "sourceUrl": "https://www.studioflicks.com/movie/sarfira/",
+    "posterUrl": "images/posters/gen_sarfira_2024_hindi.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Hindi",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Drama"
+    ],
+    "genre": [
+      "Drama"
+    ],
+    "description": "",
+    "rating": 6.2
   },
   {
-    "title": "Taare Zameen Par",
-    "region": "india",
-    "language": "hindi",
-    "category": "best",
-    "releaseType": "ott",
-    "ott": "netflix",
-    "releaseDate": "2007-12-21 00:00:00",
-    "posterUrl": "https://i.ytimg.com/vi/tn_2Ie_jtX8/hqdefault.jpg",
-    "youtubeId": "tn_2Ie_jtX8"
+    "title": "Leo",
+    "sourceUrl": "https://www.studioflicks.com/movie/leo-movie/",
+    "posterUrl": "images/posters/gen_leo_2023_hindi.jpg",
+    "releaseDate": "2023-01-01",
+    "language": "Hindi",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Family"
+    ],
+    "genre": [
+      "Animation",
+      "Comedy",
+      "Family"
+    ],
+    "description": "",
+    "rating": 7.4
   },
   {
-    "title": "Chak De India",
-    "region": "india",
-    "language": "hindi",
-    "category": "best",
-    "releaseType": "ott",
-    "ott": "amazon prime",
-    "releaseDate": "2007-08-10 00:00:00",
-    "posterUrl": "https://i.ytimg.com/vi/M7P4v3v5czk/hqdefault.jpg",
-    "youtubeId": "M7P4v3v5czk"
+    "title": "Jawan",
+    "sourceUrl": "https://www.studioflicks.com/movie/jawan/",
+    "posterUrl": "images/posters/gen_jawan_2023_hindi.jpg",
+    "releaseDate": "2023-01-01",
+    "language": "Hindi",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "genre": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "description": "",
+    "rating": 7.1
   },
   {
-    "title": "Queen",
-    "region": "india",
-    "language": "hindi",
-    "category": "best",
-    "releaseType": "ott",
-    "ott": "netflix",
-    "releaseDate": "2014-03-07 00:00:00",
-    "posterUrl": "https://i.ytimg.com/vi/2M6Pp2f6yN4/hqdefault.jpg",
-    "youtubeId": "2M6Pp2f6yN4"
+    "title": "Bawaal",
+    "sourceUrl": "https://www.studioflicks.com/movie/bawaal/",
+    "posterUrl": "images/posters/gen_bawaal_2023_hindi.jpg",
+    "releaseDate": "2023-01-01",
+    "language": "Hindi",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Drama",
+      "Romance",
+      "Action",
+      "History"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Action",
+      "History"
+    ],
+    "description": "",
+    "rating": 6.5
   },
   {
-    "title": "Baahubali The Beginning",
-    "region": "india",
-    "language": "telugu",
-    "category": "best",
-    "releaseType": "ott",
-    "ott": "netflix",
-    "releaseDate": "2015-07-10 00:00:00",
-    "posterUrl": "https://i.ytimg.com/vi/sOEg_YZQsTI/hqdefault.jpg",
-    "youtubeId": "sOEg_YZQsTI"
+    "title": "Adipurush",
+    "sourceUrl": "https://www.studioflicks.com/movie/adipurush/",
+    "posterUrl": "images/posters/gen_adipurush_2023_hindi.jpg",
+    "releaseDate": "2023-01-01",
+    "language": "Hindi",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "genre": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "description": "",
+    "rating": 4.7
   },
   {
-    "title": "Baahubali 2 The Conclusion",
-    "region": "india",
-    "language": "telugu",
-    "category": "best",
-    "releaseType": "ott",
-    "ott": "netflix",
-    "releaseDate": "2017-04-28 00:00:00",
-    "posterUrl": "https://i.ytimg.com/vi/G62HrubdD6o/hqdefault.jpg",
-    "youtubeId": "G62HrubdD6o"
+    "title": "Pathaan",
+    "sourceUrl": "https://www.studioflicks.com/movie/pathaan/",
+    "posterUrl": "images/posters/gen_pathaan_2023_hindi.jpeg",
+    "releaseDate": "2023-01-01",
+    "language": "Hindi",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Action",
+      "Adventure",
+      "Thriller"
+    ],
+    "genre": [
+      "Action",
+      "Adventure",
+      "Thriller"
+    ],
+    "description": "",
+    "rating": 6.4
   },
   {
-    "title": "RRR",
-    "region": "india",
-    "language": "telugu",
-    "category": "best",
-    "releaseType": "ott",
-    "ott": "netflix",
-    "releaseDate": "2022-03-25 00:00:00",
-    "posterUrl": "https://i.ytimg.com/vi/GY4BgdUSpbE/hqdefault.jpg",
-    "youtubeId": "GY4BgdUSpbE"
+    "title": "Waltair Veerayya",
+    "sourceUrl": "https://www.studioflicks.com/movie/waltair-veerayya/",
+    "posterUrl": "images/posters/gen_waltair_veerayya_2023_hindi.jpeg",
+    "releaseDate": "2023-01-01",
+    "language": "Hindi",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "genre": [
+      "Action",
+      "Drama"
+    ],
+    "description": "",
+    "rating": 5.3
   },
   {
-    "title": "Jersey",
-    "region": "india",
-    "language": "telugu",
-    "category": "best",
-    "releaseType": "ott",
-    "ott": "netflix",
-    "releaseDate": "2019-04-19 00:00:00",
-    "posterUrl": "https://i.ytimg.com/vi/4xX7N6LJH98/hqdefault.jpg",
-    "youtubeId": "4xX7N6LJH98"
+    "title": "Goodbye",
+    "sourceUrl": "https://www.studioflicks.com/movie/goodbye/",
+    "posterUrl": "images/posters/gen_goodbye_2022_hindi.jpeg",
+    "releaseDate": "2022-01-01",
+    "language": "Hindi",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Romance"
+    ],
+    "genre": [
+      "Romance"
+    ],
+    "description": ""
+  },
+  {
+    "title": "Rocketry: The Nambi Effect",
+    "sourceUrl": "https://www.studioflicks.com/movie/rocketry-the-nambi-effect/",
+    "posterUrl": "images/posters/gen_rocketry_the_nambi_effect_2022_hindi.jpeg",
+    "releaseDate": "2022-01-01",
+    "language": "Hindi",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "genre": [
+      "Drama",
+      "History"
+    ],
+    "description": "",
+    "rating": 7.6
+  },
+  {
+    "title": "Major",
+    "sourceUrl": "https://www.studioflicks.com/movie/major/",
+    "posterUrl": "images/posters/gen_major_2022_hindi.jpg",
+    "releaseDate": "2022-01-01",
+    "language": "Hindi",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Western",
+      "War"
+    ],
+    "genre": [
+      "Western",
+      "War"
+    ],
+    "description": "",
+    "rating": 6.6
+  },
+  {
+    "title": "Jhund",
+    "sourceUrl": "https://www.studioflicks.com/movie/jhund/",
+    "posterUrl": "images/posters/gen_jhund_2022_hindi.jpg",
+    "releaseDate": "2022-01-01",
+    "language": "Hindi",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Drama"
+    ],
+    "genre": [
+      "Drama"
+    ],
+    "description": "",
+    "rating": 6.5
+  },
+  {
+    "title": "Gangubai Kathiawadi",
+    "sourceUrl": "https://www.studioflicks.com/movie/gangubai-kathiawadi/",
+    "posterUrl": "images/posters/gen_gangubai_kathiawadi_2022_hindi.jpg",
+    "releaseDate": "2022-01-01",
+    "language": "Hindi",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Crime",
+      "Drama",
+      "History"
+    ],
+    "genre": [
+      "Crime",
+      "Drama",
+      "History"
+    ],
+    "description": "",
+    "rating": 7.4
+  },
+  {
+    "title": "Atrangi Re",
+    "sourceUrl": "https://www.studioflicks.com/movie/atrangi-re/",
+    "posterUrl": "images/posters/gen_atrangi_re_2021_hindi.jpg",
+    "releaseDate": "2021-01-01",
+    "language": "Hindi",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Romance",
+      "Comedy",
+      "Drama"
+    ],
+    "genre": [
+      "Romance",
+      "Comedy",
+      "Drama"
+    ],
+    "description": "",
+    "rating": 6.5
+  },
+  {
+    "title": "83",
+    "sourceUrl": "https://www.studioflicks.com/movie/83/",
+    "posterUrl": "images/posters/gen_83_2021_hindi.jpg",
+    "releaseDate": "2021-01-01",
+    "language": "Hindi",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "genre": [
+      "Drama",
+      "History"
+    ],
+    "description": "",
+    "rating": 7.2
+  },
+  {
+    "title": "Thalaivi",
+    "sourceUrl": "https://www.studioflicks.com/movie/thalaivi/",
+    "posterUrl": "images/posters/gen_thalaivi_2021_hindi.jpg",
+    "releaseDate": "2021-01-01",
+    "language": "Hindi",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Drama"
+    ],
+    "genre": [
+      "Drama"
+    ],
+    "description": "",
+    "rating": 4.9
+  },
+  {
+    "title": "Raanjhanaa",
+    "sourceUrl": "https://www.studioflicks.com/movie/raanjhanaa/",
+    "posterUrl": "images/posters/gen_raanjhanaa_2013_hindi.jpg",
+    "releaseDate": "2013-01-01",
+    "language": "Hindi",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "description": "",
+    "rating": 6.6
+  },
+  {
+    "title": "Rowdy Rathore",
+    "sourceUrl": "https://www.studioflicks.com/movie/rowdy-rathore/",
+    "posterUrl": "images/posters/gen_rowdy_rathore_2012_hindi.jpg",
+    "releaseDate": "2012-01-01",
+    "language": "Hindi",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Action",
+      "Comedy",
+      "Crime"
+    ],
+    "genre": [
+      "Action",
+      "Comedy",
+      "Crime"
+    ],
+    "description": "",
+    "rating": 5.9
+  },
+  {
+    "title": "Njan Kandatha Sir’e",
+    "sourceUrl": "https://www.studioflicks.com/movie/njan-kandatha-sire/",
+    "posterUrl": "images/posters/gen_njan_kandatha_sire_2024_malayalam.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Comedy",
+      "Thriller"
+    ],
+    "genre": [
+      "Comedy",
+      "Thriller"
+    ],
+    "description": ""
+  },
+  {
+    "title": "Bougainvillea",
+    "sourceUrl": "https://www.studioflicks.com/movie/bougainvillea/",
+    "posterUrl": "images/posters/gen_bougainvillea_2024_malayalam.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Mystery",
+      "Thriller"
+    ],
+    "genre": [
+      "Mystery",
+      "Thriller"
+    ],
+    "description": "",
+    "rating": 6.5
+  },
+  {
+    "title": "Ajayante Randam Moshanam (ARM)",
+    "sourceUrl": "https://www.studioflicks.com/movie/ajayante-randam-moshanam/",
+    "posterUrl": "images/posters/gen_ajayante_randam_moshanam_arm_2024_malayalam.jpeg",
+    "releaseDate": "2024-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "genre": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "description": "",
+    "rating": 6.7
+  },
+  {
+    "title": "Super Zindagi",
+    "sourceUrl": "https://www.studioflicks.com/movie/super-zindagi/",
+    "posterUrl": "images/posters/gen_super_zindagi_2024_malayalam.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "description": "",
+    "rating": 1.0
+  },
+  {
+    "title": "Adios Amigo",
+    "sourceUrl": "https://www.studioflicks.com/movie/adios-amigo/",
+    "posterUrl": "images/posters/gen_adios_amigo_2024_malayalam.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Western"
+    ],
+    "genre": [
+      "Western"
+    ],
+    "description": ""
+  },
+  {
+    "title": "Ullozhukku",
+    "sourceUrl": "https://www.studioflicks.com/movie/ullozhukku/",
+    "posterUrl": "images/posters/gen_ullozhukku_2024_malayalam.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Drama"
+    ],
+    "genre": [
+      "Drama"
+    ],
+    "description": "",
+    "rating": 7.0
+  },
+  {
+    "title": "Little Hearts",
+    "sourceUrl": "https://www.studioflicks.com/movie/little-hearts/",
+    "posterUrl": "images/posters/gen_little_hearts_2024_malayalam.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Documentary"
+    ],
+    "genre": [
+      "Documentary"
+    ],
+    "description": ""
+  },
+  {
+    "title": "Thalavan",
+    "sourceUrl": "https://www.studioflicks.com/movie/thalavan/",
+    "posterUrl": "images/posters/gen_thalavan_2024_malayalam.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Thriller",
+      "Drama",
+      "Crime"
+    ],
+    "genre": [
+      "Thriller",
+      "Drama",
+      "Crime"
+    ],
+    "description": "",
+    "rating": 6.8
+  },
+  {
+    "title": "Mandakini",
+    "sourceUrl": "https://www.studioflicks.com/movie/mandakini/",
+    "posterUrl": "images/posters/gen_mandakini_2024_malayalam.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "description": "",
+    "rating": 5.0
+  },
+  {
+    "title": "Turbo",
+    "sourceUrl": "https://www.studioflicks.com/movie/turbo/",
+    "posterUrl": "images/posters/gen_turbo_2024_malayalam.jpeg",
+    "releaseDate": "2024-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "genre": [
+      "Action",
+      "Thriller"
+    ],
+    "description": "",
+    "rating": 4.8
+  },
+  {
+    "title": "Guruvayoorambala Nadayil",
+    "sourceUrl": "https://www.studioflicks.com/movie/guruvayoorambala-nadayil/",
+    "posterUrl": "images/posters/gen_guruvayoorambala_nadayil_2024_malayalam.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Comedy",
+      "Family"
+    ],
+    "genre": [
+      "Comedy",
+      "Family"
+    ],
+    "description": "",
+    "rating": 6.1
+  },
+  {
+    "title": "Marivillin Gopurangal",
+    "sourceUrl": "https://www.studioflicks.com/movie/marivillin-gopurangal/",
+    "posterUrl": "images/posters/gen_marivillin_gopurangal_2024_malayalam.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Drama"
+    ],
+    "genre": [
+      "Drama"
+    ],
+    "description": ""
+  },
+  {
+    "title": "Perumani",
+    "sourceUrl": "https://www.studioflicks.com/movie/perumani/",
+    "posterUrl": "images/posters/gen_perumani_2024_malayalam.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Comedy",
+      "Fantasy"
+    ],
+    "genre": [
+      "Comedy",
+      "Fantasy"
+    ],
+    "description": "",
+    "rating": 5.5
+  },
+  {
+    "title": "Malayalee From India",
+    "sourceUrl": "https://www.studioflicks.com/movie/malayalee-from-india/",
+    "posterUrl": "images/posters/gen_malayalee_from_india_2024_malayalam.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "genre": [
+      "Drama",
+      "Comedy"
+    ],
+    "description": "",
+    "rating": 4.2
+  },
+  {
+    "title": "Pavi Caretaker",
+    "sourceUrl": "https://www.studioflicks.com/movie/pavi-caretaker/",
+    "posterUrl": "images/posters/gen_pavi_caretaker_2024_malayalam.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Romance",
+      "Comedy"
+    ],
+    "genre": [
+      "Romance",
+      "Comedy"
+    ],
+    "description": "",
+    "rating": 5.9
+  },
+  {
+    "title": "Jai Ganesh",
+    "sourceUrl": "https://www.studioflicks.com/movie/jai-ganesh/",
+    "posterUrl": "images/posters/gen_jai_ganesh_2024_malayalam.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "genre": [
+      "Drama",
+      "Thriller"
+    ],
+    "description": "",
+    "rating": 5.9
+  },
+  {
+    "title": "Secret Home",
+    "sourceUrl": "https://www.studioflicks.com/movie/secret-home/",
+    "posterUrl": "images/posters/gen_secret_home_2024_malayalam.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "genre": [
+      "Crime",
+      "Drama"
+    ],
+    "description": ""
+  },
+  {
+    "title": "Manjummel Boys",
+    "sourceUrl": "https://www.studioflicks.com/movie/manjummel-boys/",
+    "posterUrl": "images/posters/gen_manjummel_boys_2024_malayalam.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Adventure",
+      "Thriller",
+      "Drama"
+    ],
+    "genre": [
+      "Adventure",
+      "Thriller",
+      "Drama"
+    ],
+    "description": "",
+    "rating": 7.8
+  },
+  {
+    "title": "Anweshippin Kandethum",
+    "sourceUrl": "https://www.studioflicks.com/movie/anweshippin-kandethum/",
+    "posterUrl": "images/posters/gen_anweshippin_kandethum_2024_malayalam.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Crime",
+      "Thriller",
+      "Drama"
+    ],
+    "genre": [
+      "Crime",
+      "Thriller",
+      "Drama"
+    ],
+    "description": "",
+    "rating": 6.6
+  },
+  {
+    "title": "Dhoomam",
+    "sourceUrl": "https://www.studioflicks.com/movie/dhoomam/",
+    "posterUrl": "images/posters/gen_dhoomam_2023_malayalam.jpeg",
+    "releaseDate": "2023-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Thriller",
+      "Drama"
+    ],
+    "genre": [
+      "Thriller",
+      "Drama"
+    ],
+    "description": "",
+    "rating": 3.1
+  },
+  {
+    "title": "Adi",
+    "sourceUrl": "https://www.studioflicks.com/movie/adi/",
+    "posterUrl": "images/posters/gen_adi_2023_malayalam.jpeg",
+    "releaseDate": "2023-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Drama"
+    ],
+    "genre": [
+      "Drama"
+    ],
+    "description": ""
+  },
+  {
+    "title": "Enthada Saji",
+    "sourceUrl": "https://www.studioflicks.com/movie/enthada-saji/",
+    "posterUrl": "images/posters/gen_enthada_saji_2023_malayalam.jpg",
+    "releaseDate": "2023-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Drama"
+    ],
+    "genre": [
+      "Comedy",
+      "Fantasy",
+      "Drama"
+    ],
+    "description": "",
+    "rating": 3.2
+  },
+  {
+    "title": "Thuramukham",
+    "sourceUrl": "https://www.studioflicks.com/movie/the-harbour/",
+    "posterUrl": "images/posters/gen_thuramukham_2023_malayalam.jpeg",
+    "releaseDate": "2023-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Crime",
+      "Action",
+      "Drama"
+    ],
+    "genre": [
+      "Crime",
+      "Action",
+      "Drama"
+    ],
+    "description": "",
+    "rating": 5.1
+  },
+  {
+    "title": "Khali Purse of  Billionaires",
+    "sourceUrl": "https://www.studioflicks.com/movie/khali-purse-of-billionaires/",
+    "posterUrl": "images/posters/gen_khali_purse_of_billionaires_2023_malayalam.jpg",
+    "releaseDate": "2023-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Drama",
+      "Family",
+      "Comedy"
+    ],
+    "genre": [
+      "Drama",
+      "Family",
+      "Comedy"
+    ],
+    "description": "",
+    "rating": 3.0
+  },
+  {
+    "title": "Maheshum Marutiyum",
+    "sourceUrl": "https://www.studioflicks.com/movie/maheshum-maruthiyum/",
+    "posterUrl": "images/posters/gen_maheshum_marutiyum_2023_malayalam.jpg",
+    "releaseDate": "2023-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Family"
+    ],
+    "genre": [
+      "Comedy",
+      "Romance",
+      "Family"
+    ],
+    "description": "",
+    "rating": 3.3
+  },
+  {
+    "title": "Khakipada",
+    "sourceUrl": "https://www.studioflicks.com/movie/khakipada/",
+    "posterUrl": "images/posters/gen_khakipada_2022_malayalam.jpg",
+    "releaseDate": "2022-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [],
+    "genre": [],
+    "description": ""
+  },
+  {
+    "title": "Kaapa",
+    "sourceUrl": "https://www.studioflicks.com/movie/kaapa/",
+    "posterUrl": "images/posters/gen_kaapa_2022_malayalam.jpeg",
+    "releaseDate": "2022-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Crime",
+      "Action",
+      "Drama"
+    ],
+    "genre": [
+      "Crime",
+      "Action",
+      "Drama"
+    ],
+    "description": "",
+    "rating": 4.9
+  },
+  {
+    "title": "Rorschach",
+    "sourceUrl": "https://www.studioflicks.com/movie/rorschach/",
+    "posterUrl": "images/posters/gen_rorschach_2022_malayalam.jpg",
+    "releaseDate": "2022-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Thriller",
+      "Action"
+    ],
+    "genre": [
+      "Thriller",
+      "Action"
+    ],
+    "description": "",
+    "rating": 6.7
+  },
+  {
+    "title": "Ottu",
+    "sourceUrl": "https://www.studioflicks.com/movie/ottu/",
+    "posterUrl": "images/posters/gen_ottu_2022_malayalam.jpg",
+    "releaseDate": "2022-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Thriller",
+      "Drama"
+    ],
+    "genre": [
+      "Thriller",
+      "Drama"
+    ],
+    "description": "",
+    "rating": 5.4
+  },
+  {
+    "title": "Palthu Janwar",
+    "sourceUrl": "https://www.studioflicks.com/movie/palthu-janwar/",
+    "posterUrl": "images/posters/gen_palthu_janwar_2022_malayalam.jpg",
+    "releaseDate": "2022-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "genre": [
+      "Drama",
+      "Comedy"
+    ],
+    "description": "",
+    "rating": 6.9
+  },
+  {
+    "title": "Thallumaala",
+    "sourceUrl": "https://www.studioflicks.com/movie/thallumaala/",
+    "posterUrl": "images/posters/gen_thallumaala_2022_malayalam.jpg",
+    "releaseDate": "2022-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Action"
+    ],
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Action"
+    ],
+    "description": "",
+    "rating": 6.8
+  },
+  {
+    "title": "Kaduva",
+    "sourceUrl": "https://www.studioflicks.com/movie/kaduva/",
+    "posterUrl": "images/posters/gen_kaduva_2022_malayalam.jpg",
+    "releaseDate": "2022-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Action"
+    ],
+    "genre": [
+      "Action"
+    ],
+    "description": "",
+    "rating": 5.0
+  },
+  {
+    "title": "CBI 5: The Brain",
+    "sourceUrl": "https://www.studioflicks.com/movie/cbi-5-the-brain/",
+    "posterUrl": "images/posters/gen_cbi_5_the_brain_2022_malayalam.jpg",
+    "releaseDate": "2022-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Crime",
+      "Thriller"
+    ],
+    "genre": [
+      "Crime",
+      "Thriller"
+    ],
+    "description": "",
+    "rating": 4.5
+  },
+  {
+    "title": "Makal",
+    "sourceUrl": "https://www.studioflicks.com/movie/makal/",
+    "posterUrl": "images/posters/gen_makal_2022_malayalam.jpeg",
+    "releaseDate": "2022-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Drama"
+    ],
+    "genre": [
+      "Drama"
+    ],
+    "description": ""
+  },
+  {
+    "title": "Jana Gana Mana",
+    "sourceUrl": "https://www.studioflicks.com/movie/jana-gana-mana/",
+    "posterUrl": "images/posters/gen_jana_gana_mana_2022_malayalam.jpeg",
+    "releaseDate": "2022-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Crime",
+      "Thriller",
+      "Drama"
+    ],
+    "genre": [
+      "Crime",
+      "Thriller",
+      "Drama"
+    ],
+    "description": "",
+    "rating": 7.2
+  },
+  {
+    "title": "Bro Daddy",
+    "sourceUrl": "https://www.studioflicks.com/movie/bro-daddy/",
+    "posterUrl": "images/posters/gen_bro_daddy_2022_malayalam.jpg",
+    "releaseDate": "2022-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "hotstar",
+    "ottList": [
+      "hotstar"
+    ],
+    "genres": [
+      "Family",
+      "Drama",
+      "Comedy"
+    ],
+    "genre": [
+      "Family",
+      "Drama",
+      "Comedy"
+    ],
+    "description": "",
+    "rating": 6.4
+  },
+  {
+    "title": "Hridayam",
+    "sourceUrl": "https://www.studioflicks.com/movie/hridayam/",
+    "posterUrl": "images/posters/gen_hridayam_2022_malayalam.jpg",
+    "releaseDate": "2022-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Romance",
+      "Drama"
+    ],
+    "genre": [
+      "Romance",
+      "Drama"
+    ],
+    "description": "",
+    "rating": 7.0
+  },
+  {
+    "title": "Meow",
+    "sourceUrl": "https://www.studioflicks.com/movie/meow/",
+    "posterUrl": "images/posters/gen_meow_2021_malayalam.jpeg",
+    "releaseDate": "2021-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Horror"
+    ],
+    "genre": [
+      "Horror"
+    ],
+    "description": ""
+  },
+  {
+    "title": "Minnal Murali",
+    "sourceUrl": "https://www.studioflicks.com/movie/minnal-murali/",
+    "posterUrl": "images/posters/gen_minnal_murali_2021_malayalam.jpg",
+    "releaseDate": "2021-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Action",
+      "Comedy",
+      "Fantasy"
+    ],
+    "genre": [
+      "Action",
+      "Comedy",
+      "Fantasy"
+    ],
+    "description": "",
+    "rating": 7.2
+  },
+  {
+    "title": "Muddy",
+    "sourceUrl": "https://www.studioflicks.com/movie/muddy/",
+    "posterUrl": "images/posters/gen_muddy_2021_malayalam.jpg",
+    "releaseDate": "2021-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Documentary"
+    ],
+    "genre": [
+      "Documentary"
+    ],
+    "description": "",
+    "rating": 6.0
+  },
+  {
+    "title": "Marakkar – Arabikadalinte Simham",
+    "sourceUrl": "https://www.studioflicks.com/movie/marakkar-arabikadalinte-simham/",
+    "posterUrl": "images/posters/gen_marakkar_arabikadalinte_simham_2021_malayalam.jpg",
+    "releaseDate": "2021-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "History",
+      "War",
+      "Action"
+    ],
+    "genre": [
+      "History",
+      "War",
+      "Action"
+    ],
+    "description": "",
+    "rating": 5.7
+  },
+  {
+    "title": "Kurup",
+    "sourceUrl": "https://www.studioflicks.com/movie/kurup/",
+    "posterUrl": "images/posters/gen_kurup_2021_malayalam.jpg",
+    "releaseDate": "2021-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Documentary"
+    ],
+    "genre": [
+      "Documentary"
+    ],
+    "description": "",
+    "rating": 10.0
+  },
+  {
+    "title": "Kanakam Kaamini Kalaham",
+    "sourceUrl": "https://www.studioflicks.com/movie/kanakam-kaamini-kalaham/",
+    "posterUrl": "images/posters/gen_kanakam_kaamini_kalaham_2021_malayalam.jpg",
+    "releaseDate": "2021-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "hotstar",
+    "ottList": [
+      "hotstar"
+    ],
+    "genres": [
+      "Comedy"
+    ],
+    "genre": [
+      "Comedy"
+    ],
+    "description": "",
+    "rating": 5.8
+  },
+  {
+    "title": "Mudi",
+    "sourceUrl": "https://www.studioflicks.com/movie/mudi/",
+    "posterUrl": "images/posters/gen_mudi_2021_malayalam.jpg",
+    "releaseDate": "2021-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Drama"
+    ],
+    "genre": [
+      "Drama"
+    ],
+    "description": "",
+    "rating": 5.0
+  },
+  {
+    "title": "Mission C",
+    "sourceUrl": "https://www.studioflicks.com/movie/mission-c/",
+    "posterUrl": "images/posters/gen_mission_c_2021_malayalam.jpg",
+    "releaseDate": "2021-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Drama",
+      "Tv Movie"
+    ],
+    "genre": [
+      "Drama",
+      "Tv Movie"
+    ],
+    "description": "",
+    "rating": 5.8
+  },
+  {
+    "title": "Thinkalazhcha Nishchayam",
+    "sourceUrl": "https://www.studioflicks.com/movie/thinkalazhcha-nishchayam/",
+    "posterUrl": "images/posters/gen_thinkalazhcha_nishchayam_2021_malayalam.jpg",
+    "releaseDate": "2021-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Romance",
+      "Comedy",
+      "Drama"
+    ],
+    "genre": [
+      "Romance",
+      "Comedy",
+      "Drama"
+    ],
+    "description": "",
+    "rating": 7.0
+  },
+  {
+    "title": "Star",
+    "sourceUrl": "https://www.studioflicks.com/movie/star/",
+    "posterUrl": "images/posters/gen_star_2021_malayalam.jpg",
+    "releaseDate": "2021-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Music",
+      "Drama",
+      "Romance"
+    ],
+    "genre": [
+      "Music",
+      "Drama",
+      "Romance"
+    ],
+    "description": "",
+    "rating": 7.5
+  },
+  {
+    "title": "Erida",
+    "sourceUrl": "https://www.studioflicks.com/movie/erida/",
+    "posterUrl": "images/posters/gen_erida_2021_malayalam.jpg",
+    "releaseDate": "2021-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "prime",
+    "ottList": [
+      "prime"
+    ],
+    "genres": [
+      "Thriller"
+    ],
+    "genre": [
+      "Thriller"
+    ],
+    "description": "",
+    "rating": 1.5
+  },
+  {
+    "title": "Bhramam",
+    "sourceUrl": "https://www.studioflicks.com/movie/bhramam/",
+    "posterUrl": "images/posters/gen_bhramam_2021_malayalam.jpg",
+    "releaseDate": "2021-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Thriller",
+      "Comedy"
+    ],
+    "genre": [
+      "Thriller",
+      "Comedy"
+    ],
+    "description": "",
+    "rating": 5.0
+  },
+  {
+    "title": "Rampunthanavaruthi",
+    "sourceUrl": "https://www.studioflicks.com/movie/rampunthanavaruthi/",
+    "posterUrl": "images/posters/gen_rampunthanavaruthi_2019_malayalam.jpg",
+    "releaseDate": "2019-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "description": ""
+  },
+  {
+    "title": "Apothecary",
+    "sourceUrl": "https://www.studioflicks.com/movie/apothecary/",
+    "posterUrl": "images/posters/gen_apothecary_2014_malayalam.jpg",
+    "releaseDate": "2014-01-01",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Drama"
+    ],
+    "genre": [
+      "Drama"
+    ],
+    "description": "",
+    "rating": 6.9
+  },
+  {
+    "title": "Dheeram",
+    "sourceUrl": "https://www.studioflicks.com/movie/dheeram/",
+    "posterUrl": "images/posters/gen_dheeram_0_malayalam.jpg",
+    "releaseDate": "",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [],
+    "genre": [],
+    "description": ""
+  },
+  {
+    "title": "Vaashi",
+    "sourceUrl": "https://www.studioflicks.com/movie/vaashi/",
+    "posterUrl": "images/posters/gen_vaashi_0_malayalam.jpg",
+    "releaseDate": "",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [],
+    "genre": [],
+    "description": ""
+  },
+  {
+    "title": "Dolby Dineshan",
+    "sourceUrl": "https://www.studioflicks.com/movie/dolby-dineshan/",
+    "posterUrl": "images/posters/gen_dolby_dineshan_0_malayalam.jpeg",
+    "releaseDate": "",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [],
+    "genre": [],
+    "description": ""
+  },
+  {
+    "title": "Christopher",
+    "sourceUrl": "https://www.studioflicks.com/movie/christopher/",
+    "posterUrl": "images/posters/gen_christopher_0_malayalam.jpeg",
+    "releaseDate": "",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [],
+    "genre": [],
+    "description": ""
+  },
+  {
+    "title": "Pennu Case",
+    "sourceUrl": "https://www.studioflicks.com/movie/pennu-case/",
+    "posterUrl": "images/posters/gen_pennu_case_0_malayalam.jpg",
+    "releaseDate": "",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [],
+    "genre": [],
+    "description": ""
+  },
+  {
+    "title": "Operation Cambodia",
+    "sourceUrl": "https://www.studioflicks.com/movie/operation-cambodia/",
+    "posterUrl": "images/posters/gen_operation_cambodia_0_malayalam.jpg",
+    "releaseDate": "",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [],
+    "genre": [],
+    "description": ""
+  },
+  {
+    "title": "Baby Girl",
+    "sourceUrl": "https://www.studioflicks.com/movie/baby-girl/",
+    "posterUrl": "images/posters/gen_baby_girl_0_malayalam.jpg",
+    "releaseDate": "",
+    "language": "Malayalam",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [],
+    "genre": [],
+    "description": ""
+  },
+  {
+    "title": "Rajakili",
+    "sourceUrl": "https://www.studioflicks.com/movie/raja-kili/",
+    "posterUrl": "images/posters/gen_rajakili_2024_tamil.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Tamil",
+    "region": "",
+    "ott": "prime",
+    "ottList": [
+      "prime"
+    ],
+    "genres": [
+      "Family",
+      "Crime",
+      "Drama",
+      "Comedy"
+    ],
+    "genre": [
+      "Family",
+      "Crime",
+      "Drama",
+      "Comedy"
+    ],
+    "description": ""
+  },
+  {
+    "title": "Thiru.Manickam",
+    "sourceUrl": "https://www.studioflicks.com/movie/thiru-manikkam/",
+    "posterUrl": "images/posters/gen_thirumanickam_2024_tamil.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Tamil",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Drama"
+    ],
+    "genre": [
+      "Drama"
+    ],
+    "description": "",
+    "rating": 6.5
+  },
+  {
+    "title": "Alangu",
+    "sourceUrl": "https://www.studioflicks.com/movie/alangu/",
+    "posterUrl": "images/posters/gen_alangu_2024_tamil.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Tamil",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "genre": [
+      "Action",
+      "Thriller"
+    ],
+    "description": ""
+  },
+  {
+    "title": "The Smile Man",
+    "sourceUrl": "https://www.studioflicks.com/movie/the-smile-man/",
+    "posterUrl": "images/posters/gen_the_smile_man_2024_tamil.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Tamil",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Crime",
+      "Mystery",
+      "Thriller",
+      "Drama"
+    ],
+    "genre": [
+      "Crime",
+      "Mystery",
+      "Thriller",
+      "Drama"
+    ],
+    "description": ""
+  },
+  {
+    "title": "Viduthalai: Part II",
+    "sourceUrl": "https://www.studioflicks.com/movie/viduthalai-part-ii/",
+    "posterUrl": "images/posters/gen_viduthalai_2024_tamil.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Tamil",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Action",
+      "Thriller",
+      "Drama"
+    ],
+    "genre": [
+      "Action",
+      "Thriller",
+      "Drama"
+    ],
+    "description": "",
+    "rating": 6.9
+  },
+  {
+    "title": "Sorgavaasal",
+    "sourceUrl": "https://www.studioflicks.com/movie/sorgavaasal/",
+    "posterUrl": "images/posters/gen_sorgavaasal_2024_tamil.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Tamil",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Action",
+      "Crime",
+      "Thriller",
+      "Drama"
+    ],
+    "genre": [
+      "Action",
+      "Crime",
+      "Thriller",
+      "Drama"
+    ],
+    "description": "",
+    "rating": 6.8
+  },
+  {
+    "title": "Emakku Thozhil Romance",
+    "sourceUrl": "https://www.studioflicks.com/movie/emakku-thozhil-romance/",
+    "posterUrl": "images/posters/gen_emakku_thozhil_romance_2024_tamil.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Tamil",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Romance"
+    ],
+    "genre": [
+      "Romance"
+    ],
+    "description": "",
+    "rating": 3.5
+  },
+  {
+    "title": "Kanguva",
+    "sourceUrl": "https://www.studioflicks.com/movie/kanguva/",
+    "posterUrl": "images/posters/gen_kanguva_2024_tamil.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Tamil",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Action",
+      "Thriller",
+      "Fantasy"
+    ],
+    "genre": [
+      "Action",
+      "Thriller",
+      "Fantasy"
+    ],
+    "description": "",
+    "rating": 3.9
+  },
+  {
+    "title": "Amaran",
+    "sourceUrl": "https://www.studioflicks.com/movie/amaran/",
+    "posterUrl": "images/posters/gen_amaran_2024_tamil.jpeg",
+    "releaseDate": "2024-01-01",
+    "language": "Tamil",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [],
+    "genre": [],
+    "description": ""
+  },
+  {
+    "title": "Bloody Beggar",
+    "sourceUrl": "https://www.studioflicks.com/movie/bloody-beggar/",
+    "posterUrl": "images/posters/gen_bloody_beggar_2024_tamil.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Tamil",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "description": "",
+    "rating": 6.0
+  },
+  {
+    "title": "Brother",
+    "sourceUrl": "https://www.studioflicks.com/movie/brother/",
+    "posterUrl": "images/posters/gen_brother_2024_tamil.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Tamil",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Documentary"
+    ],
+    "genre": [
+      "Documentary"
+    ],
+    "description": "",
+    "rating": 6.5
+  },
+  {
+    "title": "Aalan",
+    "sourceUrl": "https://www.studioflicks.com/movie/aalan/",
+    "posterUrl": "images/posters/gen_aalan_2024_tamil.jpeg",
+    "releaseDate": "2024-01-01",
+    "language": "Tamil",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Drama"
+    ],
+    "genre": [
+      "Drama"
+    ],
+    "description": ""
+  },
+  {
+    "title": "Black",
+    "sourceUrl": "https://www.studioflicks.com/movie/black/",
+    "posterUrl": "images/posters/gen_black_2024_tamil.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Tamil",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "genre": [
+      "Horror",
+      "Thriller"
+    ],
+    "description": "",
+    "rating": 7.5
+  },
+  {
+    "title": "Vettaiyan",
+    "sourceUrl": "https://www.studioflicks.com/movie/vettaiyan/",
+    "posterUrl": "images/posters/gen_vettaiyan_2024_tamil.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Tamil",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "genre": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "description": "",
+    "rating": 6.2
+  },
+  {
+    "title": "Aaragan",
+    "sourceUrl": "https://www.studioflicks.com/movie/aaragan/",
+    "posterUrl": "images/posters/gen_aaragan_2024_tamil.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Tamil",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Fantasy",
+      "Thriller"
+    ],
+    "genre": [
+      "Fantasy",
+      "Thriller"
+    ],
+    "description": ""
+  },
+  {
+    "title": "Seeran",
+    "sourceUrl": "https://www.studioflicks.com/movie/seeran/",
+    "posterUrl": "images/posters/gen_seeran_2024_tamil.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Tamil",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "genre": [
+      "Action",
+      "Drama"
+    ],
+    "description": ""
+  },
+  {
+    "title": "Meiyazhagan",
+    "sourceUrl": "https://www.studioflicks.com/movie/meiyazhagan/",
+    "posterUrl": "images/posters/gen_meiyazhagan_2024_tamil.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Tamil",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Family",
+      "Drama"
+    ],
+    "genre": [
+      "Family",
+      "Drama"
+    ],
+    "description": "",
+    "rating": 7.9
+  },
+  {
+    "title": "Hitler",
+    "sourceUrl": "https://www.studioflicks.com/movie/hitler/",
+    "posterUrl": "images/posters/gen_hitler_2024_tamil.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Tamil",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Documentary"
+    ],
+    "genre": [
+      "Documentary"
+    ],
+    "description": ""
+  },
+  {
+    "title": "Sattam En Kaiyil",
+    "sourceUrl": "https://www.studioflicks.com/movie/sattam-en-kaiyil/",
+    "posterUrl": "images/posters/gen_sattam_en_kaiyil_2024_tamil.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Tamil",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Thriller"
+    ],
+    "genre": [
+      "Thriller"
+    ],
+    "description": "",
+    "rating": 7.0
+  },
+  {
+    "title": "Drinker Sai",
+    "sourceUrl": "https://www.studioflicks.com/movie/drinker-sai/",
+    "posterUrl": "images/posters/gen_drinker_sai_2024_telugu.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Drama"
+    ],
+    "genre": [
+      "Drama"
+    ],
+    "description": ""
+  },
+  {
+    "title": "Bachhala Malli",
+    "sourceUrl": "https://www.studioflicks.com/movie/bachhala-malli/",
+    "posterUrl": "images/posters/gen_bachhala_malli_2024_telugu.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "genre": [
+      "Action",
+      "Drama"
+    ],
+    "description": "",
+    "rating": 4.5
+  },
+  {
+    "title": "Pushpa 2 – The Rule",
+    "sourceUrl": "https://www.studioflicks.com/movie/pushpa-2-the-rule/",
+    "posterUrl": "images/posters/gen_pushpa_2_the_rule_2024_telugu.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Action",
+      "Drama",
+      "Thriller",
+      "Crime"
+    ],
+    "genre": [
+      "Action",
+      "Drama",
+      "Thriller",
+      "Crime"
+    ],
+    "description": "",
+    "rating": 6.4
+  },
+  {
+    "title": "Mechanic Rocky",
+    "sourceUrl": "https://www.studioflicks.com/movie/mechanic-rocky/",
+    "posterUrl": "images/posters/gen_mechanic_rocky_2024_telugu.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "genre": [
+      "Action",
+      "Drama"
+    ],
+    "description": "",
+    "rating": 5.2
+  },
+  {
+    "title": "Matka",
+    "sourceUrl": "https://www.studioflicks.com/movie/matka/",
+    "posterUrl": "images/posters/gen_matka_2024_telugu.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "description": "",
+    "rating": 4.0
+  },
+  {
+    "title": "Lucky Baskhar",
+    "sourceUrl": "https://www.studioflicks.com/movie/lucky-baskhar/",
+    "posterUrl": "images/posters/gen_lucky_baskhar_2024_telugu.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "Netflix",
+    "ottList": [
+      "netflix"
+    ],
+    "genres": [
+      "Thriller",
+      "Crime",
+      "Drama"
+    ],
+    "genre": [
+      "Thriller",
+      "Crime",
+      "Drama"
+    ],
+    "description": "",
+    "rating": 7.5
+  },
+  {
+    "title": "Maa Nanna Superhero",
+    "sourceUrl": "https://www.studioflicks.com/movie/maa-nanna-superhero/",
+    "posterUrl": "images/posters/gen_maa_nanna_superhero_2024_telugu.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Drama"
+    ],
+    "genre": [
+      "Drama"
+    ],
+    "description": "",
+    "rating": 7.0
+  },
+  {
+    "title": "Viswam",
+    "sourceUrl": "https://www.studioflicks.com/movie/viswam/",
+    "posterUrl": "images/posters/gen_viswam_2024_telugu.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Action",
+      "Comedy"
+    ],
+    "genre": [
+      "Action",
+      "Comedy"
+    ],
+    "description": "",
+    "rating": 3.0
+  },
+  {
+    "title": "Utsavam",
+    "sourceUrl": "https://www.studioflicks.com/movie/utsavam/",
+    "posterUrl": "images/posters/gen_utsavam_2024_telugu.jpeg",
+    "releaseDate": "2024-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Drama"
+    ],
+    "genre": [
+      "Drama"
+    ],
+    "description": ""
+  },
+  {
+    "title": "35 – Chinna Katha Kaadu",
+    "sourceUrl": "https://www.studioflicks.com/movie/35-chinna-katha-kaadu/",
+    "posterUrl": "images/posters/gen_35_chinna_katha_kaadu_2024_telugu.jpeg",
+    "releaseDate": "2024-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Drama",
+      "Family"
+    ],
+    "genre": [
+      "Drama",
+      "Family"
+    ],
+    "description": "",
+    "rating": 8.4
+  },
+  {
+    "title": "Saripodhaa Sanivaaram",
+    "sourceUrl": "https://www.studioflicks.com/movie/saripodhaa-sanivaaram/",
+    "posterUrl": "images/posters/gen_saripodhaa_sanivaaram_2024_telugu.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "genre": [
+      "Action",
+      "Thriller"
+    ],
+    "description": "",
+    "rating": 6.7
+  },
+  {
+    "title": "Double iSmart",
+    "sourceUrl": "https://www.studioflicks.com/movie/double-ismart/",
+    "posterUrl": "images/posters/gen_double_ismart_2024_telugu.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Action",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "genre": [
+      "Action",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "description": "",
+    "rating": 4.0
+  },
+  {
+    "title": "Mr Bachchan",
+    "sourceUrl": "https://www.studioflicks.com/movie/mr-bachchan/",
+    "posterUrl": "images/posters/gen_mr_bachchan_2024_telugu.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Action",
+      "Drama",
+      "Romance"
+    ],
+    "genre": [
+      "Action",
+      "Drama",
+      "Romance"
+    ],
+    "description": "",
+    "rating": 2.8
+  },
+  {
+    "title": "Veeranjaneyulu Vihara Yatra",
+    "sourceUrl": "https://www.studioflicks.com/movie/veeranjaneyulu-vihara-yatra/",
+    "posterUrl": "images/posters/gen_veeranjaneyulu_vihara_yatra_2024_telugu.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Family",
+      "Comedy",
+      "Drama"
+    ],
+    "genre": [
+      "Family",
+      "Comedy",
+      "Drama"
+    ],
+    "description": ""
+  },
+  {
+    "title": "Tiragabadara Saami",
+    "sourceUrl": "https://www.studioflicks.com/movie/tiragabadara-saami/",
+    "posterUrl": "images/posters/gen_tiragabadara_saami_2024_telugu.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Action",
+      "Romance"
+    ],
+    "genre": [
+      "Action",
+      "Romance"
+    ],
+    "description": ""
+  },
+  {
+    "title": "Alanaati Ramachandrudu",
+    "sourceUrl": "https://www.studioflicks.com/movie/alanaati-ramachandrudu/",
+    "posterUrl": "images/posters/gen_alanaati_ramachandrudu_2024_telugu.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Romance",
+      "Family",
+      "Drama"
+    ],
+    "genre": [
+      "Romance",
+      "Family",
+      "Drama"
+    ],
+    "description": "",
+    "rating": 7.0
+  },
+  {
+    "title": "Kalki 2898 AD",
+    "sourceUrl": "https://www.studioflicks.com/movie/kalki-2898-ad/",
+    "posterUrl": "images/posters/gen_kalki_2898_ad_2024_telugu.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Drama",
+      "Action",
+      "Fantasy",
+      "Sci-Fi"
+    ],
+    "genre": [
+      "Drama",
+      "Action",
+      "Fantasy",
+      "Sci-Fi"
+    ],
+    "description": "",
+    "rating": 6.4
+  },
+  {
+    "title": "Satyabhama",
+    "sourceUrl": "https://www.studioflicks.com/movie/satyabhama/",
+    "posterUrl": "images/posters/gen_satyabhama_2024_telugu.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Crime",
+      "Thriller",
+      "Drama"
+    ],
+    "genre": [
+      "Crime",
+      "Thriller",
+      "Drama"
+    ],
+    "description": "",
+    "rating": 6.4
+  },
+  {
+    "title": "Bhaje Vaayu Vegam",
+    "sourceUrl": "https://www.studioflicks.com/movie/bhaje-vaayu-vegam/",
+    "posterUrl": "images/posters/gen_bhaje_vaayu_vegam_2024_telugu.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "genre": [
+      "Action",
+      "Drama"
+    ],
+    "description": "",
+    "rating": 6.2
+  },
+  {
+    "title": "Gangs of Godavari",
+    "sourceUrl": "https://www.studioflicks.com/movie/gangs-of-godavari/",
+    "posterUrl": "images/posters/gen_gangs_of_godavari_2024_telugu.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "genre": [
+      "Action",
+      "Drama"
+    ],
+    "description": "",
+    "rating": 6.0
+  },
+  {
+    "title": "Krishnamma",
+    "sourceUrl": "https://www.studioflicks.com/movie/krishnamma/",
+    "posterUrl": "images/posters/gen_krishnamma_2024_telugu.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Action"
+    ],
+    "genre": [
+      "Action"
+    ],
+    "description": ""
+  },
+  {
+    "title": "Family Star",
+    "sourceUrl": "https://www.studioflicks.com/movie/family-star/",
+    "posterUrl": "images/posters/gen_family_star_2024_telugu.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Family",
+      "Romance",
+      "Comedy",
+      "Drama",
+      "Action"
+    ],
+    "genre": [
+      "Family",
+      "Romance",
+      "Comedy",
+      "Drama",
+      "Action"
+    ],
+    "description": "",
+    "rating": 4.7
+  },
+  {
+    "title": "Tillu Square – (Tillu)²",
+    "sourceUrl": "https://www.studioflicks.com/movie/tillu-square/",
+    "posterUrl": "images/posters/gen_tillu_square_tillu²_2024_telugu.jpeg",
+    "releaseDate": "2024-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Romance",
+      "Comedy",
+      "Thriller",
+      "Crime"
+    ],
+    "genre": [
+      "Romance",
+      "Comedy",
+      "Thriller",
+      "Crime"
+    ],
+    "description": "",
+    "rating": 6.4
+  },
+  {
+    "title": "Om Bheem Bush",
+    "sourceUrl": "https://www.studioflicks.com/movie/om-bheem-bush/",
+    "posterUrl": "images/posters/gen_om_bheem_bush_2024_telugu.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Comedy",
+      "Horror"
+    ],
+    "genre": [
+      "Comedy",
+      "Horror"
+    ],
+    "description": "",
+    "rating": 5.8
+  },
+  {
+    "title": "Gaami",
+    "sourceUrl": "https://www.studioflicks.com/movie/gaami/",
+    "posterUrl": "images/posters/gen_gaami_2024_telugu.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Adventure",
+      "Thriller",
+      "Sci-Fi",
+      "Fantasy"
+    ],
+    "genre": [
+      "Adventure",
+      "Thriller",
+      "Sci-Fi",
+      "Fantasy"
+    ],
+    "description": "",
+    "rating": 6.7
+  },
+  {
+    "title": "Siddharth Roy",
+    "sourceUrl": "https://www.studioflicks.com/movie/siddharth-roy/",
+    "posterUrl": "images/posters/gen_siddharth_roy_2024_telugu.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "description": "",
+    "rating": 3.5
+  },
+  {
+    "title": "Ooru Peru Bhairavakona",
+    "sourceUrl": "https://www.studioflicks.com/movie/ooru-peru-bhairavakona/",
+    "posterUrl": "images/posters/gen_ooru_peru_bhairavakona_2024_telugu.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Fantasy",
+      "Comedy",
+      "Horror"
+    ],
+    "genre": [
+      "Fantasy",
+      "Comedy",
+      "Horror"
+    ],
+    "description": "",
+    "rating": 6.2
+  },
+  {
+    "title": "Eagle",
+    "sourceUrl": "https://www.studioflicks.com/movie/eagle/",
+    "posterUrl": "images/posters/gen_eagle_2024_telugu.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Comedy"
+    ],
+    "genre": [
+      "Comedy"
+    ],
+    "description": "",
+    "rating": 1.0
+  },
+  {
+    "title": "Ambajipeta Marriage Band",
+    "sourceUrl": "https://www.studioflicks.com/movie/ambajipeta-marriage-band/",
+    "posterUrl": "images/posters/gen_ambajipeta_marriage_band_2024_telugu.jpg",
+    "releaseDate": "2024-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "description": "",
+    "rating": 6.5
+  },
+  {
+    "title": "SSMB 28",
+    "sourceUrl": "https://www.studioflicks.com/movie/ssmb-28/",
+    "posterUrl": "images/posters/gen_ssmb_28_2024_telugu.jpeg",
+    "releaseDate": "2024-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "genre": [
+      "Action",
+      "Drama"
+    ],
+    "description": "",
+    "rating": 5.5
+  },
+  {
+    "title": "Salaar: Cease Fire – Part 1",
+    "sourceUrl": "https://www.studioflicks.com/movie/salaar/",
+    "posterUrl": "images/posters/gen_salaar_cease_fire_2023_telugu.jpg",
+    "releaseDate": "2023-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [],
+    "genre": [],
+    "description": ""
+  },
+  {
+    "title": "Aadikeshava",
+    "sourceUrl": "https://www.studioflicks.com/movie/aadikeshava/",
+    "posterUrl": "images/posters/gen_aadikeshava_2023_telugu.jpg",
+    "releaseDate": "2023-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Action",
+      "Romance"
+    ],
+    "genre": [
+      "Action",
+      "Romance"
+    ],
+    "description": "",
+    "rating": 6.2
+  },
+  {
+    "title": "Tiger Nageswara Rao",
+    "sourceUrl": "https://www.studioflicks.com/movie/tiger-nageswara-rao/",
+    "posterUrl": "images/posters/gen_tiger_nageswara_rao_2023_telugu.jpg",
+    "releaseDate": "2023-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "History",
+      "Action"
+    ],
+    "genre": [
+      "History",
+      "Action"
+    ],
+    "description": "",
+    "rating": 5.9
+  },
+  {
+    "title": "Rules Ranjann",
+    "sourceUrl": "https://www.studioflicks.com/movie/rules-ranjann/",
+    "posterUrl": "images/posters/gen_rules_ranjann_2023_telugu.jpg",
+    "releaseDate": "2023-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Romance",
+      "Comedy",
+      "Drama"
+    ],
+    "genre": [
+      "Romance",
+      "Comedy",
+      "Drama"
+    ],
+    "description": "",
+    "rating": 5.0
+  },
+  {
+    "title": "Miss. Shetty Mr. Polishetty",
+    "sourceUrl": "https://www.studioflicks.com/movie/miss-shetty-mr-polishetty/",
+    "posterUrl": "images/posters/gen_miss_shetty_mr_polishetty_2023_telugu.jpg",
+    "releaseDate": "2023-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance",
+      "Thriller"
+    ],
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Romance",
+      "Thriller"
+    ],
+    "description": "",
+    "rating": 6.2
+  },
+  {
+    "title": "Bhola Shankar",
+    "sourceUrl": "https://www.studioflicks.com/movie/bhola-shankar/",
+    "posterUrl": "images/posters/gen_bhola_shankar_2023_telugu.jpg",
+    "releaseDate": "2023-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "genre": [
+      "Action",
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "description": "",
+    "rating": 4.0
+  },
+  {
+    "title": "Annapurna Photo Studio",
+    "sourceUrl": "https://www.studioflicks.com/movie/annapurna-photo-studio/",
+    "posterUrl": "images/posters/gen_annapurna_photo_studio_2023_telugu.jpg",
+    "releaseDate": "2023-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [],
+    "genre": [],
+    "description": "",
+    "rating": 8.0
+  },
+  {
+    "title": "HER: Chapter 1",
+    "sourceUrl": "https://www.studioflicks.com/movie/her-chapter-1/",
+    "posterUrl": "images/posters/gen_her_chapter_1_2023_telugu.jpg",
+    "releaseDate": "2023-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Thriller",
+      "Drama",
+      "Crime"
+    ],
+    "genre": [
+      "Thriller",
+      "Drama",
+      "Crime"
+    ],
+    "description": "",
+    "rating": 3.5
+  },
+  {
+    "title": "Maaveeran",
+    "sourceUrl": "https://www.studioflicks.com/movie/maaveeran/",
+    "posterUrl": "images/posters/gen_maaveeran_2023_telugu.jpeg",
+    "releaseDate": "2023-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Drama",
+      "Action",
+      "Comedy",
+      "Fantasy"
+    ],
+    "genre": [
+      "Drama",
+      "Action",
+      "Comedy",
+      "Fantasy"
+    ],
+    "description": "",
+    "rating": 6.9
+  },
+  {
+    "title": "Manu Charitra",
+    "sourceUrl": "https://www.studioflicks.com/movie/manu-charitra/",
+    "posterUrl": "images/posters/gen_manu_charitra_2023_telugu.jpeg",
+    "releaseDate": "2023-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Romance",
+      "Action"
+    ],
+    "genre": [
+      "Romance",
+      "Action"
+    ],
+    "description": ""
+  },
+  {
+    "title": "Intinti Ramayanam",
+    "sourceUrl": "https://www.studioflicks.com/movie/intinti-ramayanam/",
+    "posterUrl": "images/posters/gen_intinti_ramayanam_2023_telugu.jpeg",
+    "releaseDate": "2023-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Comedy",
+      "Family"
+    ],
+    "genre": [
+      "Comedy",
+      "Family"
+    ],
+    "description": "",
+    "rating": 7.0
+  },
+  {
+    "title": "Vimanam",
+    "sourceUrl": "https://www.studioflicks.com/movie/vimanam/",
+    "posterUrl": "images/posters/gen_vimanam_2023_telugu.jpg",
+    "releaseDate": "2023-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Drama",
+      "Family"
+    ],
+    "genre": [
+      "Drama",
+      "Family"
+    ],
+    "description": "",
+    "rating": 8.0
+  },
+  {
+    "title": "Nenu Student Sir!",
+    "sourceUrl": "https://www.studioflicks.com/movie/nenu-student-sir/",
+    "posterUrl": "images/posters/gen_nenu_student_sir_2023_telugu.jpeg",
+    "releaseDate": "2023-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Thriller"
+    ],
+    "genre": [
+      "Comedy",
+      "Romance",
+      "Thriller"
+    ],
+    "description": "",
+    "rating": 6.0
+  },
+  {
+    "title": "#MenToo",
+    "sourceUrl": "https://www.studioflicks.com/movie/mentoo/",
+    "posterUrl": "images/posters/gen_mentoo_2023_telugu.jpeg",
+    "releaseDate": "2023-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "description": "",
+    "rating": 7.0
+  },
+  {
+    "title": "Anni Manchi Sakunamule",
+    "sourceUrl": "https://www.studioflicks.com/movie/anni-manchi-sakunamule/",
+    "posterUrl": "images/posters/gen_anni_manchi_sakunamule_2023_telugu.jpeg",
+    "releaseDate": "2023-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Comedy",
+      "Family",
+      "Romance"
+    ],
+    "genre": [
+      "Comedy",
+      "Family",
+      "Romance"
+    ],
+    "description": "",
+    "rating": 5.4
+  },
+  {
+    "title": "Custody",
+    "sourceUrl": "https://www.studioflicks.com/movie/custody/",
+    "posterUrl": "images/posters/gen_custody_2023_telugu.jpg",
+    "releaseDate": "2023-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Drama"
+    ],
+    "genre": [
+      "Drama"
+    ],
+    "description": "",
+    "rating": 2.0
+  },
+  {
+    "title": "Ugram",
+    "sourceUrl": "https://www.studioflicks.com/movie/ugram/",
+    "posterUrl": "images/posters/gen_ugram_2023_telugu.jpg",
+    "releaseDate": "2023-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "genre": [
+      "Action",
+      "Thriller"
+    ],
+    "description": "",
+    "rating": 5.7
+  },
+  {
+    "title": "Virupaksha",
+    "sourceUrl": "https://www.studioflicks.com/movie/virupaksha/",
+    "posterUrl": "images/posters/gen_virupaksha_2023_telugu.jpg",
+    "releaseDate": "2023-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Horror",
+      "Mystery",
+      "Thriller"
+    ],
+    "genre": [
+      "Horror",
+      "Mystery",
+      "Thriller"
+    ],
+    "description": "",
+    "rating": 7.1
+  },
+  {
+    "title": "Shaakuntalam",
+    "sourceUrl": "https://www.studioflicks.com/movie/shakuntalam/",
+    "posterUrl": "images/posters/gen_shaakuntalam_2023_telugu.jpeg",
+    "releaseDate": "2023-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Romance",
+      "History",
+      "Fantasy"
+    ],
+    "genre": [
+      "Romance",
+      "History",
+      "Fantasy"
+    ],
+    "description": "",
+    "rating": 4.2
+  },
+  {
+    "title": "Dasara",
+    "sourceUrl": "https://www.studioflicks.com/movie/dasara/",
+    "posterUrl": "images/posters/gen_dasara_2023_telugu.jpg",
+    "releaseDate": "2023-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "genre": [
+      "Action",
+      "Thriller"
+    ],
+    "description": "",
+    "rating": 6.9
+  },
+  {
+    "title": "Vinaro Bhagyamu Vishnu Katha",
+    "sourceUrl": "https://www.studioflicks.com/movie/vinaro-bhagyamu-vishnu-katha/",
+    "posterUrl": "images/posters/gen_vinaro_bhagyamu_vishnu_katha_2023_telugu.jpg",
+    "releaseDate": "2023-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "aha",
+    "ottList": [
+      "aha"
+    ],
+    "genres": [
+      "Comedy",
+      "Action",
+      "Romance"
+    ],
+    "genre": [
+      "Comedy",
+      "Action",
+      "Romance"
+    ],
+    "description": "",
+    "rating": 4.5
+  },
+  {
+    "title": "Sridevi Shoban Babu",
+    "sourceUrl": "https://www.studioflicks.com/movie/sridevi-shoban-babu/",
+    "posterUrl": "images/posters/gen_sridevi_shoban_babu_2023_telugu.jpg",
+    "releaseDate": "2023-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "hotstar",
+    "ottList": [
+      "hotstar"
+    ],
+    "genres": [
+      "Romance",
+      "Comedy",
+      "Family"
+    ],
+    "genre": [
+      "Romance",
+      "Comedy",
+      "Family"
+    ],
+    "description": "",
+    "rating": 7.0
+  },
+  {
+    "title": "Amigos",
+    "sourceUrl": "https://www.studioflicks.com/movie/amigos/",
+    "posterUrl": "images/posters/gen_amigos_2023_telugu.jpg",
+    "releaseDate": "2023-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Drama"
+    ],
+    "genre": [
+      "Drama"
+    ],
+    "description": ""
+  },
+  {
+    "title": "Butta Bomma",
+    "sourceUrl": "https://www.studioflicks.com/movie/butta-bomma/",
+    "posterUrl": "images/posters/gen_butta_bomma_2023_telugu.jpg",
+    "releaseDate": "2023-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "description": "",
+    "rating": 6.4
+  },
+  {
+    "title": "Michael",
+    "sourceUrl": "https://www.studioflicks.com/movie/michael/",
+    "posterUrl": "images/posters/gen_michael_2023_telugu.jpg",
+    "releaseDate": "2023-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Drama"
+    ],
+    "genre": [
+      "Drama"
+    ],
+    "description": "",
+    "rating": 6.8
+  },
+  {
+    "title": "Writer Padmabhushan",
+    "sourceUrl": "https://www.studioflicks.com/movie/writer-padmabhushan/",
+    "posterUrl": "images/posters/gen_writer_padmabhushan_2023_telugu.jpg",
+    "releaseDate": "2023-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "zee5",
+    "ottList": [
+      "zee5"
+    ],
+    "genres": [
+      "Comedy",
+      "Family",
+      "Drama"
+    ],
+    "genre": [
+      "Comedy",
+      "Family",
+      "Drama"
+    ],
+    "description": "",
+    "rating": 5.8
+  },
+  {
+    "title": "Hunt",
+    "sourceUrl": "https://www.studioflicks.com/movie/hunt/",
+    "posterUrl": "images/posters/gen_hunt_2023_telugu.jpg",
+    "releaseDate": "2023-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "prime",
+    "ottList": [
+      "prime"
+    ],
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "genre": [
+      "Action",
+      "Thriller"
+    ],
+    "description": "",
+    "rating": 3.8
+  },
+  {
+    "title": "Valentines Night",
+    "sourceUrl": "https://www.studioflicks.com/movie/valentines-night/",
+    "posterUrl": "images/posters/gen_valentines_night_2023_telugu.jpg",
+    "releaseDate": "2023-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Romance"
+    ],
+    "genre": [
+      "Romance"
+    ],
+    "description": ""
+  },
+  {
+    "title": "Kalyanam Kamaneeyam",
+    "sourceUrl": "https://www.studioflicks.com/movie/kalyanam-kamaneeyam/",
+    "posterUrl": "images/posters/gen_kalyanam_kamaneeyam_2023_telugu.jpg",
+    "releaseDate": "2023-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Romance",
+      "Comedy",
+      "Family"
+    ],
+    "genre": [
+      "Romance",
+      "Comedy",
+      "Family"
+    ],
+    "description": "",
+    "rating": 5.2
+  },
+  {
+    "title": "Veera Simha Reddy",
+    "sourceUrl": "https://www.studioflicks.com/movie/veera-simha-reddy/",
+    "posterUrl": "images/posters/gen_veera_simha_reddy_2023_telugu.jpg",
+    "releaseDate": "2023-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "genre": [
+      "Action",
+      "Drama"
+    ],
+    "description": "",
+    "rating": 4.7
+  },
+  {
+    "title": "18 Pages",
+    "sourceUrl": "https://www.studioflicks.com/movie/18-pages/",
+    "posterUrl": "images/posters/gen_18_pages_2022_telugu.jpeg",
+    "releaseDate": "2022-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Romance"
+    ],
+    "genre": [
+      "Romance"
+    ],
+    "description": "",
+    "rating": 5.8
+  },
+  {
+    "title": "Valliddari Madhya",
+    "sourceUrl": "https://www.studioflicks.com/movie/valliddari-madhya/",
+    "posterUrl": "images/posters/gen_valliddari_madhya_2022_telugu.jpg",
+    "releaseDate": "2022-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Romance",
+      "Comedy"
+    ],
+    "genre": [
+      "Romance",
+      "Comedy"
+    ],
+    "description": "",
+    "rating": 7.0
+  },
+  {
+    "title": "HIT: The 2nd Case",
+    "sourceUrl": "https://www.studioflicks.com/movie/hit-the-2nd-case/",
+    "posterUrl": "images/posters/gen_hit_the_2nd_case_2022_telugu.jpg",
+    "releaseDate": "2022-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Crime",
+      "Thriller",
+      "Action"
+    ],
+    "genre": [
+      "Crime",
+      "Thriller",
+      "Action"
+    ],
+    "description": "",
+    "rating": 7.0
+  },
+  {
+    "title": "Urvasivo Rakshasivo",
+    "sourceUrl": "https://www.studioflicks.com/movie/urvasivo-rakshasivo/",
+    "posterUrl": "images/posters/gen_urvasivo_rakshasivo_2022_telugu.jpeg",
+    "releaseDate": "2022-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Romance",
+      "Comedy"
+    ],
+    "genre": [
+      "Romance",
+      "Comedy"
+    ],
+    "description": "",
+    "rating": 5.6
+  },
+  {
+    "title": "Ammu",
+    "sourceUrl": "https://www.studioflicks.com/movie/ammu/",
+    "posterUrl": "images/posters/gen_ammu_2022_telugu.jpg",
+    "releaseDate": "2022-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "genre": [
+      "Drama",
+      "Crime"
+    ],
+    "description": "",
+    "rating": 8.4
+  },
+  {
+    "title": "Liger",
+    "sourceUrl": "https://www.studioflicks.com/movie/liger/",
+    "posterUrl": "images/posters/gen_liger_2022_telugu.jpg",
+    "releaseDate": "2022-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Action",
+      "Romance"
+    ],
+    "genre": [
+      "Action",
+      "Romance"
+    ],
+    "description": "",
+    "rating": 4.2
+  },
+  {
+    "title": "Karthikeya 2",
+    "sourceUrl": "https://www.studioflicks.com/movie/karthikeya-2/",
+    "posterUrl": "images/posters/gen_karthikeya_2_2022_telugu.jpg",
+    "releaseDate": "2022-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Mystery",
+      "Adventure",
+      "Thriller",
+      "Action"
+    ],
+    "genre": [
+      "Mystery",
+      "Adventure",
+      "Thriller",
+      "Action"
+    ],
+    "description": "",
+    "rating": 6.2
   },
   {
     "title": "Sita Ramam",
-    "region": "india",
-    "language": "telugu",
-    "category": "best",
-    "releaseType": "ott",
-    "ott": "amazon prime",
-    "releaseDate": "2022-08-05 00:00:00",
-    "posterUrl": "https://i.ytimg.com/vi/N4Z9j6NPSgQ/hqdefault.jpg",
-    "youtubeId": "N4Z9j6NPSgQ"
+    "sourceUrl": "https://www.studioflicks.com/movie/sita-ramam/",
+    "posterUrl": "images/posters/gen_sita_ramam_2022_telugu.jpg",
+    "releaseDate": "2022-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "prime",
+    "ottList": [
+      "prime"
+    ],
+    "genres": [
+      "History",
+      "Romance",
+      "Drama"
+    ],
+    "genre": [
+      "History",
+      "Romance",
+      "Drama"
+    ],
+    "description": "",
+    "rating": 7.7
   },
   {
-    "title": "Vikram Vedha",
-    "region": "india",
-    "language": "tamil",
-    "category": "best",
-    "releaseType": "ott",
-    "ott": "amazon prime",
-    "releaseDate": "2017-07-21 00:00:00",
-    "posterUrl": "https://i.ytimg.com/vi/1sVr-uWZPjE/hqdefault.jpg",
-    "youtubeId": "1sVr-uWZPjE"
+    "title": "The Warriorr",
+    "sourceUrl": "https://www.studioflicks.com/movie/the-warriorr/",
+    "posterUrl": "images/posters/gen_the_warriorr_2022_telugu.jpeg",
+    "releaseDate": "2022-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "genre": [
+      "Action",
+      "Drama"
+    ],
+    "description": "",
+    "rating": 4.9
   },
   {
-    "title": "Kaithi",
-    "region": "india",
-    "language": "tamil",
-    "category": "best",
-    "releaseType": "ott",
-    "ott": "disney+ hotstar",
-    "releaseDate": "2019-10-25 00:00:00",
-    "posterUrl": "https://i.ytimg.com/vi/wuH-9h2d7Zg/hqdefault.jpg",
-    "youtubeId": "wuH-9h2d7Zg"
+    "title": "Pakka Commercial",
+    "sourceUrl": "https://www.studioflicks.com/movie/pakka-commercial/",
+    "posterUrl": "images/posters/gen_pakka_commercial_2022_telugu.jpg",
+    "releaseDate": "2022-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Action"
+    ],
+    "genre": [
+      "Comedy",
+      "Crime",
+      "Action"
+    ],
+    "description": "",
+    "rating": 4.3
   },
   {
-    "title": "Soorarai Pottru",
-    "region": "india",
-    "language": "tamil",
-    "category": "best",
-    "releaseType": "ott",
-    "ott": "amazon prime",
-    "releaseDate": "2020-11-12 00:00:00",
-    "posterUrl": "https://i.ytimg.com/vi/FA8E8bF5GZ0/hqdefault.jpg",
-    "youtubeId": "FA8E8bF5GZ0"
+    "title": "Sammathame",
+    "sourceUrl": "https://www.studioflicks.com/movie/sammathame/",
+    "posterUrl": "images/posters/gen_sammathame_2022_telugu.jpeg",
+    "releaseDate": "2022-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Romance",
+      "Comedy"
+    ],
+    "genre": [
+      "Romance",
+      "Comedy"
+    ],
+    "description": "",
+    "rating": 7.0
+  },
+  {
+    "title": "Ante Sundaraniki",
+    "sourceUrl": "https://www.studioflicks.com/movie/ante-sundaraniki/",
+    "posterUrl": "images/posters/gen_ante_sundaraniki_2022_telugu.jpg",
+    "releaseDate": "2022-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Family"
+    ],
+    "genre": [
+      "Comedy",
+      "Romance",
+      "Family"
+    ],
+    "description": "",
+    "rating": 7.1
+  },
+  {
+    "title": "F3: Fun and Frustration",
+    "sourceUrl": "https://www.studioflicks.com/movie/f3-fun-and-frustration/",
+    "posterUrl": "images/posters/gen_f3_fun_and_frustration_2022_telugu.jpg",
+    "releaseDate": "2022-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Family"
+    ],
+    "genre": [
+      "Comedy",
+      "Romance",
+      "Family"
+    ],
+    "description": "",
+    "rating": 4.4
+  },
+  {
+    "title": "Sarkaru Vaari Paata",
+    "sourceUrl": "https://www.studioflicks.com/movie/sarkaru-vaari-paata/",
+    "posterUrl": "images/posters/gen_sarkaru_vaari_paata_2022_telugu.jpg",
+    "releaseDate": "2022-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Action",
+      "Comedy",
+      "Drama"
+    ],
+    "genre": [
+      "Action",
+      "Comedy",
+      "Drama"
+    ],
+    "description": "",
+    "rating": 5.6
+  },
+  {
+    "title": "Acharya",
+    "sourceUrl": "https://www.studioflicks.com/movie/acharya/",
+    "posterUrl": "images/posters/gen_acharya_2022_telugu.jpeg",
+    "releaseDate": "2022-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "genre": [
+      "Action",
+      "Drama"
+    ],
+    "description": "",
+    "rating": 4.1
+  },
+  {
+    "title": "RRR",
+    "sourceUrl": "https://www.studioflicks.com/movie/rrr/",
+    "posterUrl": "images/posters/gen_rrr_2022_telugu.jpg",
+    "releaseDate": "2022-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Comedy"
+    ],
+    "genre": [
+      "Comedy"
+    ],
+    "description": "",
+    "rating": 6.3
+  },
+  {
+    "title": "Bheemla Nayak",
+    "sourceUrl": "https://www.studioflicks.com/movie/bheemla-nayak/",
+    "posterUrl": "images/posters/gen_bheemla_nayak_2022_telugu.jpg",
+    "releaseDate": "2022-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Action",
+      "Drama",
+      "Thriller"
+    ],
+    "genre": [
+      "Action",
+      "Drama",
+      "Thriller"
+    ],
+    "description": "",
+    "rating": 5.5
+  },
+  {
+    "title": "Son of India",
+    "sourceUrl": "https://www.studioflicks.com/movie/son-of-india/",
+    "posterUrl": "images/posters/gen_son_of_india_2022_telugu.jpg",
+    "releaseDate": "2022-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Drama",
+      "Action"
+    ],
+    "genre": [
+      "Drama",
+      "Action"
+    ],
+    "description": "",
+    "rating": 4.0
+  },
+  {
+    "title": "Virgin Story",
+    "sourceUrl": "https://www.studioflicks.com/movie/virgin-story/",
+    "posterUrl": "images/posters/gen_virgin_story_2022_telugu.jpg",
+    "releaseDate": "2022-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Romance",
+      "Comedy"
+    ],
+    "genre": [
+      "Romance",
+      "Comedy"
+    ],
+    "description": "",
+    "rating": 7.0
+  },
+  {
+    "title": "DJ Tillu",
+    "sourceUrl": "https://www.studioflicks.com/movie/dj-tillu/",
+    "posterUrl": "images/posters/gen_dj_tillu_2022_telugu.jpg",
+    "releaseDate": "2022-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "aha",
+    "ottList": [
+      "aha"
+    ],
+    "genres": [
+      "Romance",
+      "Comedy",
+      "Crime",
+      "Thriller"
+    ],
+    "genre": [
+      "Romance",
+      "Comedy",
+      "Crime",
+      "Thriller"
+    ],
+    "description": "",
+    "rating": 6.0
+  },
+  {
+    "title": "Shyam Singha Roy",
+    "sourceUrl": "https://www.studioflicks.com/movie/shyam-singha-roy/",
+    "posterUrl": "images/posters/gen_shyam_singha_roy_2021_telugu.jpg",
+    "releaseDate": "2021-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Romance",
+      "Thriller",
+      "Drama"
+    ],
+    "genre": [
+      "Romance",
+      "Thriller",
+      "Drama"
+    ],
+    "description": "",
+    "rating": 6.9
+  },
+  {
+    "title": "Pushpa: The Rise",
+    "sourceUrl": "https://www.studioflicks.com/movie/pushpa-the-rise/",
+    "posterUrl": "images/posters/gen_pushpa_the_rise_2021_telugu.jpg",
+    "releaseDate": "2021-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Action",
+      "Drama",
+      "Thriller"
+    ],
+    "genre": [
+      "Action",
+      "Drama",
+      "Thriller"
+    ],
+    "description": "",
+    "rating": 6.8
+  },
+  {
+    "title": "Gamanam",
+    "sourceUrl": "https://www.studioflicks.com/movie/gamanam/",
+    "posterUrl": "images/posters/gen_gamanam_2021_telugu.jpg",
+    "releaseDate": "2021-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Drama"
+    ],
+    "genre": [
+      "Drama"
+    ],
+    "description": "",
+    "rating": 7.3
+  },
+  {
+    "title": "Anubhavinchu Raja",
+    "sourceUrl": "https://www.studioflicks.com/movie/anubhavinchu-raja/",
+    "posterUrl": "images/posters/gen_anubhavinchu_raja_2021_telugu.jpg",
+    "releaseDate": "2021-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Romance",
+      "Comedy"
+    ],
+    "genre": [
+      "Romance",
+      "Comedy"
+    ],
+    "description": "",
+    "rating": 4.0
+  },
+  {
+    "title": "Chalo Premiddam",
+    "sourceUrl": "https://www.studioflicks.com/movie/chalo-premiddam/",
+    "posterUrl": "images/posters/gen_chalo_premiddam_2021_telugu.jpg",
+    "releaseDate": "2021-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [
+      "Romance",
+      "Family"
+    ],
+    "genre": [
+      "Romance",
+      "Family"
+    ],
+    "description": ""
+  },
+  {
+    "title": "Seetimaarr",
+    "sourceUrl": "https://www.studioflicks.com/movie/seetimaarr/",
+    "posterUrl": "images/posters/gen_seetimaarr_2021_telugu.jpg",
+    "releaseDate": "2021-01-01",
+    "language": "Telugu",
+    "region": "",
+    "ott": "hotstar",
+    "ottList": [
+      "hotstar"
+    ],
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "genre": [
+      "Action",
+      "Drama"
+    ],
+    "description": "",
+    "rating": 4.1
+  },
+  {
+    "title": "Ayngaran",
+    "sourceUrl": "https://www.studioflicks.com/movie/ayngaran/",
+    "posterUrl": "images/posters/gen_ayngaran_2022_.jpg",
+    "releaseDate": "2022-01-01",
+    "language": "nan",
+    "region": "",
+    "ott": "aha",
+    "ottList": [
+      "aha"
+    ],
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "genre": [
+      "Action",
+      "Drama"
+    ],
+    "description": "",
+    "rating": 5.0
+  },
+  {
+    "title": "Manmatha Leelai",
+    "sourceUrl": "https://www.studioflicks.com/movie/manmatha-leelai/",
+    "posterUrl": "images/posters/gen_manmatha_leelai_2022_.jpeg",
+    "releaseDate": "2022-01-01",
+    "language": "nan",
+    "region": "",
+    "ott": "aha",
+    "ottList": [
+      "aha"
+    ],
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "genre": [
+      "Comedy",
+      "Romance"
+    ],
+    "description": "",
+    "rating": 5.0
+  },
+  {
+    "title": "Selfie",
+    "sourceUrl": "https://www.studioflicks.com/movie/selfie/",
+    "posterUrl": "images/posters/gen_selfie_2022_.jpeg",
+    "releaseDate": "2022-01-01",
+    "language": "nan",
+    "region": "",
+    "ott": "aha",
+    "ottList": [
+      "aha"
+    ],
+    "genres": [],
+    "genre": [],
+    "description": ""
+  },
+  {
+    "title": "Taanakkaran",
+    "sourceUrl": "https://www.studioflicks.com/movie/taanakkaran/",
+    "posterUrl": "images/posters/gen_taanakkaran_2022_.jpg",
+    "releaseDate": "2022-01-01",
+    "language": "nan",
+    "region": "",
+    "ott": "hotstar",
+    "ottList": [
+      "hotstar"
+    ],
+    "genres": [
+      "Drama"
+    ],
+    "genre": [
+      "Drama"
+    ],
+    "description": "",
+    "rating": 6.8
+  },
+  {
+    "title": "Anbarivu",
+    "sourceUrl": "https://www.studioflicks.com/movie/anbarivu/",
+    "posterUrl": "images/posters/gen_anbarivu_2022_.jpeg",
+    "releaseDate": "2022-01-01",
+    "language": "nan",
+    "region": "",
+    "ott": "hotstar",
+    "ottList": [
+      "hotstar"
+    ],
+    "genres": [
+      "Comedy",
+      "Family",
+      "Romance"
+    ],
+    "genre": [
+      "Comedy",
+      "Family",
+      "Romance"
+    ],
+    "description": "",
+    "rating": 6.5
+  },
+  {
+    "title": "Pon Manickavel",
+    "sourceUrl": "https://www.studioflicks.com/movie/pon-manickavel/",
+    "posterUrl": "images/posters/gen_pon_manickavel_2021_.jpg",
+    "releaseDate": "2021-01-01",
+    "language": "nan",
+    "region": "",
+    "ott": "hotstar",
+    "ottList": [
+      "hotstar"
+    ],
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "genre": [
+      "Action",
+      "Thriller"
+    ],
+    "description": "",
+    "rating": 4.0
+  },
+  {
+    "title": "Oh Manapenne!",
+    "sourceUrl": "https://www.studioflicks.com/movie/oh-manapenne/",
+    "posterUrl": "images/posters/gen_oh_manapenne_2021_.jpg",
+    "releaseDate": "2021-01-01",
+    "language": "nan",
+    "region": "",
+    "ott": "hotstar",
+    "ottList": [
+      "hotstar"
+    ],
+    "genres": [
+      "Drama",
+      "Romance",
+      "Comedy"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Comedy"
+    ],
+    "description": "",
+    "rating": 6.1
+  },
+  {
+    "title": "Lift",
+    "sourceUrl": "https://www.studioflicks.com/movie/lift/",
+    "posterUrl": "images/posters/gen_lift_2021_.jpg",
+    "releaseDate": "2021-01-01",
+    "language": "nan",
+    "region": "",
+    "ott": "hotstar",
+    "ottList": [
+      "hotstar"
+    ],
+    "genres": [
+      "Drama"
+    ],
+    "genre": [
+      "Drama"
+    ],
+    "description": ""
+  },
+  {
+    "title": "Annabelle Sethupathi",
+    "sourceUrl": "https://www.studioflicks.com/movie/annabelle-sethupathi/",
+    "posterUrl": "images/posters/gen_annabelle_sethupathi_2021_.jpg",
+    "releaseDate": "2021-01-01",
+    "language": "nan",
+    "region": "",
+    "ott": "hotstar",
+    "ottList": [
+      "hotstar"
+    ],
+    "genres": [
+      "Horror",
+      "Comedy",
+      "Fantasy"
+    ],
+    "genre": [
+      "Horror",
+      "Comedy",
+      "Fantasy"
+    ],
+    "description": "",
+    "rating": 4.3
+  },
+  {
+    "title": "Netrikann",
+    "sourceUrl": "https://www.studioflicks.com/movie/netrikann/",
+    "posterUrl": "images/posters/gen_netrikann_2021_.jpg",
+    "releaseDate": "2021-01-01",
+    "language": "nan",
+    "region": "",
+    "ott": "hotstar",
+    "ottList": [
+      "hotstar"
+    ],
+    "genres": [
+      "Thriller",
+      "Mystery",
+      "Crime"
+    ],
+    "genre": [
+      "Thriller",
+      "Mystery",
+      "Crime"
+    ],
+    "description": "",
+    "rating": 5.9
+  },
+  {
+    "title": "Paramapadham Vilayattu",
+    "sourceUrl": "https://www.studioflicks.com/movie/paramapadham-vilayattu/",
+    "posterUrl": "images/posters/gen_paramapadham_vilayattu_2021_.jpg",
+    "releaseDate": "2021-01-01",
+    "language": "nan",
+    "region": "",
+    "ott": "hotstar",
+    "ottList": [
+      "hotstar"
+    ],
+    "genres": [
+      "Thriller"
+    ],
+    "genre": [
+      "Thriller"
+    ],
+    "description": "",
+    "rating": 3.8
+  },
+  {
+    "title": "Eeswaran",
+    "sourceUrl": "https://www.studioflicks.com/movie/eeswaran/",
+    "posterUrl": "images/posters/gen_eeswaran_2021_.jpg",
+    "releaseDate": "2021-01-01",
+    "language": "nan",
+    "region": "",
+    "ott": "hotstar",
+    "ottList": [
+      "hotstar"
+    ],
+    "genres": [
+      "Action",
+      "Family",
+      "Romance"
+    ],
+    "genre": [
+      "Action",
+      "Family",
+      "Romance"
+    ],
+    "description": "",
+    "rating": 4.1
+  },
+  {
+    "title": "Bhoomi",
+    "sourceUrl": "https://www.studioflicks.com/movie/bhoomi/",
+    "posterUrl": "images/posters/gen_bhoomi_2021_.jpg",
+    "releaseDate": "2021-01-01",
+    "language": "nan",
+    "region": "",
+    "ott": "hotstar",
+    "ottList": [
+      "hotstar"
+    ],
+    "genres": [
+      "Drama"
+    ],
+    "genre": [
+      "Drama"
+    ],
+    "description": "",
+    "rating": 4.4
+  },
+  {
+    "title": "Kadaikutty Singam",
+    "sourceUrl": "https://www.studioflicks.com/movie/kadaikutty-singam/",
+    "posterUrl": "images/posters/gen_kadaikutty_singam_2018_.jpg",
+    "releaseDate": "2018-01-01",
+    "language": "nan",
+    "region": "",
+    "ott": "hotstar",
+    "ottList": [
+      "hotstar",
+      "prime"
+    ],
+    "genres": [
+      "Romance",
+      "Comedy",
+      "Family",
+      "Action"
+    ],
+    "genre": [
+      "Romance",
+      "Comedy",
+      "Family",
+      "Action"
+    ],
+    "description": "",
+    "rating": 6.7
+  },
+  {
+    "title": "D Block",
+    "sourceUrl": "https://www.studioflicks.com/movie/d-block/",
+    "posterUrl": "images/posters/gen_d_block_2022_.jpeg",
+    "releaseDate": "2022-01-01",
+    "language": "nan",
+    "region": "",
+    "ott": "prime",
+    "ottList": [
+      "prime"
+    ],
+    "genres": [
+      "Thriller",
+      "Mystery"
+    ],
+    "genre": [
+      "Thriller",
+      "Mystery"
+    ],
+    "description": "",
+    "rating": 5.4
+  },
+  {
+    "title": "Saani Kaayidham",
+    "sourceUrl": "https://www.studioflicks.com/movie/saani-kaayidham/",
+    "posterUrl": "images/posters/gen_saani_kaayidham_2022_.jpg",
+    "releaseDate": "2022-01-01",
+    "language": "nan",
+    "region": "",
+    "ott": "prime",
+    "ottList": [
+      "prime"
+    ],
+    "genres": [
+      "Crime",
+      "Action",
+      "Drama",
+      "Romance"
+    ],
+    "genre": [
+      "Crime",
+      "Action",
+      "Drama",
+      "Romance"
+    ],
+    "description": "",
+    "rating": 6.3
+  },
+  {
+    "title": "Oh My Dog",
+    "sourceUrl": "https://www.studioflicks.com/movie/oh-my-dog/",
+    "posterUrl": "images/posters/gen_oh_my_dog_2022_.jpeg",
+    "releaseDate": "2022-01-01",
+    "language": "nan",
+    "region": "",
+    "ott": "prime",
+    "ottList": [
+      "prime"
+    ],
+    "genres": [
+      "Drama",
+      "Family"
+    ],
+    "genre": [
+      "Drama",
+      "Family"
+    ],
+    "description": "",
+    "rating": 5.5
+  },
+  {
+    "title": "Mahaan",
+    "sourceUrl": "https://www.studioflicks.com/movie/mahaan/",
+    "posterUrl": "images/posters/gen_mahaan_2022_.jpg",
+    "releaseDate": "2022-01-01",
+    "language": "nan",
+    "region": "",
+    "ott": "prime",
+    "ottList": [
+      "prime"
+    ],
+    "genres": [
+      "Crime",
+      "Action",
+      "Drama"
+    ],
+    "genre": [
+      "Crime",
+      "Action",
+      "Drama"
+    ],
+    "description": "",
+    "rating": 6.7
   },
   {
     "title": "Jai Bhim",
-    "region": "india",
-    "language": "tamil",
-    "category": "best",
-    "releaseType": "ott",
-    "ott": "amazon prime",
-    "releaseDate": "2021-11-02 00:00:00",
-    "posterUrl": "https://i.ytimg.com/vi/n1Qxg2zS5VQ/hqdefault.jpg",
-    "youtubeId": "n1Qxg2zS5VQ"
+    "sourceUrl": "https://www.studioflicks.com/movie/jai-bhim/",
+    "posterUrl": "images/posters/gen_jai_bhim_2021_.jpg",
+    "releaseDate": "2021-01-01",
+    "language": "nan",
+    "region": "",
+    "ott": "prime",
+    "ottList": [
+      "prime"
+    ],
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "genre": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "description": "",
+    "rating": 7.3
   },
   {
-    "title": "Mozhi",
-    "region": "india",
-    "language": "tamil",
-    "category": "best",
-    "releaseType": "ott",
-    "ott": "amazon prime",
-    "releaseDate": "2007-02-23 00:00:00",
-    "posterUrl": "https://i.ytimg.com/vi/4A1j6k7hT9Q/hqdefault.jpg",
-    "youtubeId": "4A1j6k7hT9Q"
+    "title": "Udanpirappe",
+    "sourceUrl": "https://www.studioflicks.com/movie/udanpirappe/",
+    "posterUrl": "images/posters/gen_udanpirappe_2021_.jpg",
+    "releaseDate": "2021-01-01",
+    "language": "nan",
+    "region": "",
+    "ott": "prime",
+    "ottList": [
+      "prime"
+    ],
+    "genres": [
+      "Family",
+      "Drama"
+    ],
+    "genre": [
+      "Family",
+      "Drama"
+    ],
+    "description": "",
+    "rating": 5.0
   },
   {
-    "title": "Drishyam",
-    "region": "india",
-    "language": "malayalam",
-    "category": "best",
-    "releaseType": "ott",
-    "ott": "amazon prime",
-    "releaseDate": "2013-12-19 00:00:00",
-    "posterUrl": "https://i.ytimg.com/vi/AuuX2j14NBg/hqdefault.jpg",
-    "youtubeId": "AuuX2j14NBg"
+    "title": "Sarpatta Parambarai",
+    "sourceUrl": "https://www.studioflicks.com/movie/sarpatta-parambarai/",
+    "posterUrl": "images/posters/gen_sarpatta_parambarai_2021_.jpg",
+    "releaseDate": "2021-01-01",
+    "language": "nan",
+    "region": "",
+    "ott": "prime",
+    "ottList": [
+      "prime"
+    ],
+    "genres": [
+      "History",
+      "Action",
+      "Drama"
+    ],
+    "genre": [
+      "History",
+      "Action",
+      "Drama"
+    ],
+    "description": "",
+    "rating": 7.6
   },
   {
-    "title": "Kumbalangi Nights",
-    "region": "india",
-    "language": "malayalam",
-    "category": "best",
-    "releaseType": "ott",
-    "ott": "amazon prime",
-    "releaseDate": "2019-02-07 00:00:00",
-    "posterUrl": "https://i.ytimg.com/vi/3P4BFBSafF0/hqdefault.jpg",
-    "youtubeId": "3P4BFBSafF0"
+    "title": "Karnan",
+    "sourceUrl": "https://www.studioflicks.com/movie/karnan/",
+    "posterUrl": "images/posters/gen_karnan_2021_.jpg",
+    "releaseDate": "2021-01-01",
+    "language": "nan",
+    "region": "",
+    "ott": "prime",
+    "ottList": [
+      "prime"
+    ],
+    "genres": [
+      "Drama",
+      "Action"
+    ],
+    "genre": [
+      "Drama",
+      "Action"
+    ],
+    "description": "",
+    "rating": 7.3
   },
   {
-    "title": "Bangalore Days",
-    "region": "india",
-    "language": "malayalam",
-    "category": "best",
-    "releaseType": "ott",
-    "ott": "disney+ hotstar",
-    "releaseDate": "2014-05-30 00:00:00",
-    "posterUrl": "https://i.ytimg.com/vi/uVpZDh0f0A8/hqdefault.jpg",
-    "youtubeId": "uVpZDh0f0A8"
+    "title": "Kabadadaari",
+    "sourceUrl": "https://www.studioflicks.com/movie/kabadadaari/",
+    "posterUrl": "images/posters/gen_kabadadaari_2021_.jpg",
+    "releaseDate": "2021-01-01",
+    "language": "nan",
+    "region": "",
+    "ott": "prime",
+    "ottList": [
+      "prime"
+    ],
+    "genres": [
+      "Crime",
+      "Thriller"
+    ],
+    "genre": [
+      "Crime",
+      "Thriller"
+    ],
+    "description": "",
+    "rating": 6.6
   },
   {
-    "title": "Premam",
-    "region": "india",
-    "language": "malayalam",
-    "category": "best",
-    "releaseType": "ott",
-    "ott": "disney+ hotstar",
-    "releaseDate": "2015-05-29 00:00:00",
-    "posterUrl": "https://i.ytimg.com/vi/HTO6h9fJ4Fg/hqdefault.jpg",
-    "youtubeId": "HTO6h9fJ4Fg"
+    "title": "Master",
+    "sourceUrl": "https://www.studioflicks.com/movie/master/",
+    "posterUrl": "images/posters/gen_master_2021_.jpg",
+    "releaseDate": "2021-01-01",
+    "language": "nan",
+    "region": "",
+    "ott": "prime",
+    "ottList": [
+      "prime"
+    ],
+    "genres": [
+      "Fantasy"
+    ],
+    "genre": [
+      "Fantasy"
+    ],
+    "description": "",
+    "rating": 5.0
   },
   {
-    "title": "Home",
-    "region": "india",
-    "language": "malayalam",
-    "category": "best",
-    "releaseType": "ott",
-    "ott": "amazon prime",
-    "releaseDate": "2021-08-19 00:00:00",
-    "posterUrl": "https://i.ytimg.com/vi/2O2E5xVdZpE/hqdefault.jpg",
-    "youtubeId": "2O2E5xVdZpE"
+    "title": "Maara",
+    "sourceUrl": "https://www.studioflicks.com/movie/maara/",
+    "posterUrl": "images/posters/gen_maara_2021_.jpg",
+    "releaseDate": "2021-01-01",
+    "language": "nan",
+    "region": "",
+    "ott": "prime",
+    "ottList": [
+      "prime"
+    ],
+    "genres": [
+      "Drama"
+    ],
+    "genre": [
+      "Drama"
+    ],
+    "description": "",
+    "rating": 6.7
+  },
+  {
+    "title": "Sixer",
+    "sourceUrl": "https://www.studioflicks.com/movie/sixer/",
+    "posterUrl": "images/posters/gen_sixer_2019_.jpg",
+    "releaseDate": "2019-01-01",
+    "language": "nan",
+    "region": "",
+    "ott": "prime",
+    "ottList": [
+      "prime"
+    ],
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "genre": [
+      "Comedy",
+      "Romance"
+    ],
+    "description": "",
+    "rating": 5.8
+  },
+  {
+    "title": "Yaanai",
+    "sourceUrl": "https://www.studioflicks.com/movie/yaanai/",
+    "posterUrl": "images/posters/gen_yaanai_2022_.jpg",
+    "releaseDate": "2022-01-01",
+    "language": "nan",
+    "region": "",
+    "ott": "zee5",
+    "ottList": [
+      "zee5"
+    ],
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "genre": [
+      "Action",
+      "Thriller"
+    ],
+    "description": "",
+    "rating": 6.3
+  },
+  {
+    "title": "Enna Solla Pogirai",
+    "sourceUrl": "https://www.studioflicks.com/movie/enna-solla-pogirai/",
+    "posterUrl": "images/posters/gen_enna_solla_pogirai_2022_.jpeg",
+    "releaseDate": "2022-01-01",
+    "language": "nan",
+    "region": "",
+    "ott": "zee5",
+    "ottList": [
+      "zee5"
+    ],
+    "genres": [
+      "Romance",
+      "Drama"
+    ],
+    "genre": [
+      "Romance",
+      "Drama"
+    ],
+    "description": "",
+    "rating": 8.0
+  },
+  {
+    "title": "Vinodhaya Sitham",
+    "sourceUrl": "https://www.studioflicks.com/movie/vinodhaya-sitham/",
+    "posterUrl": "images/posters/gen_vinodhaya_sitham_2021_.jpg",
+    "releaseDate": "2021-01-01",
+    "language": "nan",
+    "region": "",
+    "ott": "zee5",
+    "ottList": [
+      "zee5"
+    ],
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "genre": [
+      "Drama",
+      "Comedy"
+    ],
+    "description": "",
+    "rating": 5.3
+  },
+  {
+    "title": "Dikkiloona",
+    "sourceUrl": "https://www.studioflicks.com/movie/dikkiloona/",
+    "posterUrl": "images/posters/gen_dikkiloona_2021_.jpg",
+    "releaseDate": "2021-01-01",
+    "language": "nan",
+    "region": "",
+    "ott": "zee5",
+    "ottList": [
+      "zee5"
+    ],
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Sci-Fi"
+    ],
+    "genre": [
+      "Comedy",
+      "Romance",
+      "Sci-Fi"
+    ],
+    "description": "",
+    "rating": 5.0
+  },
+  {
+    "title": "Malaysia to Amnesia",
+    "sourceUrl": "https://www.studioflicks.com/movie/malaysia-to-amnesia/",
+    "posterUrl": "images/posters/gen_malaysia_to_amnesia_2021_.jpg",
+    "releaseDate": "2021-01-01",
+    "language": "nan",
+    "region": "",
+    "ott": "zee5",
+    "ottList": [
+      "zee5"
+    ],
+    "genres": [
+      "Comedy"
+    ],
+    "genre": [
+      "Comedy"
+    ],
+    "description": "",
+    "rating": 2.5
+  },
+  {
+    "title": "Mathil",
+    "sourceUrl": "https://www.studioflicks.com/movie/mathil/",
+    "posterUrl": "images/posters/gen_mathil_2021_.jpg",
+    "releaseDate": "2021-01-01",
+    "language": "nan",
+    "region": "",
+    "ott": "zee5",
+    "ottList": [
+      "zee5"
+    ],
+    "genres": [
+      "Drama"
+    ],
+    "genre": [
+      "Drama"
+    ],
+    "description": "",
+    "rating": 6.0
+  },
+  {
+    "title": "Endraavathu Oru Naal",
+    "sourceUrl": "https://www.studioflicks.com/movie/endraavathu-oru-naal/",
+    "posterUrl": "images/posters/gen_endraavathu_oru_naal_2021_.jpg",
+    "releaseDate": "2021-01-01",
+    "language": "nan",
+    "region": "",
+    "ott": "zee5",
+    "ottList": [
+      "zee5"
+    ],
+    "genres": [
+      "Drama"
+    ],
+    "genre": [
+      "Drama"
+    ],
+    "description": "",
+    "rating": 4.0
+  },
+  {
+    "title": "Lockup",
+    "sourceUrl": "https://www.studioflicks.com/movie/lockup/",
+    "posterUrl": "images/posters/gen_lockup_2020_.jpg",
+    "releaseDate": "2020-01-01",
+    "language": "nan",
+    "region": "",
+    "ott": "zee5",
+    "ottList": [
+      "zee5"
+    ],
+    "genres": [
+      "Crime",
+      "Thriller"
+    ],
+    "genre": [
+      "Crime",
+      "Thriller"
+    ],
+    "description": "",
+    "rating": 6.0
   }
 ]

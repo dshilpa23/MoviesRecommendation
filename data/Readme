@@ -1,0 +1,50 @@
+/workspaces/MoviesRecommendation/
+├── movies_master.xlsx           # SOURCE OF TRUTH
+├── scraper.py                   # One-time scraping
+├── generate_json.py             # Export to UI JSON
+├── utils.py                     # Dedup, normalize functions
+├── config.py                    # Placeholder constants
+├── data/                        # UI reads from here
+│   ├── upcoming-ott.json
+│   ├── ott-releases.json
+│   ├── best-india.json
+│   └── search-index.json
+├── reports/                     # Generation reports
+│   └── generation_2025-12-22.json
+├── app.js                       # UI (unchanged, uses JSON)
+├── index.html
+└── Readme.md
+
+
+
+┌─────────────────┐
+│ Feed Discovery  │ (Manual/Scheduled)
+│ New URLs list   │
+└────────┬────────┘
+         │
+         ▼
+┌─────────────────┐
+│ Dedup Check     │ Check movieKey in sheet
+│ Skip existing   │
+└────────┬────────┘
+         │
+         ▼ (new only)
+┌─────────────────┐
+│ Scraper         │ One-time scrape
+│ (Playwright)    │
+└────────┬────────┘
+         │
+         ▼
+┌─────────────────┐
+│ Sheet Append    │ Add to master.xlsx
+│ Auto-generate   │ movieId, movieKey
+└────────┬────────┘
+         │
+         ▼
+┌─────────────────┐
+│ JSON Generator  │ Export for UI
+└─────────────────┘
+
+
+
+This architecture ensures editorial control, prevents duplicate scraping, and keeps the UI fast with static JSON. Ready to implement any component?
