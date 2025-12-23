@@ -1,6 +1,10 @@
 """
 Movie Scraper with Deduplication
 Scrapes movies only once, respects existing data and editorial locks
+
+Data Source: StudioFlicks
+- Endpoint: https://www.studioflicks.com/wp-admin/admin-ajax.php
+- Movie pages: https://www.studioflicks.com/movie/{slug}/
 """
 
 import pandas as pd
@@ -80,13 +84,21 @@ class MovieScraper:
         """
         Scrape movie data from URL
         
-        THIS IS A PLACEHOLDER - integrate your actual scraping logic
-        (Playwright, BeautifulSoup, etc.)
+        StudioFlicks endpoint: https://www.studioflicks.com/wp-admin/admin-ajax.php
+        
+        TODO: Implement actual scraping logic using Playwright or requests
+        - For individual movie pages: parse https://www.studioflicks.com/movie/{slug}/
+        - For list queries: POST to wp-admin/admin-ajax.php with action params
         """
         print(f"🕷️  Scraping: {source_url}")
         
         # PLACEHOLDER: Replace with actual scraping implementation
-        # Example structure:
+        # Example implementation:
+        # import requests
+        # response = requests.get(source_url)
+        # soup = BeautifulSoup(response.text, 'html.parser')
+        # ... parse movie details ...
+        
         scraped_data = {
             'title': 'Example Movie',
             'sourceUrl': source_url,
@@ -287,16 +299,17 @@ class MovieScraper:
 
 
 def main():
-    """Example usage"""
+    """Example usage - scrape movies from StudioFlicks"""
     scraper = MovieScraper()
     
-    # Example: Scrape a list of URLs
+    # Example: Scrape a list of movie URLs from StudioFlicks
     urls = [
-        'https://example.com/movie1',
-        # Add more URLs...
+        'https://www.studioflicks.com/movie/example-movie-1/',
+        'https://www.studioflicks.com/movie/example-movie-2/',
+        # Add more URLs from StudioFlicks...
     ]
     
-    print(f"\n🚀 Scraping {len(urls)} URLs...\n")
+    print(f"\n🚀 Scraping {len(urls)} URLs from StudioFlicks...\n")
     results = scraper.scrape_urls(urls)
     
     # Save results
@@ -311,7 +324,8 @@ def main():
 
 
 if __name__ == '__main__':
-    print("⚠️  This is a template scraper.")
-    print("   Integrate with your existing scraping logic (flicks_playwright.py, etc.)")
+    print("⚠️  This is a template scraper for StudioFlicks data.")
+    print("   Endpoint: https://www.studioflicks.com/wp-admin/admin-ajax.php")
+    print("   Integrate actual scraping logic (Playwright/BeautifulSoup)")
     print("   Then uncomment main() to use.")
     # main()
