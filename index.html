@@ -41,9 +41,14 @@
       <section class="section">
         <div class="section-head">
           <h2>Upcoming OTT</h2>
-          <span class="muted">Top 4</span>
+          <span id="upcomingCount" class="muted"></span>
         </div>
-        <div id="upcomingGrid" class="grid-4"></div>
+        <div class="carousel-container">
+          <button id="upcomingPrev" class="carousel-btn carousel-btn-prev">‹</button>
+          <div id="upcomingCarousel" class="carousel-track"></div>
+          <button id="upcomingNext" class="carousel-btn carousel-btn-next">›</button>
+        </div>
+        <div id="upcomingDots" class="carousel-dots"></div>
       </section>
 
       <section class="section">
@@ -52,17 +57,27 @@
           <span id="newCount" class="muted"></span>
         </div>
 
-        <div id="newGrid" class="grid"></div>
+        <div class="carousel-container">
+          <button id="newPrev" class="carousel-btn carousel-btn-prev">‹</button>
+          <div id="newCarousel" class="carousel-track"></div>
+          <button id="newNext" class="carousel-btn carousel-btn-next">›</button>
+        </div>
+        <div id="newDots" class="carousel-dots"></div>
         <div id="newPagination" class="pagination"></div>
       </section>
 
       <section class="section">
         <div class="section-head">
-          <h2>Best Picks</h2>
+          <h2>Best Rated</h2>
           <span id="bestCount" class="muted"></span>
         </div>
 
-        <div id="bestGrid" class="grid"></div>
+        <div class="carousel-container">
+          <button id="bestPrev" class="carousel-btn carousel-btn-prev">‹</button>
+          <div id="bestCarousel" class="carousel-track"></div>
+          <button id="bestNext" class="carousel-btn carousel-btn-next">›</button>
+        </div>
+        <div id="bestDots" class="carousel-dots"></div>
         <div id="bestPagination" class="pagination"></div>
       </section>
     </main>
@@ -70,6 +85,6 @@
     <aside class="ad-right">Ad Space<br/>300×250</aside>
   </div>
 
-  <script src="app.js?v=3"></script>
+  <script src="app.js?v=5"></script>
 </body>
 </html>

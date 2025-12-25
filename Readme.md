@@ -2,6 +2,114 @@
 
 A web-based application that provides movie and OTT release recommendations with search functionality.
 
+## 📊 Data Flow: TMDB → UI
+
+### Architecture Overview
+
+```
+┌─────────────────┐
+│   TMDB API      │
+│  (themoviedb    │
+│     .org)       │
+└────────┬────────┘
+         │
+         │ scraper.py fetches
+         │ (discovery, details, credits, providers)
+         ↓
+┌─────────────────┐
+│movies_master    │ ← SOURCE OF TRUTH
+│    .xlsx        │   Edit manually here
+└────────┬────────┘
+         │
+         │ generate_json.py reads
+         │ Filters status=published
+         │ Groups by bucket
+         ↓
+┌─────────────────┐
+│   data/*.json   │ ← UI data files
+│ - upcoming-ott  │
+│ - ott-releases  │
+│ - best-india    │
+│ - search-index  │
+└────────┬────────┘
+         │
+         │ app.js fetches
+         │ (on page load)
+         ↓
+┌─────────────────┐
+│   Browser UI    │
+│ (index.html)    │
+│ - Movie cards   │
+│ - With actors!  │
+└─────────────────┘
+```
+
+### 1. **Data Ingestion** (TMDB → Excel)
+**File: `scraper.py`**
+- Fetches movies from TMDB API using Discovery/Search endpoints
+- Gets movie details: title, rating, genres, release date, poster URL
+- Gets cast information from Credits API (top 3 actors)
+- Gets OTT platforms from Watch Providers API
+- **Output:** Saves everything to `movies_master.xlsx`
+
+**Key Data Fetched:**
+- `tmdbId`, `title`, `releaseDate`, `language`
+- `rating` (0-10 scale from TMDB)
+- `genres` (array: ["Action", "Drama"])
+- `actors` (JSON array: ["Actor 1", "Actor 2", "Actor 3"])
+- `posterUrl` (TMDB image URL)
+- `ottList` (JSON array of streaming platforms)
+
+### 2. **Source of Truth** (Storage)
+**File: `movies_master.xlsx`**
+- Excel spreadsheet with all movie data
+- Contains all movies fetched from TMDB
+- Has status column: `draft`, `review`, `published`, `hidden`
+- Only `published` movies appear on UI
+- Manual editing required to:
+  - Set `status=published` to show movie on UI
+  - Set `bucket` (upcoming/new/catalog/best)
+  - Add/edit descriptions, lock fields, etc.
+
+### 3. **JSON Generation** (Excel → JSON)
+**File: `generate_json.py`**
+- Reads `movies_master.xlsx`
+- Filters only `status=published` movies
+- Groups movies by `bucket` field
+- **Creates 4 JSON files in `data/` folder:**
+  - `data/upcoming-ott.json` ← bucket='upcoming'
+  - `data/ott-releases.json` ← bucket='new'
+  - `data/catalog.json` ← bucket='catalog'
+  - `data/best-india.json` ← bucket='best'
+  - `data/search-index.json` ← All movies (for search)
+
+**What goes in each JSON:**
+- Full movie objects with: title, posterUrl, releaseDate, language, rating, genres, actors, ottList, description, etc.
+- Actors field: `"actors": ["Actor 1", "Actor 2", "Actor 3"]`
+
+### 4. **UI Display** (JSON → Browser)
+**Files: `index.html` + `app.js` + `styles.css`**
+
+**How it works:**
+1. Browser loads `index.html`
+2. `app.js` fetches JSON files:
+   - `data/upcoming-ott.json` → "Upcoming OTT" section
+   - `data/ott-releases.json` → "New Releases OTT" section
+   - `data/best-india.json` → "Best Rated" section
+   - `data/search-index.json` → Search functionality
+3. For each movie, creates a card with poster, title, badges, cast info, description, and watch button
+
+### File Roles Summary
+
+| File | Purpose | You Edit? |
+|------|---------|-----------|
+| `scraper.py` | Fetch from TMDB | No (unless changing features) |
+| `movies_master.xlsx` | **Master data** | ✅ **YES** (set status, bucket, etc.) |
+| `generate_json.py` | Excel → JSON | No (unless changing features) |
+| `data/*.json` | UI reads these | ❌ Auto-generated |
+| `index.html` | UI structure | Only for layout changes |
+| `app.js` | UI logic | Only for feature changes |
+
 ## Project Structure
 
 ```

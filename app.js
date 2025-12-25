@@ -13,16 +13,32 @@ const LANGUAGE_ORDER = {
   malayalam: 4
 };
 
-const bestGrid = document.getElementById("bestGrid");
+const bestCarousel = document.getElementById("bestCarousel");
+const bestPrev = document.getElementById("bestPrev");
+const bestNext = document.getElementById("bestNext");
+const bestDots = document.getElementById("bestDots");
 const bestPagination = document.getElementById("bestPagination");
 const bestCount = document.getElementById("bestCount");
-const upcomingGrid = document.getElementById("upcomingGrid");
-const newGrid = document.getElementById("newGrid");
+const upcomingCarousel = document.getElementById("upcomingCarousel");
+const upcomingPrev = document.getElementById("upcomingPrev");
+const upcomingNext = document.getElementById("upcomingNext");
+const upcomingDots = document.getElementById("upcomingDots");
+const upcomingCount = document.getElementById("upcomingCount");
+const newCarousel = document.getElementById("newCarousel");
+const newPrev = document.getElementById("newPrev");
+const newNext = document.getElementById("newNext");
+const newDots = document.getElementById("newDots");
 const newPagination = document.getElementById("newPagination");
 const newCount = document.getElementById("newCount");
 const catalogGrid = document.getElementById("catalogGrid");
 const catalogPagination = document.getElementById("catalogPagination");
 const catalogCount = document.getElementById("catalogCount");
+
+// Carousel state
+let upcomingCarouselPage = 0;
+let newCarouselPage = 0;
+let bestCarouselPage = 0;
+const cardsPerPage = 6;
 const recentList = document.getElementById("recentList");
 const recentMoreBtn = document.getElementById("recentMoreBtn");
 const notice = document.getElementById("notice");
@@ -137,11 +153,15 @@ function normalizeProvider(raw) {
   const v = norm(raw);
   if (!v) return "";
   if (v.includes("netflix")) return "netflix";
-  if (v.includes("hotstar")) return "hotstar";
+  if (v.includes("hotstar") || v.includes("jiohotstar")) return "jiohotstar";
   if (v.includes("prime")) return "prime";
   if (v.includes("hulu")) return "hulu";
-  if (v.includes("zee")) return "zee5";
+  if (v.includes("zee5")) return "zee5";
   if (v.includes("sonyliv") || v.includes("sony")) return "sonyliv";
+  if (v.includes("manorama")) return "manorama";
+  if (v.includes("sunnxt") || v.includes("sun nxt")) return "sunnxt";
+  if (v.includes("aha")) return "aha";
+  if (v.includes("zeestudios")) return "zeestudios";
   return v;
 }
 
@@ -199,9 +219,38 @@ function getPoster(m) {
   return m.posterUrl || m.poster || PLACEHOLDER_POSTER;
 }
 
+function getPrimaryOtt(m) {
+  // Handle primaryOtt field first
+  if (m.primaryOtt) {
+    return m.primaryOtt;
+  }
+  
+  // Handle ottList (usually a JSON array like ["Netflix", "Prime Video"])
+  if (m.ottList) {
+    try {
+      let ottArray = m.ottList;
+      if (typeof ottArray === 'string') {
+        ottArray = JSON.parse(ottArray);
+      }
+      if (Array.isArray(ottArray) && ottArray.length > 0) {
+        return ottArray[0];
+      }
+    } catch (e) {
+      // If not JSON, treat as string
+      if (typeof m.ottList === 'string') {
+        return m.ottList;
+      }
+    }
+  }
+  
+  // Fallback to ott field
+  return m.ott || "";
+}
+
 function posterHtml(m) {
   const poster = getPoster(m);
-  const provider = normalizeProvider(m.ott);
+  const primaryOtt = getPrimaryOtt(m);
+  const provider = normalizeProvider(primaryOtt);
   const yt = m.youtubeId || "";
 
   return `
@@ -215,12 +264,14 @@ function cardHtml(m, yearOnly = false) {
   const g = Array.isArray(m.genres) ? m.genres : (Array.isArray(m.genre) ? m.genre : []);
   const watchLink = buildOttUrl(m);
   const releaseLabel = yearOnly ? (m.releaseDate ? m.releaseDate.split('-')[0] : '') : dateOnly(m.releaseDate);
+  const actors = Array.isArray(m.actors) && m.actors.length ? m.actors.slice(0, 3).join(", ") : "";
 
   return `
     <div class="card">
       ${posterHtml(m)}
       <div class="card-body">
         <h4 class="card-title">${m.title || ""}</h4>
+        ${actors ? `<div class="card-cast">Cast: ${actors}</div>` : ""}
         <div class="badges">
           ${releaseLabel ? badge(releaseLabel) : ""}
           ${m.language ? badge(m.language) : ""}
@@ -305,10 +356,15 @@ function getCatalogFiltered() {
 }
 
 function getBestFiltered() {
+  const today = startOfToday();
   return sortByDateThenLanguage(
-    bestIndia  // Section boundary: only best picks dataset
+    bestIndia  // Section boundary: only Best Rated dataset
       .filter(m => matchesIndustry(m, activeIndustry))  // Navigation filter
-      .filter(m => matchesQuery(m, norm(activeQuery))),  // Search filter
+      .filter(m => matchesQuery(m, norm(activeQuery)))  // Search filter
+      .filter(m => {
+        const releaseTime = parseReleaseDate(m.releaseDate);
+        return !isNaN(releaseTime) && releaseTime <= today;  // Exclude future releases
+      }),
     "desc"
   ).slice(0, 50);
 }
@@ -335,65 +391,230 @@ async function loadJson(path) {
 }
 
 function renderBest() {
-  if (!bestGrid || !bestPagination) return;
-
-  const list = getBestFiltered();  // Filtered within Best Picks section only
-  const totalPages = Math.max(1, Math.ceil(list.length / bestPageSize));
-  if (bestPage > totalPages) bestPage = totalPages;
-
-  const start = (bestPage - 1) * bestPageSize;
-  const pageItems = list.slice(start, start + bestPageSize);
+  const list = getBestFiltered();  // Filtered within Best Rated section only
+  const totalCarouselPages = Math.ceil(list.length / cardsPerPage);
+  
+  if (bestCarouselPage >= totalCarouselPages) {
+    bestCarouselPage = Math.max(0, totalCarouselPages - 1);
+  }
 
   if (bestCount) {
     bestCount.textContent = list.length ? `${list.length} titles` : "";
   }
 
-  // Shows "No results" WITHIN this section, doesn't navigate away
-  bestGrid.innerHTML = pageItems.length
-    ? pageItems.map(m => cardHtml(m, true)).join("")
-    : `<div class="muted">No best picks match your filters.</div>`;
-
-  bestPagination.innerHTML = "";
-  for (let p = 1; p <= totalPages; p++) {
-    const btn = document.createElement("button");
-    btn.textContent = p;
-    if (p === bestPage) btn.classList.add("active");
-    btn.onclick = () => { bestPage = p; renderAll(); };
-    bestPagination.appendChild(btn);
+  if (!list.length) {
+    bestCarousel.innerHTML = `<div class="muted">No Best Rated match your filters.</div>`;
+    bestDots.innerHTML = "";
+    bestPrev.style.display = "none";
+    bestNext.style.display = "none";
+    bestPagination.innerHTML = "";
+    return;
   }
+
+  // Render carousel cards
+  bestCarousel.innerHTML = list.map(m => cardHtml(m, true)).join("");
+
+  // Render dots
+  bestDots.innerHTML = "";
+  for (let i = 0; i < totalCarouselPages; i++) {
+    const dot = document.createElement("button");
+    dot.className = `carousel-dot ${i === bestCarouselPage ? "active" : ""}`;
+    dot.onclick = () => {
+      bestCarouselPage = i;
+      scrollBestCarousel();
+    };
+    bestDots.appendChild(dot);
+  }
+
+  // Show/hide arrows
+  bestPrev.style.display = totalCarouselPages > 1 ? "flex" : "none";
+  bestNext.style.display = totalCarouselPages > 1 ? "flex" : "none";
+
+  // Pagination for load more (show page numbers below dots)
+  bestPagination.innerHTML = "";
+  const totalPages = Math.max(1, Math.ceil(list.length / bestPageSize));
+  if (totalPages > 1) {
+    for (let p = 1; p <= totalPages; p++) {
+      const btn = document.createElement("button");
+      btn.textContent = p;
+      if (p === bestPage) btn.classList.add("active");
+      btn.onclick = () => { bestPage = p; renderAll(); };
+      bestPagination.appendChild(btn);
+    }
+  }
+
+  scrollBestCarousel();
+}
+
+function scrollBestCarousel() {
+  const cards = bestCarousel.querySelectorAll(".card");
+  if (!cards.length) return;
+
+  const cardWidth = cards[0].offsetWidth;
+  const gap = 12;
+  const scrollAmount = (cardWidth + gap) * cardsPerPage;
+  const scrollPosition = bestCarouselPage * scrollAmount;
+
+  bestCarousel.scrollTo({
+    left: scrollPosition,
+    behavior: "smooth"
+  });
+
+  // Update dots
+  document.querySelectorAll("#bestDots .carousel-dot").forEach((dot, i) => {
+    dot.classList.toggle("active", i === bestCarouselPage);
+  });
 }
 
 function renderUpcoming() {
-  const list = getUpcomingFiltered().slice(0, 4);  // Filtered within Upcoming OTT section only
-  // Shows "No results" WITHIN this section, doesn't move user elsewhere
-  upcomingGrid.innerHTML = list.length
-    ? list.map(m => cardHtml(m, false)).join("")
-    : `<div class="muted">No upcoming matches.</div>`;
+  const list = getUpcomingFiltered();  // Show all upcoming movies
+  
+  if (upcomingCount) {
+    upcomingCount.textContent = list.length > 0 ? `${list.length} movies` : "";
+  }
+  
+  if (!list.length) {
+    upcomingCarousel.innerHTML = `<div class="muted">No upcoming matches.</div>`;
+    upcomingDots.innerHTML = "";
+    upcomingPrev.style.display = "none";
+    upcomingNext.style.display = "none";
+    return;
+  }
+  
+  // Render carousel cards
+  upcomingCarousel.innerHTML = list.map(m => cardHtml(m, false)).join("");
+  
+  // Reset carousel page if needed
+  const totalPages = Math.ceil(list.length / cardsPerPage);
+  if (upcomingCarouselPage >= totalPages) {
+    upcomingCarouselPage = 0;
+  }
+  
+  // Render dots
+  upcomingDots.innerHTML = "";
+  for (let i = 0; i < totalPages; i++) {
+    const dot = document.createElement("button");
+    dot.className = `carousel-dot ${i === upcomingCarouselPage ? "active" : ""}`;
+    dot.onclick = () => {
+      upcomingCarouselPage = i;
+      scrollUpcomingCarousel();
+    };
+    upcomingDots.appendChild(dot);
+  }
+  
+  // Show/hide arrows
+  upcomingPrev.style.display = totalPages > 1 ? "flex" : "none";
+  upcomingNext.style.display = totalPages > 1 ? "flex" : "none";
+  
+  scrollUpcomingCarousel();
+}
+
+function scrollUpcomingCarousel() {
+  const cards = upcomingCarousel.querySelectorAll(".card");
+  if (!cards.length) return;
+  
+  const cardWidth = cards[0].offsetWidth;
+  const gap = 12;
+  const scrollAmount = (cardWidth + gap) * cardsPerPage;
+  const scrollPosition = upcomingCarouselPage * scrollAmount;
+  
+  upcomingCarousel.scrollTo({
+    left: scrollPosition,
+    behavior: "smooth"
+  });
+  
+  // Update dots
+  document.querySelectorAll("#upcomingDots .carousel-dot").forEach((dot, i) => {
+    dot.classList.toggle("active", i === upcomingCarouselPage);
+  });
+}
+
+function setupUpcomingCarousel() {
+  upcomingPrev.onclick = () => {
+    const totalPages = upcomingDots.querySelectorAll(".carousel-dot").length;
+    upcomingCarouselPage = Math.max(0, upcomingCarouselPage - 1);
+    scrollUpcomingCarousel();
+  };
+  
+  upcomingNext.onclick = () => {
+    const totalPages = upcomingDots.querySelectorAll(".carousel-dot").length;
+    upcomingCarouselPage = Math.min(totalPages - 1, upcomingCarouselPage + 1);
+    scrollUpcomingCarousel();
+  };
 }
 
 function renderNew() {
-  const list = getNewFiltered();  // Filtered within New Releases section only
-  const totalPages = Math.max(1, Math.ceil(list.length / newPageSize));
-  if (newPage > totalPages) newPage = totalPages;
-
-  const start = (newPage - 1) * newPageSize;
-  const pageItems = list.slice(start, start + newPageSize);
+  const list = getNewFiltered();
+  const totalCarouselPages = Math.ceil(list.length / cardsPerPage);
+  
+  if (newCarouselPage >= totalCarouselPages) {
+    newCarouselPage = Math.max(0, totalCarouselPages - 1);
+  }
 
   newCount.textContent = list.length ? `${list.length} titles` : "";
 
-  // Shows "No results" WITHIN this section, doesn't move user elsewhere
-  newGrid.innerHTML = pageItems.length
-    ? pageItems.map(m => cardHtml(m, false)).join("")
-    : `<div class="muted">No new releases match your filters.</div>`;
-
-  newPagination.innerHTML = "";
-  for (let p = 1; p <= totalPages; p++) {
-    const btn = document.createElement("button");
-    btn.textContent = p;
-    if (p === newPage) btn.classList.add("active");
-    btn.onclick = () => { newPage = p; renderAll(); };
-    newPagination.appendChild(btn);
+  if (!list.length) {
+    newCarousel.innerHTML = `<div class="muted">No new releases match your filters.</div>`;
+    newDots.innerHTML = "";
+    newPrev.style.display = "none";
+    newNext.style.display = "none";
+    newPagination.innerHTML = "";
+    return;
   }
+
+  // Render carousel cards
+  newCarousel.innerHTML = list.map(m => cardHtml(m, false)).join("");
+
+  // Render dots
+  newDots.innerHTML = "";
+  for (let i = 0; i < totalCarouselPages; i++) {
+    const dot = document.createElement("button");
+    dot.className = `carousel-dot ${i === newCarouselPage ? "active" : ""}`;
+    dot.onclick = () => {
+      newCarouselPage = i;
+      scrollNewCarousel();
+    };
+    newDots.appendChild(dot);
+  }
+
+  // Show/hide arrows
+  newPrev.style.display = totalCarouselPages > 1 ? "flex" : "none";
+  newNext.style.display = totalCarouselPages > 1 ? "flex" : "none";
+
+  // Pagination for load more (show page numbers below dots)
+  newPagination.innerHTML = "";
+  const totalPages = Math.max(1, Math.ceil(list.length / newPageSize));
+  if (totalPages > 1) {
+    for (let p = 1; p <= totalPages; p++) {
+      const btn = document.createElement("button");
+      btn.textContent = p;
+      if (p === newPage) btn.classList.add("active");
+      btn.onclick = () => { newPage = p; renderAll(); };
+      newPagination.appendChild(btn);
+    }
+  }
+
+  scrollNewCarousel();
+}
+
+function scrollNewCarousel() {
+  const cards = newCarousel.querySelectorAll(".card");
+  if (!cards.length) return;
+
+  const cardWidth = cards[0].offsetWidth;
+  const gap = 12;
+  const scrollAmount = (cardWidth + gap) * cardsPerPage;
+  const scrollPosition = newCarouselPage * scrollAmount;
+
+  newCarousel.scrollTo({
+    left: scrollPosition,
+    behavior: "smooth"
+  });
+
+  // Update dots
+  document.querySelectorAll("#newDots .carousel-dot").forEach((dot, i) => {
+    dot.classList.toggle("active", i === newCarouselPage);
+  });
 }
 
 function renderCatalog() {
@@ -475,6 +696,48 @@ function renderAll() {
   renderRecent(true);
 }
 
+
+function setupUpcomingCarousel() {
+  upcomingPrev.onclick = () => {
+    const totalPages = upcomingDots.querySelectorAll(".carousel-dot").length;
+    upcomingCarouselPage = Math.max(0, upcomingCarouselPage - 1);
+    scrollUpcomingCarousel();
+  };
+  
+  upcomingNext.onclick = () => {
+    const totalPages = upcomingDots.querySelectorAll(".carousel-dot").length;
+    upcomingCarouselPage = Math.min(totalPages - 1, upcomingCarouselPage + 1);
+    scrollUpcomingCarousel();
+  };
+}
+
+function setupNewCarousel() {
+  newPrev.onclick = () => {
+    const totalPages = newDots.querySelectorAll(".carousel-dot").length;
+    newCarouselPage = Math.max(0, newCarouselPage - 1);
+    scrollNewCarousel();
+  };
+  
+  newNext.onclick = () => {
+    const totalPages = newDots.querySelectorAll(".carousel-dot").length;
+    newCarouselPage = Math.min(totalPages - 1, newCarouselPage + 1);
+    scrollNewCarousel();
+  };
+}
+
+function setupBestCarousel() {
+  bestPrev.onclick = () => {
+    const totalPages = bestDots.querySelectorAll(".carousel-dot").length;
+    bestCarouselPage = Math.max(0, bestCarouselPage - 1);
+    scrollBestCarousel();
+  };
+  
+  bestNext.onclick = () => {
+    const totalPages = bestDots.querySelectorAll(".carousel-dot").length;
+    bestCarouselPage = Math.min(totalPages - 1, bestCarouselPage + 1);
+    scrollBestCarousel();
+  };
+}
 
 // Tabs - changes navigation state only, preserves search state
 tabs.forEach(t => {
@@ -558,14 +821,17 @@ if (recentMoreBtn) {
     bestIndia = addComputedFields(bestList);
     allMovies = addComputedFields([...upcomingOtt, ...newOtt, ...bestList]);
 
+    setupUpcomingCarousel();
+    setupNewCarousel();
+    setupBestCarousel();
     renderAll();
   } catch (err) {
     console.error(err);
     showNotice(err.message || "Failed to load data files.");
-    upcomingGrid.innerHTML = "";
-    newGrid.innerHTML = "";
+    upcomingCarousel.innerHTML = "";
+    newCarousel.innerHTML = "";
     if (catalogGrid) catalogGrid.innerHTML = "";
-    if (bestGrid) bestGrid.innerHTML = "";
+    bestCarousel.innerHTML = "";
     recentList.innerHTML = "";
   }
 })();

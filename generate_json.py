@@ -5,14 +5,14 @@ Generates section-specific JSON files with proper placeholders and normalization
 
 import json
 import pandas as pd
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Dict, List
-
 from config import (
     MASTER_SHEET_PATH, DATA_DIR, REPORTS_DIR,
     JSON_OUTPUT_FILES, SEARCH_INDEX_FILE,
     STATUS_PUBLISHED, VALID_BUCKETS,
+    BUCKET_UPCOMING, BUCKET_NEW, BUCKET_CATALOG, BUCKET_BEST,
     PLACEHOLDER_POSTER, PLACEHOLDER_RATING,
     MIN_DESCRIPTION_LENGTH, MIN_POSTER_URL_LENGTH
 )
@@ -60,6 +60,56 @@ class JSONGenerator:
         print(f"   Total movies in sheet: {self.report['total_in_sheet']}")
         print(f"   Published movies: {self.report['published']}")
     
+    def assign_buckets_by_rules(self):
+        """Assign buckets based on business rules:
+        - Release date in future -> 'upcoming'
+        - Rating > 5 -> 'best'
+        - Release date within 1 year -> 'new'
+        - Everything else -> 'catalog'
+        """
+        print(f"\n📋 Assigning buckets by rules...")
+        
+        today = datetime.now().date()
+        one_year_ago = today - timedelta(days=365)
+        
+        def assign_bucket(row):
+            release_date = row.get('releaseDate')
+            rating = row.get('rating')
+            
+            # Parse release date
+            try:
+                if pd.isna(release_date) or not release_date:
+                    release_dt = None
+                elif isinstance(release_date, str):
+                    release_dt = pd.to_datetime(release_date).date()
+                else:
+                    release_dt = release_date if isinstance(release_date, type(today)) else pd.to_datetime(release_date).date()
+            except:
+                release_dt = None
+            
+            # Parse rating
+            try:
+                rating_val = float(rating) if pd.notna(rating) and rating else 0
+            except:
+                rating_val = 0
+            
+            # Apply rules in order
+            if release_dt and release_dt > today:
+                return BUCKET_UPCOMING
+            elif rating_val > 5:
+                return BUCKET_BEST
+            elif release_dt and one_year_ago <= release_dt <= today:
+                return BUCKET_NEW
+            else:
+                return BUCKET_CATALOG
+        
+        self.df['bucket'] = self.df.apply(assign_bucket, axis=1)
+        
+        # Print summary
+        bucket_counts = self.df['bucket'].value_counts()
+        for bucket, count in bucket_counts.items():
+            print(f"   {bucket}: {count} movies")
+    
     def clean_for_ui(self, row: pd.Series) -> Dict:
         """Convert DataFrame row to UI-ready dict"""
         
@@ -72,12 +122,17 @@ class JSONGenerator:
         if pd.isna(primary_ott) or not primary_ott:
             primary_ott = ott_list[0] if ott_list else 'all'
         
+        # Prioritize ottReleaseDate over theatrical releaseDate if available
+        release_date = row.get('ottReleaseDate')
+        if pd.isna(release_date) or not release_date:
+            release_date = row.get('releaseDate')
+        
         # Build clean dict
         movie = {
             'title': str(row.get('title', '')),
             'sourceUrl': str(row.get('sourceUrl', '')),
             'posterUrl': str(row.get('posterUrl', '')),
-            'releaseDate': self._format_date(row.get('releaseDate')),
+            'releaseDate': self._format_date(release_date),
             'language': str(row.get('language', '')),
             'region': str(row.get('region', '')) if pd.notna(row.get('region')) else '',
             'ott': primary_ott,  # UI backward compat
@@ -96,6 +151,26 @@ class JSONGenerator:
         
         if pd.notna(row.get('watchUrl')) and row.get('watchUrl'):
             movie['watchUrl'] = str(row.get('watchUrl'))
+        
+        # TMDB-specific fields
+        if pd.notna(row.get('actors')) and row.get('actors'):
+            try:
+                actors_str = str(row.get('actors'))
+                # Try parsing as JSON first
+                try:
+                    actors = json.loads(actors_str)
+                except json.JSONDecodeError:
+                    # If JSON fails, try evaluating as Python literal (handles single quotes)
+                    import ast
+                    actors = ast.literal_eval(actors_str)
+                
+                if actors and isinstance(actors, list):
+                    movie['actors'] = actors
+            except (json.JSONDecodeError, TypeError, ValueError, SyntaxError):
+                pass  # Skip if not valid JSON or Python literal
+        
+        if pd.notna(row.get('tmdbId')) and row.get('tmdbId'):
+            movie['tmdbId'] = str(int(row.get('tmdbId')))
         
         return movie
     
@@ -172,10 +247,6 @@ class JSONGenerator:
         # Filter by bucket
         subset = self.df[self.df['bucket'] == bucket]
         
-        if len(subset) == 0:
-            print(f"   ⚠️  No movies found for bucket: {bucket}")
-            return
-        
         # Convert to UI format
         movies = []
         for _, row in subset.iterrows():
@@ -183,7 +254,7 @@ class JSONGenerator:
             movie = self.clean_for_ui(row)
             movies.append(movie)
         
-        # Save to file
+        # Save to file (even if empty - UI expects all files to exist)
         output_path = DATA_DIR / filename
         with open(output_path, 'w', encoding='utf-8') as f:
             json.dump(movies, f, indent=2, ensure_ascii=False)
@@ -194,7 +265,10 @@ class JSONGenerator:
             'path': str(output_path)
         }
         
-        print(f"   ✅ {filename}: {len(movies)} movies")
+        if len(movies) == 0:
+            print(f"   ⚠️  {filename}: 0 movies (empty)")
+        else:
+            print(f"   ✅ {filename}: {len(movies)} movies")
     
     def generate_search_index(self):
         """Generate search index with minimal fields"""
@@ -269,6 +343,25 @@ class JSONGenerator:
             json.dump(self.report, f, indent=2, ensure_ascii=False)
         
         print(f"\n💾 Report saved: {report_path}")
+        
+        # Clean up old reports - keep only the latest
+        self._cleanup_old_reports(report_path)
+    
+    def _cleanup_old_reports(self, latest_report_path: Path):
+        """Keep only the latest report, delete older ones"""
+        try:
+            # Find all generation_*.json files
+            report_files = sorted(REPORTS_DIR.glob('generation_*.json'))
+            
+            if len(report_files) > 1:
+                # Delete all except the latest
+                for old_report in report_files[:-1]:
+                    old_report.unlink()
+                    print(f"🗑️  Deleted old report: {old_report.name}")
+                
+                print(f"✅ Cleanup complete - kept latest: {latest_report_path.name}")
+        except Exception as e:
+            print(f"⚠️  Could not cleanup old reports: {e}")
     
     def generate_all(self):
         """Generate all JSON files"""
@@ -276,6 +369,9 @@ class JSONGenerator:
         
         # Load sheet
         self.load_sheet()
+        
+        # Assign buckets by rules
+        self.assign_buckets_by_rules()
         
         # Generate bucket files
         print(f"\n📦 Generating bucket files...")

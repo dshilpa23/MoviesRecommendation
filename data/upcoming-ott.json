@@ -1,95 +1,197 @@
 [
   {
-    "title": "Border 2",
-    "sourceUrl": "https://www.studioflicks.com/movie/border-2/",
-    "posterUrl": "images/posters/gen_border_2_2026_hindi.jpg",
-    "releaseDate": "2026-01-01",
-    "language": "Hindi",
-    "region": "",
-    "ott": "all",
-    "ottList": [],
-    "genres": [
-      "War",
-      "Drama"
-    ],
-    "genre": [
-      "War",
-      "Drama"
-    ],
-    "description": ""
-  },
-  {
-    "title": "Parasakthi",
-    "sourceUrl": "https://www.studioflicks.com/movie/parasakthi/",
-    "posterUrl": "images/posters/gen_parasakthi_2026_tamil.jpg",
-    "releaseDate": "2026-01-01",
+    "title": "Carmeni Selvam",
+    "sourceUrl": "https://www.themoviedb.org/movie/1536911",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/vm0eF76Rq4fVs1nNSBujPJFi40W.jpg",
+    "releaseDate": "2026-02-13",
     "language": "Tamil",
-    "region": "",
-    "ott": "all",
-    "ottList": [],
-    "genres": [
-      "Action",
-      "Drama",
-      "Romance"
-    ],
-    "genre": [
-      "Action",
-      "Drama",
-      "Romance"
-    ],
-    "description": ""
-  },
-  {
-    "title": "Jana Nayagan",
-    "sourceUrl": "https://www.studioflicks.com/movie/jana-nayagan/",
-    "posterUrl": "images/posters/gen_jana_nayagan_2026_tamil.jpg",
-    "releaseDate": "2026-01-01",
-    "language": "Tamil",
-    "region": "",
-    "ott": "all",
-    "ottList": [],
-    "genres": [
-      "Action",
-      "Drama"
-    ],
-    "genre": [
-      "Action",
-      "Drama"
-    ],
-    "description": ""
-  },
-  {
-    "title": "The Raja Saab",
-    "sourceUrl": "https://www.studioflicks.com/movie/the-raja-saab/",
-    "posterUrl": "images/posters/gen_the_raja_saab_2026_telugu.jpg",
-    "releaseDate": "2026-01-01",
-    "language": "Telugu",
-    "region": "",
-    "ott": "all",
-    "ottList": [],
-    "genres": [
-      "Horror",
-      "Comedy",
-      "Romance"
-    ],
-    "genre": [
-      "Horror",
-      "Comedy",
-      "Romance"
-    ],
-    "description": ""
-  },
-  {
-    "title": "Mana Shankara Vara Prasad Garu",
-    "sourceUrl": "https://www.studioflicks.com/movie/mana-shankara-vara-prasad-garu/",
-    "posterUrl": "images/posters/gen_mana_shankara_vara_prasad_garu_2026_telugu.jpg",
-    "releaseDate": "2026-01-01",
-    "language": "Telugu",
     "region": "",
     "ott": "all",
     "ottList": [],
     "genres": [],
     "genre": [],
-    "description": ""
+    "description": "",
+    "actors": [
+      "Samuthirakani",
+      "Gautham Vasudev Menon",
+      "Lakshmi Priyaa"
+    ],
+    "tmdbId": "1536911"
+  },
+  {
+    "title": "Valluvan",
+    "sourceUrl": "https://www.themoviedb.org/movie/1595789",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/iq9HZqIhcUe3eYwUdiWxqmGzxSu.jpg",
+    "releaseDate": "2025-12-30",
+    "language": "Tamil",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [],
+    "genre": [],
+    "description": "",
+    "actors": [
+      "Chethan Cheenu",
+      "Ashna Zaveri",
+      "Boxer Dheena"
+    ],
+    "tmdbId": "1595789"
+  },
+  {
+    "title": "Ikkis",
+    "sourceUrl": "https://www.themoviedb.org/movie/1196946",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/8PWu0V10nMqG5SrA13wLRXTD2fH.jpg",
+    "releaseDate": "2026-01-01",
+    "language": "Hindi",
+    "region": "",
+    "ott": "prime video",
+    "ottList": [
+      "prime video"
+    ],
+    "genres": [],
+    "genre": [],
+    "description": "",
+    "actors": [
+      "Agastya Nanda",
+      "Dharmendra",
+      "Jaideep Ahlawat"
+    ],
+    "tmdbId": "1196946"
+  },
+  {
+    "title": "The Raja Saab",
+    "sourceUrl": "https://www.themoviedb.org/movie/1022453",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/nvK6gYa4diCnQkDVN42uoYXPrdT.jpg",
+    "releaseDate": "2026-01-09",
+    "language": "Telugu",
+    "region": "",
+    "ott": "disney+ hotstar",
+    "ottList": [
+      "disney+ hotstar"
+    ],
+    "genres": [],
+    "genre": [],
+    "description": "",
+    "actors": [
+      "Prabhas",
+      "Nidhhi Agerwal",
+      "Malavika Mohanan"
+    ],
+    "tmdbId": "1022453"
+  },
+  {
+    "title": "Alcohol",
+    "sourceUrl": "https://www.themoviedb.org/movie/1403166",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/staEYWetClEFKM9fpbKZHeaTIa5.jpg",
+    "releaseDate": "2025-12-26",
+    "language": "Telugu",
+    "region": "",
+    "ott": "netflix",
+    "ottList": [
+      "netflix"
+    ],
+    "genres": [],
+    "genre": [],
+    "description": "",
+    "actors": [
+      "Allari Naresh",
+      "Ruhani Sharma",
+      "Niharika NM"
+    ],
+    "tmdbId": "1403166"
+  },
+  {
+    "title": "Anaganaga Oka Raju",
+    "sourceUrl": "https://www.themoviedb.org/movie/1407432",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/iCzGY1JD4DXqAjDKhsesKzs9vdK.jpg",
+    "releaseDate": "2026-01-14",
+    "language": "Telugu",
+    "region": "",
+    "ott": "netflix",
+    "ottList": [
+      "netflix"
+    ],
+    "genres": [],
+    "genre": [],
+    "description": "",
+    "actors": [
+      "Naveen Polishetty",
+      "Meenakshi Chaudhary"
+    ],
+    "tmdbId": "1407432"
+  },
+  {
+    "title": "Jana Nayagan",
+    "sourceUrl": "https://www.themoviedb.org/movie/1235877",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/yTjxfu1xrRoz5cTbxNcx7X6BA8.jpg",
+    "releaseDate": "2026-01-08",
+    "language": "Tamil",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [],
+    "genre": [],
+    "description": "",
+    "actors": [
+      "Vijay",
+      "Bobby Deol",
+      "Pooja Hegde"
+    ],
+    "tmdbId": "1235877"
+  },
+  {
+    "title": "Anali",
+    "sourceUrl": "https://www.themoviedb.org/movie/1600735",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/swU1gHR88apVPthor7RVv8AOa1j.jpg",
+    "releaseDate": "2026-01-02",
+    "language": "Tamil",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [],
+    "genre": [],
+    "description": "",
+    "actors": [
+      "Cynthia Lourde",
+      "Kabir Duhan Singh",
+      "Sakthi Vasu"
+    ],
+    "tmdbId": "1600735"
+  },
+  {
+    "title": "Justice for Jeni",
+    "sourceUrl": "https://www.themoviedb.org/movie/1603231",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/lxNJzRszqYgRSdWlyyXUJD0RHm4.jpg",
+    "releaseDate": "2026-01-02",
+    "language": "Tamil",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [],
+    "genre": [],
+    "description": "",
+    "actors": [
+      "Ashika Ashokan",
+      "Sandhra Ani",
+      "Sinan"
+    ],
+    "tmdbId": "1603231"
+  },
+  {
+    "title": "Convergence : The Prequel",
+    "sourceUrl": "https://www.themoviedb.org/movie/1602694",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/9LMlWF37dB121bWGhkasTEGYBpD.jpg",
+    "releaseDate": "2026-01-01",
+    "language": "Tamil",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [],
+    "genre": [],
+    "description": "",
+    "actors": [
+      "Siddharth Kumaresan"
+    ],
+    "tmdbId": "1602694"
   }
 ]

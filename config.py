@@ -48,6 +48,12 @@ CANONICAL_LANGUAGES = {
 STATUS_DRAFT = 'draft'
 STATUS_REVIEW = 'review'
 STATUS_PUBLISHED = 'published'
+
+# ===== TMDB API CONFIGURATION =====
+TMDB_API_KEY = "bdefe595e85835d5c203b5b0c71561b6"  # Get from https://www.themoviedb.org/settings/api
+TMDB_BASE_URL = "https://api.themoviedb.org/3"
+TMDB_IMAGE_BASE_URL = "https://image.tmdb.org/t/p/w500"
+TMDB_RATE_LIMIT = 40  # Requests per 10 seconds (TMDB allows 40/10s)
 STATUS_HIDDEN = 'hidden'
 
 VALID_STATUSES = [STATUS_DRAFT, STATUS_REVIEW, STATUS_PUBLISHED, STATUS_HIDDEN]
@@ -123,6 +129,7 @@ SHEET_COLUMNS = {
     'primaryOtt': str,  # Main platform
     'watchUrl': str,  # Direct watch link
     'youtubeId': str,  # Trailer ID
+    'actors': str,  # JSON array of actor names
     'audience': str,  # family, adults, teens, kids
     'editorNotes': str,  # Internal comments
     'confidence': str,  # high, medium, low, needs_review
