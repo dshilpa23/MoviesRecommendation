@@ -214,7 +214,7 @@ def parse_genres(genres_value) -> list:
 
 def parse_ott_list(ott_value) -> list:
     """
-    Parse OTT platform list.
+    Parse OTT platform list with filtering and consolidation.
     
     Handles:
         - JSON arrays: ["netflix", "prime"]
@@ -222,8 +222,13 @@ def parse_ott_list(ott_value) -> list:
         - Lists: ["netflix", "prime"]
         - Single value: "netflix"
         - "all" -> []
+    
+    Filters to allowed platforms: sonyliv, netflix, amazon, sunnxt, hotstar, hulu, zee
+    Consolidates multiple Amazon variants into single "Amazon Prime Video"
     """
     import json
+    
+    ALLOWED_PLATFORMS = {'sonyliv', 'netflix', 'amazon', 'sunnxt', 'hotstar', 'hulu', 'zee'}
     
     if not ott_value:
         return []
@@ -231,29 +236,60 @@ def parse_ott_list(ott_value) -> list:
     if ott_value == "all":
         return []
     
+    raw_list = []
+    
     # Already a list
     if isinstance(ott_value, list):
-        return [str(o).strip().lower() for o in ott_value if o and o != "all"]
+        raw_list = [str(o).strip().lower() for o in ott_value if o and o != "all"]
     
     # Try JSON parse
-    if isinstance(ott_value, str):
+    elif isinstance(ott_value, str):
         # Try JSON first
         try:
             parsed = json.loads(ott_value)
             if isinstance(parsed, list):
-                return [str(o).strip().lower() for o in parsed if o and o != "all"]
+                raw_list = [str(o).strip().lower() for o in parsed if o and o != "all"]
         except:
             pass
         
-        # Try comma-separated
-        if ',' in ott_value:
-            return [o.strip().lower() for o in ott_value.split(',') if o.strip() and o.strip() != "all"]
-        
-        # Single platform
-        if ott_value.strip() != "all":
-            return [ott_value.strip().lower()]
+        if not raw_list:
+            # Try comma-separated
+            if ',' in ott_value:
+                raw_list = [o.strip().lower() for o in ott_value.split(',') if o.strip() and o.strip() != "all"]
+            
+            # Single platform
+            elif ott_value.strip() != "all":
+                raw_list = [ott_value.strip().lower()]
     
-    return []
+    # Filter and consolidate
+    seen = set()
+    cleaned = []
+    amazon_found = False
+    
+    for ott in raw_list:
+        if not ott:
+            continue
+        
+        # Normalize platform
+        normalized = None
+        if 'amazon' in ott or 'prime' in ott:
+            normalized = 'amazon'
+        else:
+            for allowed in ALLOWED_PLATFORMS:
+                if allowed in ott:
+                    normalized = allowed
+                    break
+        
+        # Add to cleaned list
+        if normalized == 'amazon':
+            if not amazon_found:
+                cleaned.append('Amazon Prime Video')
+                amazon_found = True
+        elif normalized and normalized not in seen:
+            cleaned.append(ott)
+            seen.add(normalized)
+    
+    return cleaned
 
 
 def validate_language(language: str) -> tuple[bool, str]:

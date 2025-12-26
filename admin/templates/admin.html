@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - Movies Recommendation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='admin.css') }}">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1>🎬 Admin Dashboard</h1>
+                <div class="header-meta">
+                    <span class="badge badge-local">LOCAL ONLY</span>
+                    <span class="badge badge-info">Not Publicly Accessible</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Navigation -->
+        <nav class="nav-tabs">
+            <button class="nav-tab active" data-tab="movies">Movies Grid</button>
+            <button class="nav-tab" data-tab="pipeline">Pipeline</button>
+            <button class="nav-tab" data-tab="backups">Backups</button>
+            <button class="nav-tab" data-tab="docs">Documentation</button>
+        </nav>
+
+        <!-- ================================================================ -->
+        <!-- TAB 1: MOVIES GRID                                              -->
+        <!-- ================================================================ -->
+        <section id="tab-movies" class="tab-content active">
+            <div class="panel">
+                <h2>📊 Movies Database</h2>
+                
+                <!-- Filters -->
+                <div class="filters">
+                    <input type="text" id="search-input" placeholder="Search by title...">
+                    <select id="filter-status">
+                        <option value="">All Status</option>
+                        <option value="published">Published</option>
+                        <option value="review">In Review</option>
+                        <option value="draft">Draft</option>
+                    </select>
+                    <select id="filter-language">
+                        <option value="">All Languages</option>
+                    </select>
+                    <select id="filter-region">
+                        <option value="">All Regions</option>
+                    </select>
+                    <label><input type="checkbox" id="filter-missing-ott"> Missing OTT</label>
+                    <label><input type="checkbox" id="filter-missing-rating"> Missing Rating</label>
+                    <button class="btn btn-secondary" onclick="clearFilters()">Clear Filters</button>
+                </div>
+
+                <!-- Stats -->
+                <div class="stats-bar">
+                    <div class="stat">
+                        <span class="stat-label">Total Movies</span>
+                        <span class="stat-value" id="total-count">0</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-label">Published</span>
+                        <span class="stat-value" id="published-count">0</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-label">In Review</span>
+                        <span class="stat-value" id="review-count">0</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-label">Missing OTT</span>
+                        <span class="stat-value" id="missing-ott-count">0</span>
+                    </div>
+                </div>
+
+                <!-- Movies Table -->
+                <div class="table-wrapper">
+                    <table id="movies-table" class="movies-table">
+                        <thead>
+                            <tr>
+                                <th>Title</th>
+                                <th>Status</th>
+                                <th>Language</th>
+                                <th>OTT</th>
+                                <th>Rating</th>
+                                <th>Release Date</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="movies-body">
+                            <!-- Populated by JS -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <div id="loading" class="loading" style="display:none;">Loading...</div>
+            </div>
+        </section>
+
+        <!-- ================================================================ -->
+        <!-- TAB 2: PIPELINE                                                 -->
+        <!-- ================================================================ -->
+        <section id="tab-pipeline" class="tab-content">
+            <div class="panel">
+                <h2>⚙️ Pipeline Operations</h2>
+                
+                <div class="pipeline-grid">
+                    <!-- Step 1: Enrichment -->
+                    <div class="pipeline-card">
+                        <h3>Step 1: Enrich Data</h3>
+                        <p>Update OTT platforms and ratings from TMDB</p>
+                        <button class="btn btn-primary" onclick="runEnrichment()">
+                            ▶ Run Enrichment
+                        </button>
+                        <div id="enrich-result" class="result-box" style="display:none;">
+                            <pre id="enrich-output"></pre>
+                        </div>
+                    </div>
+
+                    <!-- Step 2: Generate JSON -->
+                    <div class="pipeline-card">
+                        <h3>Step 2: Generate JSON</h3>
+                        <p>Export Excel to public-facing JSON files</p>
+                        <button class="btn btn-primary" onclick="runJsonGeneration()">
+                            ▶ Generate JSON
+                        </button>
+                        <div id="json-result" class="result-box" style="display:none;">
+                            <pre id="json-output"></pre>
+                        </div>
+                    </div>
+
+                    <!-- Step 3: Preview -->
+                    <div class="pipeline-card">
+                        <h3>Step 3: Preview</h3>
+                        <p>See what will appear on public site</p>
+                        <button class="btn btn-primary" onclick="previewChanges()">
+                            👁 Preview Changes
+                        </button>
+                        <div id="preview-result" class="result-box" style="display:none;">
+                            <pre id="preview-output"></pre>
+                        </div>
+                    </div>
+
+                    <!-- Step 4: Publish (Optional) -->
+                    <div class="pipeline-card">
+                        <h3>Step 4: Publish to S3</h3>
+                        <p>Upload JSON files to CloudFront</p>
+                        <input type="text" id="s3-bucket" placeholder="S3 bucket name" class="input-field">
+                        <button class="btn btn-success" onclick="publishToS3()">
+                            🚀 Publish to S3
+                        </button>
+                        <div id="publish-result" class="result-box" style="display:none;">
+                            <pre id="publish-output"></pre>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Changes Summary -->
+                <div class="panel" style="margin-top: 2rem;">
+                    <h3>📝 Changes Summary</h3>
+                    <div id="summary" class="summary-box" style="display:none;">
+                        <pre id="summary-output"></pre>
+                    </div>
+                    <p id="no-summary" class="text-muted">Run a pipeline step to see changes</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================================================================ -->
+        <!-- TAB 3: BACKUPS                                                  -->
+        <!-- ================================================================ -->
+        <section id="tab-backups" class="tab-content">
+            <div class="panel">
+                <h2>💾 Backups</h2>
+                <p>Auto-backups are created before every edit and pipeline operation.</p>
+                
+                <div id="backups-list" class="backups-list">
+                    <!-- Populated by JS -->
+                </div>
+                <div id="backups-loading" class="loading">Loading backups...</div>
+            </div>
+        </section>
+
+        <!-- ================================================================ -->
+        <!-- TAB 4: DOCUMENTATION                                            -->
+        <!-- ================================================================ -->
+        <section id="tab-docs" class="tab-content">
+            <div class="panel">
+                <h2>📖 Documentation</h2>
+                
+                <h3>Quick Start</h3>
+                <ol>
+                    <li>This dashboard runs locally on <code>http://localhost:5000</code></li>
+                    <li>It is <strong>NOT publicly accessible</strong></li>
+                    <li>Your public site remains on S3/CloudFront</li>
+                </ol>
+
+                <h3>Workflow</h3>
+                <ol>
+                    <li><strong>Edit Movies:</strong> Use the Movies Grid tab to filter and edit movie records</li>
+                    <li><strong>Validate:</strong> The system prevents publishing without OTT or rating</li>
+                    <li><strong>Enrich:</strong> Optionally run TMDB enrichment to fetch missing data</li>
+                    <li><strong>Generate:</strong> Convert Excel to JSON format</li>
+                    <li><strong>Preview:</strong> See what will appear on the public site</li>
+                    <li><strong>Publish:</strong> Upload to S3 (CloudFront) to go live</li>
+                </ol>
+
+                <h3>Validation Rules</h3>
+                <ul>
+                    <li><strong>To publish:</strong> Must have OTT platform AND rating > 0</li>
+                    <li><strong>Allowed statuses:</strong> published, review, draft</li>
+                    <li><strong>Allowed OTT platforms:</strong> Prime Video, Netflix, Disney+ Hotstar, ZEE5, SonyLIV, SunNXT, Aha</li>
+                </ul>
+
+                <h3>Backups</h3>
+                <ul>
+                    <li>Automatic backups created before every edit</li>
+                    <li>Backups stored in: <code>admin/backups/</code></li>
+                    <li>You can restore any backup from the Backups tab</li>
+                </ul>
+
+                <h3>Support</h3>
+                <p>For issues or questions, check the console (F12) for error messages.</p>
+            </div>
+        </section>
+    </div>
+
+    <!-- Edit Modal -->
+    <div id="edit-modal" class="modal" style="display:none;">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeEditModal()">&times;</button>
+            <h2>Edit Movie</h2>
+            <form id="edit-form">
+                <div class="form-group">
+                    <label>Title</label>
+                    <input type="text" id="edit-title" readonly>
+                </div>
+                <div class="form-group">
+                    <label>Status</label>
+                    <select id="edit-status">
+                        <option value="draft">Draft</option>
+                        <option value="review">In Review</option>
+                        <option value="published">Published</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>OTT List</label>
+                    <textarea id="edit-ott" placeholder='["Netflix", "Prime Video"]'></textarea>
+                </div>
+                <div class="form-group">
+                    <label>Rating</label>
+                    <input type="number" id="edit-rating" min="0" max="10" step="0.1">
+                </div>
+                <div class="form-group">
+                    <label>Language</label>
+                    <input type="text" id="edit-language">
+                </div>
+                <div class="form-group">
+                    <label>Release Date</label>
+                    <input type="text" id="edit-release-date">
+                </div>
+                <button type="button" class="btn btn-primary" onclick="saveEdit()">Save Changes</button>
+                <button type="button" class="btn btn-secondary" onclick="closeEditModal()">Cancel</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='admin.js') }}"></script>
+</body>
+</html>

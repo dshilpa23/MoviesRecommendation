@@ -6,11 +6,9 @@
     "releaseDate": "2025-09-05",
     "language": "Hindi",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "amazon prime video with ads",
-      "amazon video"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -35,6 +33,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Priyanka Bose",
       "Rahul Roy",
@@ -56,6 +55,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Naseeruddin Shah",
       "Vijay Varma",
@@ -77,6 +77,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Kritika Kamra",
       "Juhi Babbar",
@@ -91,13 +92,14 @@
     "releaseDate": "2025-12-24",
     "language": "Hindi",
     "region": "",
-    "ott": "prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "prime video"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Kartik Aaryan",
       "Ananya Panday",
@@ -119,6 +121,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Kapil Sharma",
       "Manjot Singh",
@@ -160,6 +163,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Mahesh Manjrekar",
       "Arbaaz Khan",
@@ -179,6 +183,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Chandan Roy",
       "Faisal Malik",
@@ -218,6 +223,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Sukant Goel",
       "Sadhana Singh",
@@ -237,6 +243,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Sonakshi Sinha",
       "Paresh Rawal",
@@ -276,6 +283,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Huma Qureshi",
       "Chandrachur Singh",
@@ -295,6 +303,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Bobby Deol",
       "Sanya Malhotra",
@@ -314,6 +323,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Nitesh Pandey",
       "Satyajit Sharma",
@@ -333,6 +343,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Rohit Arora",
       "Nassar Abdulla",
@@ -352,6 +363,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Manoj Bajpayee",
       "Priyanka Bose",
@@ -371,6 +383,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Ranvir Shorey",
       "Manu Rishi Chadha",
@@ -390,6 +403,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Uttera Singh",
       "Geeta Agrawal Sharma",
@@ -409,6 +423,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Subodh Bhave",
       "Sanjay Mishra",
@@ -450,6 +465,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Thakur Anoop Singh",
       "Priya Anand",
@@ -469,6 +485,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1503665"
   },
   {
@@ -525,6 +542,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Rannvijay Singha",
       "Shalin Bhanot",
@@ -544,6 +562,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Trimala Adhikari",
       "Adil Hussain",
@@ -563,6 +582,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "770218"
   },
   {
@@ -579,6 +599,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Nakul Roshan Sandev",
       "Kanikka Kapur",
@@ -593,14 +614,12 @@
     "releaseDate": "2025-06-06",
     "language": "Hindi",
     "region": "",
-    "ott": "['hungama play'",
-    "ottList": [
-      "['hungama play'",
-      "'hungama play']"
-    ],
+    "ott": "all",
+    "ottList": [],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1495454"
   },
   {
@@ -635,6 +654,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Sanjay Mishra",
       "Vyom Yadav",
@@ -654,6 +674,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Bhaveen Gossain",
       "Savitri Gossain",
@@ -673,6 +694,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Vyom Yadav",
       "Saachi Bindra",
@@ -692,6 +714,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Aparna Upadhyay",
       "Vineet Kumar"
@@ -712,6 +735,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Vineet Kumar Singh",
       "Aakanksha Singh",
@@ -753,6 +777,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Tanishq Rajan",
       "Chandraprakash Thaakur",
@@ -772,6 +797,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Kirti Kulhari",
       "Sharib Hashmi",
@@ -791,6 +817,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Mayukh Ray",
       "Sayani Gupta",
@@ -810,6 +837,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Indira Tiwari",
       "Richa Meena",
@@ -829,6 +857,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Ipshita Chakraborty Singh",
       "Shashank Shende"
@@ -846,12 +875,13 @@
     "ottList": [
       "disney+ hotstar",
       "netflix",
-      "prime video",
+      "Amazon Prime Video",
       "zee5"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Sneh Dhavale",
       "Vaishnavi Raut",
@@ -871,6 +901,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Kumud Mishra",
       "Jaivardhan Lakhera",
@@ -885,13 +916,12 @@
     "releaseDate": "2025-08-14",
     "language": "Hindi",
     "region": "",
-    "ott": "apple tv",
-    "ottList": [
-      "apple tv"
-    ],
+    "ott": "all",
+    "ottList": [],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Saima Baloch",
       "Syed Fazal Hussain",
@@ -911,6 +941,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Shantanu Maheshwari",
       "Avneet Kaur",
@@ -930,6 +961,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Sangeeta Agrawal",
       "Tanishq Chaudhary",
@@ -949,6 +981,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Gopal Datt",
       "Gaurav Paswala",
@@ -968,6 +1001,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Kamya Punjabi",
       "Deepshika Nagpal",
@@ -989,6 +1023,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1598488"
   },
   {
@@ -1003,6 +1038,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Anant Joshi",
       "Paresh Rawal",
@@ -1017,13 +1053,14 @@
     "releaseDate": "2018-02-03",
     "language": "Hindi",
     "region": "",
-    "ott": "prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "prime video"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Vikram Kochhar",
       "Garvit Mudgil",
@@ -1043,6 +1080,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Anurag Thakur",
       "Love Raj Singh Dharmshaktu",
@@ -1062,6 +1100,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Achyut Prashast Singh"
     ],
@@ -1079,6 +1118,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1589598"
   },
   {
@@ -1093,6 +1133,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "ANKIT KUMAR SAHA",
       "Nikhil Kumar Sahoo",
@@ -1112,6 +1153,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Shishir Sharma",
       "Rajiv Kumar"
@@ -1130,6 +1172,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Zaid Aftab",
       "Caroline Cummings"
@@ -1148,6 +1191,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Kusha Kapila",
       "Kajol Chugh",
@@ -1167,6 +1211,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Yashvardhan Jha",
       "kush singh",
@@ -1186,6 +1231,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1336283"
   },
   {
@@ -1200,6 +1246,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Prathmesh Parab",
       "Ankita Lande",
@@ -1219,6 +1266,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Neeru Bajwa",
       "Raj Dhaliwal",
@@ -1238,6 +1286,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Subhashree Sahoo",
       "Neha Vyaso",
@@ -1257,6 +1306,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1554696"
   },
   {
@@ -1291,6 +1341,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Dayanand Shetty"
     ],
@@ -1308,6 +1359,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Divita Juneja",
       "Prit Kamani",
@@ -1327,6 +1379,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Bodhisattva Sharma",
       "Mansi Sehgal",
@@ -1346,6 +1399,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Snehalata Siddharth Tagde",
       "Mangesh Admane",
@@ -1360,13 +1414,12 @@
     "releaseDate": "2025-07-10",
     "language": "Hindi",
     "region": "",
-    "ott": "shemaroome",
-    "ottList": [
-      "shemaroome"
-    ],
+    "ott": "all",
+    "ottList": [],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Amitabh Bachchan"
     ],
@@ -1384,6 +1437,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Dinker Sharma",
       "Harleen Sethi",
@@ -1402,11 +1456,12 @@
     "ottList": [
       "disney+ hotstar",
       "netflix",
-      "prime video"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Mukesh S. Bhatt",
       "Hemant Mahaur",
@@ -1426,6 +1481,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Sumali Khaniwale",
       "Sankalp Joshi",
@@ -1445,6 +1501,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Rajneesh Duggal",
       "Poonam Dubey",
@@ -1464,6 +1521,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Ojasvi Sharma",
       "Sakshi Sharma"
@@ -1482,6 +1540,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Krishi Thapanda",
       "Adithi Rao",
@@ -1498,12 +1557,12 @@
     "region": "",
     "ott": "disney+ hotstar",
     "ottList": [
-      "disney+ hotstar",
-      "jiocinema"
+      "disney+ hotstar"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1591185"
   },
   {
@@ -1518,6 +1577,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Sarwan Hans",
       "Lekh Raaj",
@@ -1537,6 +1597,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Yashvardhan Jha"
     ],
@@ -1554,6 +1615,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Alok Panwar",
       "Suman Purty",
@@ -1573,6 +1635,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1581979"
   },
   {
@@ -1587,6 +1650,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Manwendra Tripathy",
       "Manoj Sharma",
@@ -1606,6 +1670,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1356578"
   },
   {
@@ -1620,6 +1685,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Anindita Ghosh",
       "Somnath Mondal"
@@ -1638,6 +1704,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Harleen Sethi",
       "Harman Singha",
@@ -1672,6 +1739,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Atharva Deshpande",
       "Rajdeep Bhattacharya",
@@ -1691,6 +1759,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Hridhay Powdel",
       "Sanskar Agarwal"
@@ -1709,6 +1778,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Nikhil Yadav",
       "Meghna Agarwal",
@@ -1728,6 +1798,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Vaibhav Bhatt",
       "Mranal Gaur"
@@ -1746,6 +1817,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "shauharty",
       "Sheikh Zaid Bin Naseer",
@@ -1765,6 +1837,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1565006"
   },
   {
@@ -1779,6 +1852,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1564958"
   },
   {
@@ -1793,6 +1867,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Umair M",
       "Manvi Gupta",
@@ -1812,6 +1887,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Madhavi Thanvi",
       "Sushmita Hatte",
@@ -1831,6 +1907,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1583680"
   },
   {
@@ -1845,6 +1922,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Paarth Parashar",
       "Ayush Kumar Bal",
@@ -1864,6 +1942,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Rikshit Raj",
       "Pooja Bhardwaj",
@@ -1883,6 +1962,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1565025"
   },
   {
@@ -1897,6 +1977,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Arjun Sandeep",
       "Anurag Mishra",
@@ -1916,6 +1997,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Sunil Mirchindani",
       "Yash Gandhi",
@@ -1935,6 +2017,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Shrivardhan Mane",
       "Vivek varude"
@@ -1953,6 +2036,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1547908"
   },
   {
@@ -1967,6 +2051,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Aman Habib",
       "Paarth Parashar",
@@ -1986,6 +2071,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Aishwarya Awagade",
       "Mrunal Kulkarni"
@@ -2004,6 +2090,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1512471"
   },
   {
@@ -2018,6 +2105,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Gaurav Kumar",
       "Aakarsh kala",
@@ -2037,6 +2125,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Vyomkesh"
     ],
@@ -2054,6 +2143,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Chirag Lobo",
       "Atharv Dhiman",
@@ -2073,6 +2163,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1285423"
   },
   {
@@ -2087,6 +2178,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1566677"
   },
   {
@@ -2101,6 +2193,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1548328"
   },
   {
@@ -2115,6 +2208,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1534859"
   },
   {
@@ -2124,13 +2218,12 @@
     "releaseDate": "2025-06-30",
     "language": "Hindi",
     "region": "",
-    "ott": "vi movies and tv",
-    "ottList": [
-      "vi movies and tv"
-    ],
+    "ott": "all",
+    "ottList": [],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Advik Sharma",
       "Siddhant Gautam",
@@ -2150,6 +2243,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1586302"
   },
   {
@@ -2164,6 +2258,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Sunil Akhria",
       "Sanjay Goyal",
@@ -2183,6 +2278,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1565026"
   },
   {
@@ -2197,6 +2293,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1564995"
   },
   {
@@ -2211,6 +2308,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1564978"
   },
   {
@@ -2225,6 +2323,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1564975"
   },
   {
@@ -2239,6 +2338,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1564963"
   },
   {
@@ -2253,6 +2353,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Anuradha Rudrapriya Upadhyay"
     ],
@@ -2270,6 +2371,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1560099"
   },
   {
@@ -2284,6 +2386,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Tanmay Garg",
       "Akash prajapati",
@@ -2303,6 +2406,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Poetik Justis",
       "Jayaraman Mohan",
@@ -2322,6 +2426,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1542109"
   },
   {
@@ -2336,6 +2441,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1441704"
   },
   {
@@ -2370,12 +2476,12 @@
     "ott": "disney+ hotstar",
     "ottList": [
       "disney+ hotstar",
-      "jiocinema",
       "netflix"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Nandamuri Balakrishna",
       "Pragya Jaiswal",
@@ -2384,35 +2490,15 @@
     "tmdbId": "1372588"
   },
   {
-    "title": "Premante",
-    "sourceUrl": "https://www.themoviedb.org/movie/1425233",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/qjEGEjsbj7Y5xyge5YA1YW0ZPfk.jpg",
-    "releaseDate": "2025-11-21",
-    "language": "Telugu",
-    "region": "",
-    "ott": "all",
-    "ottList": [],
-    "genres": [],
-    "genre": [],
-    "description": "",
-    "actors": [
-      "Priyadarshi Pullikonda",
-      "Anandhi",
-      "Suma Kanakala"
-    ],
-    "tmdbId": "1425233"
-  },
-  {
     "title": "Kannappa",
     "sourceUrl": "https://www.themoviedb.org/movie/1232232",
     "posterUrl": "https://image.tmdb.org/t/p/w500/6LhE7IwhXgaNi33l0ltYahIB91i.jpg",
     "releaseDate": "2025-06-26",
     "language": "Telugu",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "amazon prime video with ads"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -2437,6 +2523,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Naresh",
       "Varshini Sounderajan",
@@ -2451,15 +2538,15 @@
     "releaseDate": "2025-11-14",
     "language": "Telugu",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "jiohotstar",
-      "amazon prime video with ads"
+      "Amazon Prime Video",
+      "jiohotstar"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Vikranth Reddy",
       "Chandini Chowdary",
@@ -2474,15 +2561,14 @@
     "releaseDate": "2025-06-06",
     "language": "Telugu",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "aha",
-      "amazon prime video with ads"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Narne Nithin",
       "Sampada",
@@ -2497,11 +2583,9 @@
     "releaseDate": "2025-07-18",
     "language": "Telugu",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "aha",
-      "amazon prime video with ads"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -2526,6 +2610,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Gautham Krishna.D",
       "Shweta Avasthi",
@@ -2547,6 +2632,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Roshan Meka",
       "Anaswara Rajan",
@@ -2561,10 +2647,9 @@
     "releaseDate": "2025-07-04",
     "language": "Telugu",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "amazon prime video with ads"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -2589,6 +2674,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Krishna Burugula",
       "Dheeraj Aathreya",
@@ -2603,14 +2689,14 @@
     "releaseDate": "2025-10-10",
     "language": "Telugu",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "amazon prime video with ads"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Rakshith Atluri",
       "Komalee Prasad",
@@ -2625,15 +2711,14 @@
     "releaseDate": "2025-10-15",
     "language": "Telugu",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "amazon prime video with ads",
-      "amazon video"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Priyadarshi Pullikonda",
       "Niharika NM",
@@ -2648,14 +2733,14 @@
     "releaseDate": "2025-07-11",
     "language": "Telugu",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "amazon prime video with ads"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Suhas",
       "Malavika Manoj",
@@ -2675,6 +2760,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Sunny Akhil",
       "Subhalekha Sudhakar",
@@ -2689,10 +2775,9 @@
     "releaseDate": "2025-11-07",
     "language": "Telugu",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "amazon prime video with ads"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -2717,6 +2802,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Ankith Koyya",
       "Nilakhi Patra",
@@ -2731,17 +2817,14 @@
     "releaseDate": "2025-07-11",
     "language": "Telugu",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "lionsgate play",
-      "lionsgate play apple tv channel",
-      "lionsgate play amazon channel",
-      "amazon prime video with ads"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Sagar RK Naidu",
       "Misha Narang",
@@ -2761,6 +2844,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Dhanush Raghumudri",
       "Hebah Patel",
@@ -2775,10 +2859,8 @@
     "releaseDate": "2025-10-18",
     "language": "Telugu",
     "region": "",
-    "ott": "aha",
-    "ottList": [
-      "aha"
-    ],
+    "ott": "all",
+    "ottList": [],
     "genres": [],
     "genre": [],
     "description": "",
@@ -2817,11 +2899,9 @@
     "releaseDate": "2025-11-21",
     "language": "Telugu",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "amazon prime video with ads",
-      "amazon video"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -2846,6 +2926,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Sathvik Varma",
       "Preeti Neha",
@@ -2865,6 +2946,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Arscha Pradeep Kumar",
       "Camp Sasi",
@@ -2884,6 +2966,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Aadhi Pinisetty",
       "Madonna Sebastian",
@@ -2898,15 +2981,14 @@
     "releaseDate": "2025-09-04",
     "language": "Telugu",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "amazon prime video with ads",
-      "amazon video"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Anushka Shetty",
       "Vikram Prabhu",
@@ -2946,6 +3028,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Raai Laxmi",
       "Pradeep Ram Singh Rawat",
@@ -2965,6 +3048,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Arjun Sarja",
       "Aishwarya Rajesh",
@@ -2979,10 +3063,9 @@
     "releaseDate": "2025-09-01",
     "language": "Telugu",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "amazon prime video with ads"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -3007,6 +3090,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Naresh Agastya",
       "Faria Abdullah",
@@ -3021,13 +3105,12 @@
     "releaseDate": "2025-12-19",
     "language": "Telugu",
     "region": "",
-    "ott": "sun nxt",
-    "ottList": [
-      "sun nxt"
-    ],
+    "ott": "all",
+    "ottList": [],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Sunil Varma",
       "Isha Chawla",
@@ -3047,6 +3130,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Raj Tarun",
       "Kushitha Kallapu",
@@ -3061,13 +3145,14 @@
     "releaseDate": "2025-12-25",
     "language": "Telugu",
     "region": "",
-    "ott": "prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "prime video"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Sivaji Sontineni",
       "Navdeep",
@@ -3082,14 +3167,14 @@
     "releaseDate": "2025-06-06",
     "language": "Telugu",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "amazon prime video with ads"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Muralidhar Goud",
       "Sudhakar Reddy"
@@ -3108,6 +3193,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Sanyogita Yadav",
       "Ajay",
@@ -3122,15 +3208,14 @@
     "releaseDate": "2025-08-27",
     "language": "Telugu",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "aha",
-      "amazon prime video with ads"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Geeth Saini",
       "Bhadram",
@@ -3148,12 +3233,13 @@
     "ott": "netflix",
     "ottList": [
       "netflix",
-      "prime video",
+      "Amazon Prime Video",
       "zee5"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "P.Ramsekhar"
     ],
@@ -3171,6 +3257,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Vinay",
       "Vyshnavi",
@@ -3192,6 +3279,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Thrigun",
       "Hebah Patel",
@@ -3206,13 +3294,12 @@
     "releaseDate": "2025-08-25",
     "language": "Telugu",
     "region": "",
-    "ott": "['sun nxt']",
-    "ottList": [
-      "['sun nxt']"
-    ],
+    "ott": "all",
+    "ottList": [],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Naresh Agastya",
       "Rabiya Khatoon",
@@ -3232,6 +3319,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Super Raja",
       "Chandana Palanki",
@@ -3251,6 +3339,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1549472"
   },
   {
@@ -3265,6 +3354,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Aadi Saikumar",
       "Archana Iyer",
@@ -3279,13 +3369,12 @@
     "releaseDate": "2013-11-29",
     "language": "Telugu",
     "region": "",
-    "ott": "aha",
-    "ottList": [
-      "aha"
-    ],
+    "ott": "all",
+    "ottList": [],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Kasha Saraswathi",
       "M Saritha",
@@ -3300,15 +3389,14 @@
     "releaseDate": "2025-07-11",
     "language": "Telugu",
     "region": "",
-    "ott": "['amazon prime video'",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "['amazon prime video'",
-      "'aha'",
-      "'amazon prime video with ads']"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1530321"
   },
   {
@@ -3323,6 +3411,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Nagarajan Kannan",
       "Delhi Ganesh",
@@ -3342,6 +3431,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1571241"
   },
   {
@@ -3351,13 +3441,12 @@
     "releaseDate": "2025-06-06",
     "language": "Telugu",
     "region": "",
-    "ott": "['sun nxt']",
-    "ottList": [
-      "['sun nxt']"
-    ],
+    "ott": "all",
+    "ottList": [],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1529633"
   },
   {
@@ -3372,6 +3461,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1526990"
   },
   {
@@ -3386,6 +3476,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1531585"
   },
   {
@@ -3400,6 +3491,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Saikumar NVK",
       "PADMAJA PRAGADA",
@@ -3419,6 +3511,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Bharat Duvvada",
       "Relangi Chandini"
@@ -3437,6 +3530,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1564961"
   },
   {
@@ -3451,6 +3545,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Konda Venkata Rajendra"
     ],
@@ -3468,6 +3563,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1528181"
   },
   {
@@ -3482,6 +3578,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "vivek kuppili",
       "charan pallerla",
@@ -3501,6 +3598,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Shivaji Paleti"
     ],
@@ -3518,6 +3616,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Rithvik Bhushanshetty",
       "SriManas Chakravarthi",
@@ -3537,6 +3636,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Gopi",
       "Eashwar",
@@ -3556,6 +3656,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Tarun Varma",
       "Satya Radha",
@@ -3575,6 +3676,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Prithvi raj"
     ],
@@ -3592,6 +3694,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Hanu Vihar",
       "Chandu Jadav",
@@ -3611,6 +3714,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Vikhyath"
     ],
@@ -3628,6 +3732,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Paruchuri Venu",
       "Swathi Siri",
@@ -3647,6 +3752,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Santhosh Damodharan",
       "Soundara Raja",
@@ -3666,6 +3772,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Parvatii Nair",
       "Ganesh Venkatraman",
@@ -3685,6 +3792,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Pradeep Ranganathan",
       "S. J. Suryah",
@@ -3699,13 +3807,12 @@
     "releaseDate": "2025-11-21",
     "language": "Tamil",
     "region": "",
-    "ott": "['sun nxt']",
-    "ottList": [
-      "['sun nxt']"
-    ],
+    "ott": "all",
+    "ottList": [],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Arjun Sarja",
       "Aishwarya Rajesh",
@@ -3720,10 +3827,9 @@
     "releaseDate": "2025-10-17",
     "language": "Tamil",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "amazon prime video with ads"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -3743,14 +3849,14 @@
     "releaseDate": "2025-06-27",
     "language": "Tamil",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "amazon prime video with ads"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Suhasini Maniratnam",
       "Varalaxmi Sarathkumar",
@@ -3770,6 +3876,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Karthi",
       "Krithi Shetty",
@@ -3789,6 +3896,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Vignesh",
       "Manisha Jashnani",
@@ -3808,6 +3916,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Prabhu Deva",
       "Regina Cassandra",
@@ -3827,6 +3936,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Keerthy Suresh",
       "Redin Kingsley",
@@ -3846,6 +3956,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Rajini Kiishen",
       "Dwivika",
@@ -3865,6 +3976,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Mathiazhagan",
       "Shrita Rao",
@@ -3879,11 +3991,9 @@
     "releaseDate": "2025-06-27",
     "language": "Tamil",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "aha",
-      "amazon prime video with ads"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -3908,6 +4018,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Kalaiyarasan",
       "Anandhi",
@@ -3927,6 +4038,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Arun Vijay",
       "Siddhi Idnani",
@@ -3941,15 +4053,14 @@
     "releaseDate": "2025-09-05",
     "language": "Tamil",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "aha",
-      "amazon prime video with ads"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "KPY Bala",
       "Namita Krishnamurthy",
@@ -3964,14 +4075,14 @@
     "releaseDate": "2025-06-13",
     "language": "Tamil",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "amazon prime video with ads"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Shanmuga Pandian",
       "Kasthoori Raja",
@@ -3986,13 +4097,12 @@
     "releaseDate": "2025-06-05",
     "language": "Tamil",
     "region": "",
-    "ott": "aha",
-    "ottList": [
-      "aha"
-    ],
+    "ott": "all",
+    "ottList": [],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Vijith Bachan",
       "Shali Nivekas",
@@ -4012,6 +4122,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Linga",
       "Dhileban",
@@ -4031,6 +4142,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Sonia Agarwal",
       "Vikranth",
@@ -4050,6 +4162,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Surya Sethupathi",
       "Varalaxmi Sarathkumar",
@@ -4064,10 +4177,9 @@
     "releaseDate": "2025-07-18",
     "language": "Tamil",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "amazon prime video with ads"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -4092,6 +4204,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Kumaran Thangarajan",
       "Paayal Radhakrishna",
@@ -4106,13 +4219,14 @@
     "releaseDate": "2025-08-29",
     "language": "Tamil",
     "region": "",
-    "ott": "amazon video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon video"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Tharun Vijay",
       "Seshvitha Kanimozhi",
@@ -4132,6 +4246,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Natarajan Subramaniam",
       "Mukesh Ravi",
@@ -4151,6 +4266,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Natarajan Subramaniam",
       "C. Arun Pandian",
@@ -4170,6 +4286,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Vijay Gowrish",
       "Smeha Manimegalai",
@@ -4189,6 +4306,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Poornima Ravi",
       "Vaibhav Murugesan",
@@ -4208,6 +4326,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Rishi Rithvik",
       "Aradhaya",
@@ -4222,13 +4341,12 @@
     "releaseDate": "2025-08-01",
     "language": "Tamil",
     "region": "",
-    "ott": "aha",
-    "ottList": [
-      "aha"
-    ],
+    "ott": "all",
+    "ottList": [],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Teejay",
       "Janany Kunaseelan",
@@ -4248,6 +4366,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Prithiviraj Ramalingam",
       "Kaali Venkat",
@@ -4267,6 +4386,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Vetri",
       "Shilpa Manjunath",
@@ -4281,13 +4401,12 @@
     "releaseDate": "2025-09-12",
     "language": "Tamil",
     "region": "",
-    "ott": "tentkotta",
-    "ottList": [
-      "tentkotta"
-    ],
+    "ott": "all",
+    "ottList": [],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Dev",
       "Devika Satheesh",
@@ -4307,6 +4426,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Arul Saravanan",
       "Payal Rajput",
@@ -4326,6 +4446,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Jaanvekaa Subramaniam",
       "Kiran Pradeep",
@@ -4345,6 +4466,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "S. VijayKrishna",
       "Murali Radhakrishnan",
@@ -4359,15 +4481,14 @@
     "releaseDate": "2025-07-18",
     "language": "Tamil",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "amazon prime video with ads",
-      "amazon video"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Kalaiyarasan",
       "Priyalaya",
@@ -4382,13 +4503,14 @@
     "releaseDate": "2025-09-12",
     "language": "Tamil",
     "region": "",
-    "ott": "amazon video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon video"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Lingesh",
       "Gayathrie Shankar",
@@ -4408,6 +4530,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Lizzie Antony",
       "Thasmika Lakshmanan",
@@ -4427,6 +4550,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Ajitej",
       "Shriswetha",
@@ -4446,6 +4570,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Karnan Kanapathy",
       "Rubini Sambanthan",
@@ -4460,13 +4585,14 @@
     "releaseDate": "2025-07-18",
     "language": "Tamil",
     "region": "",
-    "ott": "amazon video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon video"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Sheela Rajkumar",
       "Jacqueline",
@@ -4486,6 +4612,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Madesh"
     ],
@@ -4503,6 +4630,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Vikram Prabhu",
       "Lk akshay kumar",
@@ -4522,6 +4650,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "J Vignesh",
       "Soneshwari",
@@ -4541,6 +4670,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Vimal",
       "Srushti Dange",
@@ -4560,6 +4690,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Udhaya",
       "Ajmal Ameer",
@@ -4579,6 +4710,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "P. Vinoth",
       "Elizabeth Suraj",
@@ -4593,14 +4725,14 @@
     "releaseDate": "2025-07-18",
     "language": "Tamil",
     "region": "",
-    "ott": "tentkotta",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "tentkotta",
-      "amazon video"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "V Dinesh",
       "Appukutty",
@@ -4615,14 +4747,14 @@
     "releaseDate": "2025-11-07",
     "language": "Tamil",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "amazon prime video with ads"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Aditya madhavan",
       "Gouri G Kishan",
@@ -4642,6 +4774,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Karnan Kanapathy",
       "Kuben Mahadevan",
@@ -4661,6 +4794,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Tanya Ravichandran",
       "Daniel Balaji",
@@ -4680,6 +4814,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Pugazh",
       "Shirin Kanchwala",
@@ -4699,6 +4834,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Sakshi Agarwal",
       "Chellakuty",
@@ -4713,13 +4849,14 @@
     "releaseDate": "2025-08-08",
     "language": "Tamil",
     "region": "",
-    "ott": "amazon video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon video"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Bijesh Nagesh",
       "A. Akshya",
@@ -4739,6 +4876,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Rangaraj",
       "Shruthi Narayanan",
@@ -4758,6 +4896,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Kushenya Fonseka",
       "Samanalee Fonseka",
@@ -4777,6 +4916,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Nishanth Russo",
       "Gayathri Shan",
@@ -4796,6 +4936,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Thambi Ramaiah",
       "S.K. Gaayathri"
@@ -4809,14 +4950,14 @@
     "releaseDate": "2025-07-11",
     "language": "Tamil",
     "region": "",
-    "ott": "tentkotta",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "tentkotta",
-      "amazon video"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Nagarajan Kannan",
       "Delhi Ganesh",
@@ -4836,6 +4977,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Arulnithi",
       "Tanya Ravichandran",
@@ -4855,6 +4997,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Mahendraa",
       "Neema Rai",
@@ -4874,6 +5017,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Dr. R.Pandiyan",
       "Nandhini Udhayakumar",
@@ -4893,6 +5037,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Nivas Adithan",
       "Ester Noronha",
@@ -4907,13 +5052,12 @@
     "releaseDate": "2025-08-01",
     "language": "Tamil",
     "region": "",
-    "ott": "tentkotta",
-    "ottList": [
-      "tentkotta"
-    ],
+    "ott": "all",
+    "ottList": [],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Tharshan Thiyagarajah",
       "Lal",
@@ -4933,6 +5077,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "A Gautham",
       "Deepa Umapathy",
@@ -4952,6 +5097,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Shanmuga Pandian",
       "R. Sarathkumar",
@@ -4971,6 +5117,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Saishri Prabhakaran",
       "Pavel Navageethan",
@@ -4990,6 +5137,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Vimal",
       "Pujita Ponnada",
@@ -5009,6 +5157,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Vinod Anand",
       "Abdul Muzib",
@@ -5028,6 +5177,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Ranjith",
       "Meghali Meenakshi",
@@ -5047,6 +5197,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Kaushick",
       "Aara",
@@ -5066,6 +5217,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Dhruvan Mano",
       "Meenakshi Govindarajan",
@@ -5080,13 +5232,14 @@
     "releaseDate": "2025-08-01",
     "language": "Tamil",
     "region": "",
-    "ott": "amazon video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon video"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Poonam Kaur",
       "Swasika",
@@ -5101,14 +5254,14 @@
     "releaseDate": "2025-11-14",
     "language": "Tamil",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "amazon prime video with ads"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Vivek Prasanna",
       "Kanishkumar",
@@ -5128,6 +5281,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Harija",
       "Amar Ramesh",
@@ -5147,6 +5301,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Santhoshini",
       "Kowshik kabilan",
@@ -5166,6 +5321,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Mahesh",
       "Guna Babu",
@@ -5185,6 +5341,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Charles Vinoth",
       "Aditi Balan",
@@ -5199,15 +5356,14 @@
     "releaseDate": "2025-07-18",
     "language": "Tamil",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "amazon prime video with ads",
-      "tentkotta"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Thaman Kumar",
       "Malvi Malhotra",
@@ -5227,6 +5383,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Atharvaa Murali",
       "S. Thaman",
@@ -5246,6 +5403,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Kaushik Ram",
       "Prathibha",
@@ -5265,6 +5423,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Anandaraj",
       "Samyuktha Karthik",
@@ -5284,6 +5443,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Tanya Ravichandran",
       "Jayaprakash",
@@ -5303,6 +5463,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Infant raj",
       "Prathyangira Rose",
@@ -5322,6 +5483,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Lohith Kumar",
       "Pooja Suma Rani",
@@ -5341,6 +5503,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Kishore",
       "TTF Vasan",
@@ -5360,6 +5523,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "S. M. Prabakaran",
       "Meghali Meenakshi",
@@ -5381,6 +5545,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Munishkanth",
       "Vijayalakshmi Agathiyan",
@@ -5400,6 +5565,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Jahith Akthar"
     ],
@@ -5417,6 +5583,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Kalai Cholan",
       "Dhana Lakshmi",
@@ -5436,6 +5603,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1567963"
   },
   {
@@ -5450,6 +5618,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1553052"
   },
   {
@@ -5459,13 +5628,12 @@
     "releaseDate": "2025-06-06",
     "language": "Tamil",
     "region": "",
-    "ott": "aha",
-    "ottList": [
-      "aha"
-    ],
+    "ott": "all",
+    "ottList": [],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Vimal",
       "Chaya Devi",
@@ -5485,6 +5653,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Alexander Babu"
     ],
@@ -5502,6 +5671,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Vanitha Vijayakumar",
       "Robert",
@@ -5521,6 +5691,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Raksha",
       "Venkat"
@@ -5539,6 +5710,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Jayakrishnan",
       "Charmila",
@@ -5558,6 +5730,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Harish Kumar"
     ],
@@ -5570,14 +5743,14 @@
     "releaseDate": "2025-12-12",
     "language": "Tamil",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "amazon prime video with ads"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Jawahar Sakthi"
     ],
@@ -5595,6 +5768,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1571217"
   },
   {
@@ -5609,6 +5783,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Sarath Kumar",
       "Sujith",
@@ -5628,6 +5803,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Ram",
       "Vaishnavi Chellapandi",
@@ -5647,6 +5823,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1565132"
   },
   {
@@ -5661,6 +5838,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Sathiya",
       "Ravin Rao Santheran",
@@ -5680,6 +5858,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Devandran",
       "Ariharan",
@@ -5699,6 +5878,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1565017"
   },
   {
@@ -5713,6 +5893,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Sarvanan Palanichamy",
       "Sharmila Aziza",
@@ -5732,6 +5913,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Motthesh",
       "Aarthi",
@@ -5751,6 +5933,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Saranya Narayanamoorthy",
       "Charan Dasyam",
@@ -5770,6 +5953,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Smriti Parameshwar",
       "Prasanna Ramkumar",
@@ -5789,6 +5973,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "M.G Rajavel",
       "Dhinesh"
@@ -5807,6 +5992,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1525013"
   },
   {
@@ -5821,6 +6007,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Lakshmi Viswanathan",
       "Jayanth L Narayanan"
@@ -5839,6 +6026,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1576150"
   },
   {
@@ -5853,6 +6041,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Dhev D",
       "Priyesh",
@@ -5872,6 +6061,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1500526"
   },
   {
@@ -5886,6 +6076,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Jaiyanth",
       "Nishok",
@@ -5905,6 +6096,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Roshan",
       "Dhushiyant",
@@ -5924,6 +6116,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1569960"
   },
   {
@@ -5938,6 +6131,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Jerome Vijay",
       "Rishi Misty",
@@ -5957,6 +6151,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Loga Varman Strideran",
       "Hema Ji"
@@ -5975,6 +6170,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Mithun",
       "Abirami murugesan",
@@ -5994,6 +6190,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Abinaya",
       "Ezhumalai"
@@ -6012,6 +6209,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1557086"
   },
   {
@@ -6026,6 +6224,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Muthalagi",
       "Mithun"
@@ -6044,6 +6243,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Harini",
       "Pon Vigneswaran"
@@ -6062,6 +6262,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "JEYA GOKUL RAJA"
     ],
@@ -6079,6 +6280,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1556782"
   },
   {
@@ -6093,6 +6295,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Motthesh",
       "Hemchand",
@@ -6112,6 +6315,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "K. Neeveshkumar"
     ],
@@ -6129,6 +6333,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1542106"
   },
   {
@@ -6143,6 +6348,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Motthesh",
       "Parul Nizam",
@@ -6162,6 +6368,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1530918"
   },
   {
@@ -6176,6 +6383,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "S Vetri",
       "A. Adhiyaman",
@@ -6195,6 +6403,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Soundhariya",
       "Suryajith",
@@ -6234,6 +6443,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Prithviraj Sukumaran",
       "Shammi Thilakan",
@@ -6253,6 +6463,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Shane Nigam",
       "Sakshi Vaidya",
@@ -6270,11 +6481,12 @@
     "ott": "netflix",
     "ottList": [
       "netflix",
-      "prime video"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Nivin Pauly",
       "Aju Varghese",
@@ -6315,7 +6527,7 @@
     "ottList": [
       "disney+ hotstar",
       "netflix",
-      "prime video"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -6355,10 +6567,9 @@
     "releaseDate": "2025-06-20",
     "language": "Malayalam",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "amazon prime video with ads"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -6378,10 +6589,8 @@
     "releaseDate": "2025-08-21",
     "language": "Malayalam",
     "region": "",
-    "ott": "lionsgate play",
-    "ottList": [
-      "lionsgate play"
-    ],
+    "ott": "all",
+    "ottList": [],
     "genres": [],
     "genre": [],
     "description": "",
@@ -6400,10 +6609,9 @@
     "releaseDate": "2025-11-07",
     "language": "Malayalam",
     "region": "",
-    "ott": "manoramamax",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "manoramamax",
-      "prime video"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -6428,6 +6636,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Unni Mukundan",
       "Aparna Balamurali",
@@ -6442,13 +6651,12 @@
     "releaseDate": "2024-05-09",
     "language": "Malayalam",
     "region": "",
-    "ott": "youtube",
-    "ottList": [
-      "youtube"
-    ],
+    "ott": "all",
+    "ottList": [],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Shyamaprasad",
       "Manju Warrier",
@@ -6463,10 +6671,9 @@
     "releaseDate": "2025-10-01",
     "language": "Malayalam",
     "region": "",
-    "ott": "lionsgate play",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "lionsgate play",
-      "prime video"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -6506,13 +6713,12 @@
     "releaseDate": "2025-08-22",
     "language": "Malayalam",
     "region": "",
-    "ott": "sun nxt",
-    "ottList": [
-      "sun nxt"
-    ],
+    "ott": "all",
+    "ottList": [],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Indrajith Sukumaran",
       "Aju Varghese",
@@ -6532,6 +6738,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Mohanlal",
       "Samarjit Lankesh",
@@ -6553,6 +6760,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Saiju Kurup",
       "Sunny Wayne",
@@ -6572,6 +6780,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Sudhi Koppa",
       "Ann Sheetal",
@@ -6611,6 +6820,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Jaffer Idukki",
       "Aju Varghese",
@@ -6630,6 +6840,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Roshan Mathew",
       "Zarin Shihab",
@@ -6649,6 +6860,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Akhil Marar",
       "Navas Vallikkunnu",
@@ -6663,9 +6875,9 @@
     "releaseDate": "2025-06-18",
     "language": "Malayalam",
     "region": "",
-    "ott": "amazon video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon video"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -6689,12 +6901,13 @@
     "ottList": [
       "disney+ hotstar",
       "netflix",
-      "prime video",
+      "Amazon Prime Video",
       "zee5"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "N.S. Thara",
       "Indrans",
@@ -6714,6 +6927,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Althaf Salim",
       "Anarkali Marikar",
@@ -6728,10 +6942,9 @@
     "releaseDate": "2025-07-25",
     "language": "Malayalam",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "amazon prime video with ads"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -6756,6 +6969,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Mathew Thomas",
       "Abu Salim",
@@ -6772,12 +6986,12 @@
     "region": "",
     "ott": "netflix",
     "ottList": [
-      "netflix",
-      "sun nxt"
+      "netflix"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Aneesh G Menon",
       "Aswath Lal",
@@ -6797,6 +7011,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Rajesh Madhavan",
       "Raina Radhakrishnan"
@@ -6815,6 +7030,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Rima Kallingal",
       "Ashwathy B",
@@ -6833,12 +7049,13 @@
     "ottList": [
       "disney+ hotstar",
       "netflix",
-      "prime video",
+      "Amazon Prime Video",
       "zee5"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Sarath Kumar",
       "Shabareesh Varma",
@@ -6878,6 +7095,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Nandhu",
       "Renji Panicker",
@@ -6897,6 +7115,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Bhanu Priyamvada",
       "Roshan Abdul Rahoof",
@@ -6916,6 +7135,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Santhosh Keezhattoor",
       "Soniya malhaar",
@@ -6930,14 +7150,14 @@
     "releaseDate": "2025-08-21",
     "language": "Malayalam",
     "region": "",
-    "ott": "manoramamax",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "manoramamax",
-      "manoramamax amazon channel"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Ashkar Saudan",
       "Rahul Madhav",
@@ -6957,6 +7177,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Shine Tom Chacko",
       "Baiju Santhosh",
@@ -6971,13 +7192,12 @@
     "releaseDate": "2025-08-01",
     "language": "Malayalam",
     "region": "",
-    "ott": "['sun nxt']",
-    "ottList": [
-      "['sun nxt']"
-    ],
+    "ott": "all",
+    "ottList": [],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Stebin Augustin",
       "Dayyana Hameed",
@@ -6992,10 +7212,9 @@
     "releaseDate": "2025-06-06",
     "language": "Malayalam",
     "region": "",
-    "ott": "manoramamax",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "manoramamax",
-      "manoramamax amazon channel"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -7063,12 +7282,13 @@
     "ottList": [
       "disney+ hotstar",
       "netflix",
-      "prime video",
+      "Amazon Prime Video",
       "zee5"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Ebi Chemban",
       "Esther Jain",
@@ -7083,10 +7303,9 @@
     "releaseDate": "2025-09-26",
     "language": "Malayalam",
     "region": "",
-    "ott": "manoramamax",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "manoramamax",
-      "manoramamax amazon channel"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -7110,12 +7329,13 @@
     "ottList": [
       "disney+ hotstar",
       "netflix",
-      "prime video",
+      "Amazon Prime Video",
       "zee5"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Vinu Mohan",
       "Muktha George",
@@ -7135,6 +7355,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Indrans",
       "Hareesh Perumanna",
@@ -7154,6 +7375,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Lukman Avaran",
       "Drishya Raghunath",
@@ -7212,10 +7434,9 @@
     "releaseDate": "2025-09-04",
     "language": "Malayalam",
     "region": "",
-    "ott": "prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "prime video",
-      "saina play"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -7242,6 +7463,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Amrutha Krishnakumar",
       "Ishak Musafir",
@@ -7256,14 +7478,14 @@
     "releaseDate": "2025-07-11",
     "language": "Malayalam",
     "region": "",
-    "ott": "manoramamax",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "manoramamax",
-      "manoramamax amazon channel"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Santhosh Puthan",
       "Kumar Sunil",
@@ -7283,6 +7505,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Gokul Suresh",
       "Ganapathi S Poduval",
@@ -7297,11 +7520,9 @@
     "releaseDate": "2025-08-01",
     "language": "Malayalam",
     "region": "",
-    "ott": "manoramamax",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "manoramamax",
-      "manoramamax amazon channel",
-      "tentkotta"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -7326,6 +7547,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1578815"
   },
   {
@@ -7340,6 +7562,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Jitheesh Raichel Samuel",
       "Renju Thadikkaran"
@@ -7360,6 +7583,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Nivin Pauly",
       "Shruti Ramachandran",
@@ -7379,6 +7603,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Sreenath Bhasi",
       "Baburaj",
@@ -7398,6 +7623,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Narain",
       "Jaise Jose",
@@ -7412,13 +7638,12 @@
     "releaseDate": "2025-08-26",
     "language": "Malayalam",
     "region": "",
-    "ott": "youtube",
-    "ottList": [
-      "youtube"
-    ],
+    "ott": "all",
+    "ottList": [],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Amina Nijam",
       "Vaisakh Vijayan",
@@ -7440,6 +7665,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Navya Nair",
       "Soubin Shahir",
@@ -7454,13 +7680,14 @@
     "releaseDate": "2025-12-04",
     "language": "Malayalam",
     "region": "",
-    "ott": "prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "prime video"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Orson Mochizuki",
       "Vishnu Agasthya",
@@ -7480,6 +7707,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Jeo Baby",
       "Divya Prabha",
@@ -7501,6 +7729,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1593106"
   },
   {
@@ -7514,15 +7743,14 @@
     "ottList": [
       "disney+ hotstar",
       "netflix",
-      "prime video",
+      "Amazon Prime Video",
       "sonyliv",
-      "sun nxt",
-      "youtube",
       "zee5"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1578861"
   },
   {
@@ -7537,6 +7765,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Neena Kallickal",
       "Asha Chellakudam",
@@ -7556,6 +7785,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Arjun Ashokan",
       "Sharafudheen",
@@ -7574,11 +7804,12 @@
     "ottList": [
       "disney+ hotstar",
       "netflix",
-      "prime video"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "G.R. Indugopan",
       "Anand Manmadhan",
@@ -7601,6 +7832,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Paski",
       "Abhimal Dinesh",
@@ -7619,12 +7851,13 @@
     "ottList": [
       "disney+ hotstar",
       "netflix",
-      "prime video",
+      "Amazon Prime Video",
       "zee5"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1578877"
   },
   {
@@ -7634,13 +7867,14 @@
     "releaseDate": "2025-06-04",
     "language": "Malayalam",
     "region": "",
-    "ott": "prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "prime video"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1578873"
   },
   {
@@ -7654,14 +7888,14 @@
     "ottList": [
       "disney+ hotstar",
       "netflix",
-      "prime video",
+      "Amazon Prime Video",
       "sonyliv",
-      "youtube",
       "zee5"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Jitheesh Raichel Samuel",
       "Ameesha Yashica",
@@ -7681,6 +7915,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1520124"
   },
   {
@@ -7695,6 +7930,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Sreeshna Suresh"
     ],
@@ -7712,6 +7948,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Meenakshi Jayan",
       "Rashid Rahman"
@@ -7730,6 +7967,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Irshad"
     ],
@@ -7749,32 +7987,13 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Indrans",
       "Sudheer Karamana",
       "Sona Nair"
     ],
     "tmdbId": "1594923"
-  },
-  {
-    "title": "The Coffin",
-    "sourceUrl": "https://www.themoviedb.org/movie/1578858",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/qCmp7EVCst0A1vJAgNVqiYWB9FA.jpg",
-    "releaseDate": "2025-12-14",
-    "language": "Malayalam",
-    "region": "",
-    "ott": "disney+ hotstar",
-    "ottList": [
-      "disney+ hotstar",
-      "netflix",
-      "prime video",
-      "sonyliv",
-      "zee5"
-    ],
-    "genres": [],
-    "genre": [],
-    "description": "",
-    "tmdbId": "1578858"
   },
   {
     "title": "Bhoothayanam",
@@ -7790,6 +8009,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "K.P.A.C Leela",
       "Vriddhi Vishal",
@@ -7804,14 +8024,14 @@
     "releaseDate": "2025-11-21",
     "language": "Malayalam",
     "region": "",
-    "ott": "manoramamax",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "manoramamax",
-      "manoramamax amazon channel"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Bhaskar Arvind",
       "Niyas Backer",
@@ -7831,6 +8051,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Shelwin Shibu",
       "Granz Baby",
@@ -7850,6 +8071,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Thushanth",
       "Sabsha",
@@ -7869,6 +8091,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "NIHARIKA BRIJA PRADAUSH",
       "Anil Babu",
@@ -7890,6 +8113,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1566673"
   },
   {
@@ -7904,6 +8128,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1565004"
   },
   {
@@ -7920,6 +8145,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Aswin Vishwanathan",
       "Sudarshana"
@@ -7960,6 +8186,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Greeshma Narendran",
       "AKASH SABU",
@@ -7974,13 +8201,12 @@
     "releaseDate": "2025-08-08",
     "language": "Malayalam",
     "region": "",
-    "ott": "manoramamax",
-    "ottList": [
-      "manoramamax"
-    ],
+    "ott": "all",
+    "ottList": [],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Jinoy Janardhanan",
       "Geethi Sangeetha",
@@ -7998,14 +8224,14 @@
     "ott": "disney+ hotstar",
     "ottList": [
       "disney+ hotstar",
-      "jiocinema",
       "netflix",
-      "prime video",
+      "Amazon Prime Video",
       "zee5"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1554275"
   },
   {
@@ -8019,13 +8245,14 @@
     "ottList": [
       "disney+ hotstar",
       "netflix",
-      "prime video",
+      "Amazon Prime Video",
       "sonyliv",
       "zee5"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1578842"
   },
   {
@@ -8039,12 +8266,13 @@
     "ottList": [
       "disney+ hotstar",
       "netflix",
-      "prime video",
+      "Amazon Prime Video",
       "sonyliv"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Sreeram S",
       "Advaith Babu V",
@@ -8064,6 +8292,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Pavu",
       "Abhilash Mohanan",
@@ -8078,14 +8307,14 @@
     "releaseDate": "2025-10-05",
     "language": "Malayalam",
     "region": "",
-    "ott": "['manoramamax'",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "['manoramamax'",
-      "'manoramamax amazon channel']"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1559866"
   },
   {
@@ -8120,6 +8349,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1567450"
   },
   {
@@ -8136,6 +8366,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1549889"
   },
   {
@@ -8145,14 +8376,34 @@
     "releaseDate": "2025-10-24",
     "language": "Malayalam",
     "region": "",
-    "ott": "prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "prime video"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1565734"
+  },
+  {
+    "title": "Rise",
+    "sourceUrl": "https://www.themoviedb.org/movie/1603443",
+    "posterUrl": "nan",
+    "releaseDate": "2025-12-20",
+    "language": "Hindi",
+    "region": "",
+    "ott": "all",
+    "ottList": [],
+    "genres": [],
+    "genre": [],
+    "description": "",
+    "rating": 0.0,
+    "actors": [
+      "Krishna Sharma",
+      "Yudhishthir Singh"
+    ],
+    "tmdbId": "1603443"
   },
   {
     "title": "Shambhala",
@@ -8165,12 +8416,13 @@
     "ottList": [
       "disney+ hotstar",
       "netflix",
-      "prime video",
+      "Amazon Prime Video",
       "sonyliv"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Aadi Saikumar",
       "Archana Iyer",
@@ -8190,6 +8442,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Radikaa Sarathkumar",
       "Singampuli",
@@ -8229,7 +8482,7 @@
     "genres": [],
     "genre": [],
     "description": "",
-    "rating": 3.4,
+    "rating": 3.429,
     "actors": [
       "Indrajith Sukumaran",
       "Anaswara Rajan",
@@ -8267,12 +8520,13 @@
     "ott": "netflix",
     "ottList": [
       "netflix",
-      "prime video",
+      "Amazon Prime Video",
       "zee5"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Arjun Ashokan",
       "Balu Varghese",
@@ -8287,12 +8541,9 @@
     "releaseDate": "2025-02-27",
     "language": "Malayalam",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "manoramamax",
-      "manoramamax amazon channel",
-      "amazon prime video with ads"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -8312,11 +8563,9 @@
     "releaseDate": "2025-05-23",
     "language": "Malayalam",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "amazon prime video with ads",
-      "apple tv"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -8336,10 +8585,9 @@
     "releaseDate": "2025-05-08",
     "language": "Malayalam",
     "region": "",
-    "ott": "manoramamax",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "manoramamax",
-      "manoramamax amazon channel"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -8359,10 +8607,9 @@
     "releaseDate": "2025-01-23",
     "language": "Malayalam",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "amazon prime video with ads"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -8407,6 +8654,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Aju Varghese",
       "Suraj Venjaramoodu",
@@ -8426,6 +8674,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Unni Mukundan",
       "Nikhila Vimal",
@@ -8445,6 +8694,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Dhyan Sreenivasan",
       "Sreenivasan",
@@ -8459,12 +8709,9 @@
     "releaseDate": "2025-01-24",
     "language": "Malayalam",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "manoramamax",
-      "manoramamax amazon channel",
-      "amazon prime video with ads"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -8484,14 +8731,14 @@
     "releaseDate": "2025-01-24",
     "language": "Malayalam",
     "region": "",
-    "ott": "manoramamax",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "manoramamax",
-      "manoramamax amazon channel"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Sakshi Agarwal",
       "Shaheen Siddique",
@@ -8506,12 +8753,9 @@
     "releaseDate": "2025-01-31",
     "language": "Malayalam",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "manoramamax",
-      "manoramamax amazon channel",
-      "amazon prime video with ads"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -8531,9 +8775,9 @@
     "releaseDate": "2025-01-03",
     "language": "Malayalam",
     "region": "",
-    "ott": "prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "prime video"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -8558,6 +8802,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "JD",
       "Pradeep Kumar",
@@ -8572,10 +8817,9 @@
     "releaseDate": "2025-05-09",
     "language": "Malayalam",
     "region": "",
-    "ott": "manoramamax",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "manoramamax",
-      "manoramamax amazon channel"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -8595,10 +8839,9 @@
     "releaseDate": "2025-01-03",
     "language": "Malayalam",
     "region": "",
-    "ott": "manoramamax",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "manoramamax",
-      "manoramamax amazon channel"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -8638,12 +8881,9 @@
     "releaseDate": "2025-03-14",
     "language": "Malayalam",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "manoramamax",
-      "manoramamax amazon channel",
-      "amazon prime video with ads"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -8668,6 +8908,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Sarath Kumar",
       "Josekutty Jacob",
@@ -8684,8 +8925,7 @@
     "region": "",
     "ott": "netflix",
     "ottList": [
-      "netflix",
-      "youtube"
+      "netflix"
     ],
     "genres": [],
     "genre": [],
@@ -8710,6 +8950,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Rajisha Vijayan",
       "Lijo Jose Pellissery",
@@ -8724,10 +8965,8 @@
     "releaseDate": "2025-01-31",
     "language": "Malayalam",
     "region": "",
-    "ott": "sun nxt",
-    "ottList": [
-      "sun nxt"
-    ],
+    "ott": "all",
+    "ottList": [],
     "genres": [],
     "genre": [],
     "description": "",
@@ -8751,6 +8990,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Rajesh Azhikkodan",
       "Swathi Das Prabhu",
@@ -8772,6 +9012,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Shankar",
       "Ambika Mohan",
@@ -8790,12 +9031,13 @@
     "ottList": [
       "disney+ hotstar",
       "netflix",
-      "prime video",
+      "Amazon Prime Video",
       "zee5"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Shyamala C M"
     ],
@@ -8813,6 +9055,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Narayanan M V",
       "Rahulkrishna Pillai"
@@ -8826,13 +9069,9 @@
     "releaseDate": "2025-01-24",
     "language": "Malayalam",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "sun nxt",
-      "manoramamax",
-      "manoramamax amazon channel",
-      "amazon prime video with ads"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -8852,17 +9091,14 @@
     "releaseDate": "2025-01-03",
     "language": "Malayalam",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "manoramamax",
-      "vi movies and tv",
-      "manoramamax amazon channel",
-      "amazon prime video with ads"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1445300"
   },
   {
@@ -8872,15 +9108,14 @@
     "releaseDate": "2025-01-26",
     "language": "Malayalam",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "manoramamax",
-      "amazon prime video with ads"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Subramanian",
       "Sreenath",
@@ -8895,14 +9130,14 @@
     "releaseDate": "2024-12-13",
     "language": "Malayalam",
     "region": "",
-    "ott": "aha",
+    "ott": "sonyliv",
     "ottList": [
-      "aha",
       "sonyliv"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "George Kora",
       "Sheethal Joseph",
@@ -8922,6 +9157,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Aavani P Chandran",
       "Jayasree P P"
@@ -8935,10 +9171,9 @@
     "releaseDate": "2025-05-23",
     "language": "Malayalam",
     "region": "",
-    "ott": "manoramamax",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "manoramamax",
-      "manoramamax amazon channel"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -8958,13 +9193,14 @@
     "releaseDate": "2025-04-18",
     "language": "Malayalam",
     "region": "",
-    "ott": "prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "prime video"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Athira Savithri",
       "Ram Vijay",
@@ -8986,6 +9222,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Sudheesh Scaria",
       "Dijo Augustine",
@@ -9005,6 +9242,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Arun Narayanan",
       "Athira Sudheer",
@@ -9041,13 +9279,12 @@
     "releaseDate": "2025-02-09",
     "language": "Malayalam",
     "region": "",
-    "ott": "youtube",
-    "ottList": [
-      "youtube"
-    ],
+    "ott": "all",
+    "ottList": [],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Sidharth Rengan",
       "Varun Menon",
@@ -9067,6 +9304,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Mani Bharathi",
       "Hakkim Shajahan",
@@ -9101,10 +9339,9 @@
     "releaseDate": "2025-02-28",
     "language": "Malayalam",
     "region": "",
-    "ott": "manoramamax",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "manoramamax",
-      "manoramamax amazon channel"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -9129,6 +9366,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Aromal Devaraj",
       "Ashkar Ali",
@@ -9163,14 +9401,14 @@
     "releaseDate": "2025-05-02",
     "language": "Malayalam",
     "region": "",
-    "ott": "manoramamax",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "manoramamax",
-      "manoramamax amazon channel"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Kavitha Jose",
       "Suresh Thiruvalli"
@@ -9187,11 +9425,12 @@
     "ott": "netflix",
     "ottList": [
       "netflix",
-      "prime video"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Chemban Vinod Jose",
       "Sreenath Bhasi",
@@ -9211,6 +9450,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Athulkrishna"
     ],
@@ -9223,19 +9463,12 @@
     "releaseDate": "2024-11-29",
     "language": "Malayalam",
     "region": "",
-    "ott": "disney+ hotstar",
-    "ottList": [
-      "disney+ hotstar",
-      "netflix",
-      "prime video",
-      "sonyliv",
-      "sun nxt",
-      "youtube",
-      "zee5"
-    ],
+    "ott": "all",
+    "ottList": [],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1463699"
   },
   {
@@ -9250,6 +9483,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Anurudhan Murali",
       "Nikhil Das",
@@ -9269,6 +9503,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Sajeev Khan",
       "Ihilas Maheen",
@@ -9288,6 +9523,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Prabhul"
     ],
@@ -9300,10 +9536,8 @@
     "releaseDate": "2025-01-17",
     "language": "Malayalam",
     "region": "",
-    "ott": "youtube",
-    "ottList": [
-      "youtube"
-    ],
+    "ott": "all",
+    "ottList": [],
     "genres": [],
     "genre": [],
     "description": "",
@@ -9322,19 +9556,12 @@
     "releaseDate": "2024-11-29",
     "language": "Malayalam",
     "region": "",
-    "ott": "disney+ hotstar",
-    "ottList": [
-      "disney+ hotstar",
-      "netflix",
-      "prime video",
-      "sonyliv",
-      "sun nxt",
-      "youtube",
-      "zee5"
-    ],
+    "ott": "all",
+    "ottList": [],
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "tmdbId": "1500038"
   },
   {
@@ -9349,6 +9576,7 @@
     "genres": [],
     "genre": [],
     "description": "",
+    "rating": 0.0,
     "actors": [
       "Haridas",
       "Sohail Firoz Khan",

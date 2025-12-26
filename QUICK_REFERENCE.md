@@ -29,7 +29,24 @@ python download_posters.py
 # Updates posterUrl in spreadsheet to local paths
 ```
 
-### 4. Test UI Locally
+### 4. Start Admin Dashboard Server
+```bash
+# Option 1: Use the startup script (recommended)
+bash start-admin.sh
+# Opens admin dashboard at http://127.0.0.1:5000
+
+# Option 2: Manual setup
+python3 -m venv admin/.venv              # Create virtual environment (one-time)
+source admin/.venv/bin/activate          # Activate venv
+pip install -r admin/requirements.txt    # Install dependencies
+python admin/app.py                      # Start Flask server
+# Opens admin dashboard at http://127.0.0.1:5000
+
+# Option 3: One-liner
+python3 -m venv admin/.venv && source admin/.venv/bin/activate && pip install -r admin/requirements.txt && python admin/app.py
+```
+
+### 5. Test UI Locally
 ```bash
 python -m http.server 8000
 # Open: http://localhost:8000

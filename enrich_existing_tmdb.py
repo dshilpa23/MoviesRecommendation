@@ -9,6 +9,69 @@ import time
 from scraper import TMDBClient
 from config import MASTER_SHEET_PATH
 
+# Allowed OTT platforms
+ALLOWED_PLATFORMS = {'sonyliv', 'netflix', 'amazon', 'sunnxt', 'hotstar', 'hulu', 'zee', 'jiohotstar', 'zee5'}
+
+def normalize_platform(platform_str):
+    """Normalize platform string to check against allowed list."""
+    if not platform_str:
+        return None
+    normalized = platform_str.lower().strip()
+    
+    # Map all amazon variants to "amazon"
+    if 'amazon' in normalized or 'prime' in normalized:
+        return 'amazon'
+    
+    # Check other platforms
+    for allowed in ALLOWED_PLATFORMS:
+        if allowed in normalized:
+            return allowed
+    
+    return None
+
+def clean_ott_list(ott_list):
+    """
+    Clean OTT list by:
+    1. Removing duplicates
+    2. Keeping only allowed platforms
+    3. Consolidating Amazon variants into single "Amazon Prime Video"
+    """
+    if not ott_list:
+        return []
+    
+    # Handle string representation of list
+    if isinstance(ott_list, str):
+        try:
+            # Try to parse string representation of list
+            if ott_list.startswith('['):
+                ott_list = eval(ott_list)
+            else:
+                ott_list = [ott_list]
+        except:
+            ott_list = [ott_list]
+    
+    if not isinstance(ott_list, list):
+        ott_list = [ott_list]
+    
+    seen = set()
+    cleaned = []
+    amazon_found = False
+    
+    for ott in ott_list:
+        if not ott:
+            continue
+        normalized = normalize_platform(ott)
+        
+        if normalized == 'amazon':
+            if not amazon_found:
+                cleaned.append('Amazon Prime Video')
+                amazon_found = True
+        elif normalized and normalized not in seen:
+            cleaned.append(ott)
+            seen.add(normalized)
+    
+    return cleaned
+
 def enrich_existing_movies():
     """Enrich published movies that have tmdbId but missing actors/ottList."""
     
@@ -85,6 +148,9 @@ def enrich_existing_movies():
                 for provider_type in ['flatrate', 'free', 'ads']:
                     if provider_type in india_data:
                         ott_platforms.extend([p['provider_name'] for p in india_data[provider_type]])
+            
+            # Clean OTT list: keep only allowed platforms and consolidate amazon variants
+            ott_platforms = clean_ott_list(ott_platforms)
             
             # Update the row
             df.at[idx, 'actors'] = str(actors) if actors else '[]'

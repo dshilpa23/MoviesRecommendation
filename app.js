@@ -317,6 +317,16 @@ function matchesQuery(m, q) {
   return hay.includes(q);
 }
 
+// === DATA COMPLETENESS FILTER ===
+// Hide movies with no OTT or no rating
+function isDataComplete(m) {
+  // Must have OTT information (not "all" or empty)
+  const hasOtt = m.ott && norm(m.ott) && norm(m.ott) !== "all";
+  // Must have a rating (not null, undefined, or NaN - but 0 is valid)
+  const hasRating = m.rating !== null && m.rating !== undefined && !Number.isNaN(m.rating);
+  return hasOtt && hasRating;
+}
+
 // === SECTION-SCOPED FILTERING ===
 // Each section filters its OWN data independently
 // Search does NOT move results between sections
@@ -326,6 +336,7 @@ function getUpcomingFiltered() {
   return sortByDateThenLanguage(
     allMovies
       .filter(m => m._bucket === "upcoming")  // Section boundary: only upcoming movies
+      .filter(m => isDataComplete(m))  // Data completeness filter
       .filter(m => matchesIndustry(m, activeIndustry))  // Navigation filter
       .filter(m => matchesQuery(m, norm(activeQuery))),  // Search filter
     "asc"
@@ -336,6 +347,7 @@ function getNewFiltered() {
   return sortByDateThenLanguage(
     allMovies
       .filter(m => m._bucket === "new")  // Section boundary: only new releases
+      .filter(m => isDataComplete(m))  // Data completeness filter
       .filter(m => matchesIndustry(m, activeIndustry))  // Navigation filter
       .filter(m => matchesQuery(m, norm(activeQuery))),  // Search filter
     "desc"
@@ -349,6 +361,7 @@ function getCatalogFiltered() {
   return sortByDateThenLanguage(
     allMovies
       .filter(m => m._bucket === "catalog")  // Section boundary: only catalog items
+      .filter(m => isDataComplete(m))  // Data completeness filter
       .filter(m => matchesIndustry(m, activeIndustry))  // Navigation filter
       .filter(m => matchesQuery(m, norm(activeQuery))),  // Search filter
     "desc"
@@ -359,6 +372,7 @@ function getBestFiltered() {
   const today = startOfToday();
   return sortByDateThenLanguage(
     bestIndia  // Section boundary: only Best Rated dataset
+      .filter(m => isDataComplete(m))  // Data completeness filter
       .filter(m => matchesIndustry(m, activeIndustry))  // Navigation filter
       .filter(m => matchesQuery(m, norm(activeQuery)))  // Search filter
       .filter(m => {
@@ -371,6 +385,7 @@ function getBestFiltered() {
 
 function getRecentMergedFiltered() {
   const filtered = allMovies
+    .filter(m => isDataComplete(m))
     .filter(m => matchesIndustry(m, activeIndustry))
     .filter(m => matchesQuery(m, norm(activeQuery)));
 

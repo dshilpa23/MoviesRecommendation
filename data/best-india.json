@@ -1,20 +1,14 @@
 [
   {
-    "title": "Spider-Man: Across the Spider-Verse",
+    "title": "Test Movie",
     "sourceUrl": "https://www.themoviedb.org/movie/569094",
     "posterUrl": "https://image.tmdb.org/t/p/w500/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg",
-    "releaseDate": "2023-05-31",
-    "language": "Telugu",
+    "releaseDate": "2025-12-25",
+    "language": "Hindi",
     "region": "",
     "ott": "netflix",
     "ottList": [
-      "netflix",
-      "sony liv",
-      "apple tv",
-      "zee5",
-      "google play movies",
-      "youtube",
-      "amazon video"
+      "netflix"
     ],
     "genres": [
       "Animation",
@@ -29,7 +23,7 @@
       "Sci-Fi"
     ],
     "description": "",
-    "rating": 8.3,
+    "rating": 8.5,
     "actors": [
       "Shameik Moore",
       "Hailee Steinfeld",
@@ -44,15 +38,10 @@
     "releaseDate": "2021-12-15",
     "language": "Hindi",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "amazon prime video with ads",
-      "apple tv",
-      "zee5",
-      "google play movies",
-      "youtube",
-      "amazon video"
+      "Amazon Prime Video",
+      "zee5"
     ],
     "genres": [
       "Action",
@@ -124,11 +113,9 @@
     "releaseDate": "2025-10-21",
     "language": "Hindi",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "amazon prime video with ads",
-      "amazon video"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -170,10 +157,8 @@
     "releaseDate": "2025-06-20",
     "language": "Hindi",
     "region": "",
-    "ott": "youtube",
-    "ottList": [
-      "youtube"
-    ],
+    "ott": "all",
+    "ottList": [],
     "genres": [],
     "genre": [],
     "description": "",
@@ -214,11 +199,9 @@
     "releaseDate": "2025-06-05",
     "language": "Hindi",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "amazon prime video with ads",
-      "amazon video"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -368,11 +351,9 @@
     "releaseDate": "2025-07-11",
     "language": "Hindi",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "amazon prime video with ads",
-      "amazon video"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -414,12 +395,10 @@
     "releaseDate": "2025-07-04",
     "language": "Hindi",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "zee5",
-      "amazon prime video with ads",
-      "amazon video"
+      "Amazon Prime Video",
+      "zee5"
     ],
     "genres": [],
     "genre": [],
@@ -608,11 +587,9 @@
     "releaseDate": "2025-09-19",
     "language": "Hindi",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "amazon prime video with ads",
-      "amazon video"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -740,10 +717,9 @@
     "releaseDate": "2025-11-14",
     "language": "Hindi",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "amazon prime video with ads"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -973,10 +949,8 @@
     "releaseDate": "2025-10-17",
     "language": "Hindi",
     "region": "",
-    "ott": "apple tv",
-    "ottList": [
-      "apple tv"
-    ],
+    "ott": "all",
+    "ottList": [],
     "genres": [],
     "genre": [],
     "description": "",
@@ -995,11 +969,9 @@
     "releaseDate": "2025-08-29",
     "language": "Hindi",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "amazon prime video with ads",
-      "amazon video"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -1019,10 +991,9 @@
     "releaseDate": "2025-12-12",
     "language": "Hindi",
     "region": "",
-    "ott": "prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "prime video",
-      "youtube"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -1064,11 +1035,9 @@
     "releaseDate": "2025-08-29",
     "language": "Hindi",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "amazon prime video with ads",
-      "amazon video"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -1129,7 +1098,7 @@
     "ott": "netflix",
     "ottList": [
       "netflix",
-      "prime video"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -1183,6 +1152,28 @@
     "tmdbId": "1546251"
   },
   {
+    "title": "Premante",
+    "sourceUrl": "https://www.themoviedb.org/movie/1425233",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/qjEGEjsbj7Y5xyge5YA1YW0ZPfk.jpg",
+    "releaseDate": "2025-11-21",
+    "language": "Telugu",
+    "region": "IN",
+    "ott": "netflix",
+    "ottList": [
+      "netflix"
+    ],
+    "genres": [],
+    "genre": [],
+    "description": "",
+    "rating": 7.5,
+    "actors": [
+      "Priyadarshi Pullikonda",
+      "Anandhi",
+      "Suma Kanakala"
+    ],
+    "tmdbId": "1425233"
+  },
+  {
     "title": "The Girlfriend",
     "sourceUrl": "https://www.themoviedb.org/movie/1196348",
     "posterUrl": "https://image.tmdb.org/t/p/w500/vcGeERDrMBVihLaxbFbj5pK3kgL.jpg",
@@ -1211,11 +1202,9 @@
     "releaseDate": "2025-07-23",
     "language": "Telugu",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "amazon prime video with ads",
-      "amazon video"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -1299,11 +1288,9 @@
     "releaseDate": "2025-06-19",
     "language": "Telugu",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "amazon prime video with ads",
-      "amazon video"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -1387,13 +1374,10 @@
     "releaseDate": "2025-09-12",
     "language": "Telugu",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "zee5",
-      "amazon prime video with ads",
-      "apple tv",
-      "amazon video"
+      "Amazon Prime Video",
+      "zee5"
     ],
     "genres": [],
     "genre": [],
@@ -1455,10 +1439,9 @@
     "releaseDate": "2025-07-04",
     "language": "Telugu",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "amazon prime video with ads"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -1542,13 +1525,9 @@
     "releaseDate": "2025-08-29",
     "language": "Telugu",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "lionsgate play",
-      "lionsgate play apple tv channel",
-      "lionsgate play amazon channel",
-      "amazon prime video with ads"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -1588,10 +1567,9 @@
     "releaseDate": "2025-08-08",
     "language": "Telugu",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "amazon prime video with ads"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -1741,11 +1719,9 @@
     "releaseDate": "2025-07-04",
     "language": "Tamil",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "amazon prime video with ads",
-      "amazon video"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -1785,11 +1761,9 @@
     "releaseDate": "2025-08-13",
     "language": "Tamil",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "amazon prime video with ads",
-      "amazon video"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -1957,11 +1931,9 @@
     "releaseDate": "2025-06-27",
     "language": "Tamil",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "amazon prime video with ads",
-      "amazon video"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -1981,11 +1953,9 @@
     "releaseDate": "2025-09-04",
     "language": "Tamil",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "amazon prime video with ads",
-      "amazon video"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -2025,10 +1995,9 @@
     "releaseDate": "2025-09-19",
     "language": "Tamil",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "amazon prime video with ads"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -2152,11 +2121,9 @@
     "releaseDate": "2025-07-23",
     "language": "Tamil",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "amazon prime video with ads",
-      "amazon video"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -2196,11 +2163,9 @@
     "releaseDate": "2025-09-12",
     "language": "Tamil",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "aha",
-      "amazon prime video with ads"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -2220,10 +2185,8 @@
     "releaseDate": "2025-07-04",
     "language": "Tamil",
     "region": "",
-    "ott": "['sun nxt']",
-    "ottList": [
-      "['sun nxt']"
-    ],
+    "ott": "all",
+    "ottList": [],
     "genres": [],
     "genre": [],
     "description": "",
@@ -2284,11 +2247,9 @@
     "releaseDate": "2025-06-20",
     "language": "Tamil",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "amazon prime video with ads",
-      "tentkotta"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -2308,11 +2269,9 @@
     "releaseDate": "2025-06-06",
     "language": "Tamil",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "amazon prime video with ads",
-      "tentkotta"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -2507,9 +2466,8 @@
     "releaseDate": "2025-12-05",
     "language": "Malayalam",
     "region": "",
-    "ott": "manoramamax",
+    "ott": "jiohotstar",
     "ottList": [
-      "manoramamax",
       "jiohotstar"
     ],
     "genres": [],
@@ -2572,10 +2530,9 @@
     "releaseDate": "2025-06-13",
     "language": "Malayalam",
     "region": "",
-    "ott": "manoramamax",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "manoramamax",
-      "manoramamax amazon channel"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -2639,10 +2596,8 @@
     "releaseDate": "2025-10-23",
     "language": "Malayalam",
     "region": "",
-    "ott": "sony liv",
-    "ottList": [
-      "sony liv"
-    ],
+    "ott": "all",
+    "ottList": [],
     "genres": [],
     "genre": [],
     "description": "",
@@ -2681,10 +2636,8 @@
     "releaseDate": "2025-09-04",
     "language": "Malayalam",
     "region": "",
-    "ott": "manoramamax",
-    "ottList": [
-      "manoramamax"
-    ],
+    "ott": "all",
+    "ottList": [],
     "genres": [],
     "genre": [],
     "description": "",
@@ -2703,10 +2656,9 @@
     "releaseDate": "2025-07-11",
     "language": "Malayalam",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "amazon prime video with ads"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -2726,13 +2678,9 @@
     "releaseDate": "2025-08-01",
     "language": "Malayalam",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "manoramamax",
-      "aha",
-      "manoramamax amazon channel",
-      "amazon prime video with ads"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -2752,12 +2700,9 @@
     "releaseDate": "2025-08-08",
     "language": "Malayalam",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "manoramamax",
-      "manoramamax amazon channel",
-      "amazon prime video with ads"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -2777,9 +2722,9 @@
     "releaseDate": "2025-10-10",
     "language": "Malayalam",
     "region": "",
-    "ott": "manoramamax amazon channel",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "manoramamax amazon channel"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -2799,10 +2744,9 @@
     "releaseDate": "2025-09-18",
     "language": "Malayalam",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "amazon prime video with ads"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -2844,10 +2788,8 @@
     "releaseDate": "2025-08-08",
     "language": "Malayalam",
     "region": "",
-    "ott": "['sun nxt']",
-    "ottList": [
-      "['sun nxt']"
-    ],
+    "ott": "all",
+    "ottList": [],
     "genres": [],
     "genre": [],
     "description": "",
@@ -2930,9 +2872,9 @@
     "releaseDate": "2025-10-29",
     "language": "Malayalam",
     "region": "",
-    "ott": "prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "prime video"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -3013,11 +2955,8 @@
     "releaseDate": "2025-04-10",
     "language": "Malayalam",
     "region": "",
-    "ott": "sony liv",
-    "ottList": [
-      "sony liv",
-      "aha"
-    ],
+    "ott": "all",
+    "ottList": [],
     "genres": [],
     "genre": [],
     "description": "",
@@ -3080,12 +3019,8 @@
     "releaseDate": "2025-01-09",
     "language": "Malayalam",
     "region": "",
-    "ott": "sony liv",
-    "ottList": [
-      "sony liv",
-      "aha",
-      "vi movies and tv"
-    ],
+    "ott": "all",
+    "ottList": [],
     "genres": [],
     "genre": [],
     "description": "",
@@ -3126,10 +3061,8 @@
     "releaseDate": "2025-01-16",
     "language": "Malayalam",
     "region": "",
-    "ott": "sony liv",
-    "ottList": [
-      "sony liv"
-    ],
+    "ott": "all",
+    "ottList": [],
     "genres": [],
     "genre": [],
     "description": "",
@@ -3148,10 +3081,8 @@
     "releaseDate": "2025-04-10",
     "language": "Malayalam",
     "region": "",
-    "ott": "sony liv",
-    "ottList": [
-      "sony liv"
-    ],
+    "ott": "all",
+    "ottList": [],
     "genres": [],
     "genre": [],
     "description": "",
@@ -3192,11 +3123,8 @@
     "releaseDate": "2025-02-14",
     "language": "Malayalam",
     "region": "",
-    "ott": "sony liv",
-    "ottList": [
-      "sony liv",
-      "vi movies and tv"
-    ],
+    "ott": "all",
+    "ottList": [],
     "genres": [],
     "genre": [],
     "description": "",
@@ -3215,12 +3143,9 @@
     "releaseDate": "2025-01-31",
     "language": "Malayalam",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "manoramamax",
-      "manoramamax amazon channel",
-      "amazon prime video with ads"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -3240,12 +3165,9 @@
     "releaseDate": "2025-03-29",
     "language": "Malayalam",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "manoramamax",
-      "manoramamax amazon channel",
-      "amazon prime video with ads"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -3265,10 +3187,9 @@
     "releaseDate": "2025-02-14",
     "language": "Malayalam",
     "region": "",
-    "ott": "manoramamax",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "manoramamax",
-      "manoramamax amazon channel"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -3288,13 +3209,9 @@
     "releaseDate": "2025-03-07",
     "language": "Malayalam",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "manoramamax",
-      "manoramamax amazon channel",
-      "amazon prime video with ads",
-      "amazon video"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -3334,11 +3251,9 @@
     "releaseDate": "2025-03-07",
     "language": "Malayalam",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "aha",
-      "amazon prime video with ads"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -3402,10 +3317,8 @@
     "releaseDate": "2025-05-16",
     "language": "Malayalam",
     "region": "",
-    "ott": "sony liv",
-    "ottList": [
-      "sony liv"
-    ],
+    "ott": "all",
+    "ottList": [],
     "genres": [],
     "genre": [],
     "description": "",
@@ -3427,12 +3340,7 @@
     "ott": "netflix",
     "ottList": [
       "netflix",
-      "amazon prime video",
-      "lionsgate play",
-      "lionsgate play apple tv channel",
-      "lionsgate play amazon channel",
-      "amazon prime video with ads",
-      "amazon video"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -3494,10 +3402,9 @@
     "releaseDate": "2025-03-07",
     "language": "Malayalam",
     "region": "",
-    "ott": "amazon prime video",
+    "ott": "Amazon Prime Video",
     "ottList": [
-      "amazon prime video",
-      "amazon prime video with ads"
+      "Amazon Prime Video"
     ],
     "genres": [],
     "genre": [],
@@ -3519,8 +3426,7 @@
     "region": "",
     "ott": "netflix",
     "ottList": [
-      "netflix",
-      "youtube"
+      "netflix"
     ],
     "genres": [],
     "genre": [],

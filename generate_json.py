@@ -143,7 +143,8 @@ class JSONGenerator:
         }
         
         # Optional fields (only include if not null)
-        if pd.notna(row.get('rating')) and row.get('rating'):
+        # For rating: include if it's a valid number (0 is valid, NaN/None is not)
+        if pd.notna(row.get('rating')) and isinstance(row.get('rating'), (int, float)):
             movie['rating'] = float(row.get('rating'))
         
         if pd.notna(row.get('youtubeId')) and row.get('youtubeId'):
