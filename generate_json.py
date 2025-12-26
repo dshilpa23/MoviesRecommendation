@@ -5,6 +5,7 @@ Generates section-specific JSON files with proper placeholders and normalization
 
 import json
 import pandas as pd
+import shutil
 from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Dict, List
@@ -364,9 +365,38 @@ class JSONGenerator:
         except Exception as e:
             print(f"⚠️  Could not cleanup old reports: {e}")
     
+    def _cleanup_temp_files(self):
+        """Clean up temporary Python cache files"""
+        try:
+            cleaned = []
+            
+            # Remove __pycache__ directories
+            for pycache in Path('.').rglob('__pycache__'):
+                if '.venv' not in str(pycache):  # Don't touch virtual env
+                    shutil.rmtree(pycache, ignore_errors=True)
+                    cleaned.append(str(pycache))
+            
+            # Remove .pyc files in root and immediate subdirectories
+            for pyc_file in Path('.').glob('*.pyc'):
+                pyc_file.unlink()
+                cleaned.append(str(pyc_file))
+            
+            for pyc_file in Path('.').glob('*/*.pyc'):
+                if '.venv' not in str(pyc_file):
+                    pyc_file.unlink()
+                    cleaned.append(str(pyc_file))
+            
+            if cleaned:
+                print(f"🧹 Cleaned {len(cleaned)} temporary files")
+        except Exception as e:
+            print(f"⚠️  Could not cleanup temp files: {e}")
+    
     def generate_all(self):
         """Generate all JSON files"""
         print("\n🚀 Starting JSON generation...\n")
+        
+        # Cleanup temp files first
+        self._cleanup_temp_files()
         
         # Load sheet
         self.load_sheet()
